@@ -1,5 +1,5 @@
-name: Kametsu
-pattern: (?<=^|[\s.-])Kametsu\b
+name: CRUCiBLE
+pattern: (?<=^|[\s.-])CRUCiBLE\b
 description: ''
 tags:
 - Release Group

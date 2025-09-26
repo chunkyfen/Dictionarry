@@ -1,3 +1,8 @@
+name: Banned Groups
+description: Matches Release Groups that are Banned
+tags:
+- Banned
+- Release Group
 conditions:
 - name: Release Group (Missing)
   negate: true
@@ -224,9 +229,9 @@ conditions:
   pattern: YTS
   required: false
   type: release_group
-description: Matches Release Groups that are Banned
-name: Banned Groups
-tags:
-- Banned
-- Release Group
+- name: Moozzi2
+  type: release_group
+  required: false
+  negate: false
+  pattern: Moozzi2
 tests: []

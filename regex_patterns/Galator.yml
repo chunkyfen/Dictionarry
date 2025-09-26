@@ -1,5 +1,5 @@
-name: Kametsu
-pattern: (?<=^|[\s.-])Kametsu\b
+name: Galator
+pattern: (?<=^|[\s.-])Galator\b
 description: ''
 tags:
 - Release Group

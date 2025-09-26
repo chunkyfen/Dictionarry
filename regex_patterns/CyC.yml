@@ -1,5 +1,5 @@
-name: Kametsu
-pattern: (?<=^|[\s.-])Kametsu\b
+name: CyC
+pattern: (?<=^|[\s.-])CyC\b
 description: ''
 tags:
 - Release Group

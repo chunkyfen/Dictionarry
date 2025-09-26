@@ -1,5 +1,5 @@
-name: Kametsu
-pattern: (?<=^|[\s.-])Kametsu\b
+name: ASC
+pattern: (?<=^|[\s.-])ASC\b
 description: ''
 tags:
 - Release Group

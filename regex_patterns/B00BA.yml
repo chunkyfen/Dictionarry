@@ -1,5 +1,5 @@
-name: Kametsu
-pattern: (?<=^|[\s.-])Kametsu\b
+name: B00BA
+pattern: (?<=^|[\s.-])B00BA\b
 description: ''
 tags:
 - Release Group

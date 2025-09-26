@@ -1,5 +1,5 @@
-name: Kametsu
-pattern: (?<=^|[\s.-])Kametsu\b
+name: GSK_kun
+pattern: (?<=^|[\s.-])GSK_kun\b
 description: ''
 tags:
 - Release Group

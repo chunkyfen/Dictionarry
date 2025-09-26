@@ -1,5 +1,5 @@
-name: Kametsu
-pattern: (?<=^|[\s.-])Kametsu\b
+name: Kaizoku
+pattern: (?<=^|[\s.-])Kaizoku\b
 description: ''
 tags:
 - Release Group

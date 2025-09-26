@@ -1,5 +1,5 @@
-name: Kametsu
-pattern: (?<=^|[\s.-])Kametsu\b
+name: Holomux
+pattern: (?<=^|[\s.-])Holomux\b
 description: ''
 tags:
 - Release Group

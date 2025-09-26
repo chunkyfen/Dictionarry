@@ -8,7 +8,7 @@ conditions:
   type: release_group
   required: false
   negate: false
-  pattern: '0x539'
+  pattern: Headpatter
 - name: Alt
   negate: false
   pattern: Alt

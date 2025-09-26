@@ -1,5 +1,5 @@
-name: '0x539'
-pattern: (?<=^|[\s.-])0x539\b
+name: Ayashii
+pattern: (?<=^|[\s.-])Ayashii\b
 description: ''
 tags:
 - Release Group
