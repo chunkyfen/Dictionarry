@@ -1,0 +1,7 @@
+name: Dragon-Releases
+pattern: (?<=^|[\s.-])Dragon-Releases\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

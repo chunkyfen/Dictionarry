@@ -1,0 +1,7 @@
+name: GHS
+pattern: (?<=^|[\s.-])GHS\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

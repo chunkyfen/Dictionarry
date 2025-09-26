@@ -1,0 +1,7 @@
+name: Davinci
+pattern: (?<=^|[\s.-])Davinci\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

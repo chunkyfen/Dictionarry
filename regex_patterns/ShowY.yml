@@ -1,0 +1,7 @@
+name: ShowY
+pattern: (?<=^|[\s.-])ShowY\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

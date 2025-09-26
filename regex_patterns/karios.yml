@@ -1,0 +1,7 @@
+name: karios
+pattern: (?<=^|[\s.-])karios\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

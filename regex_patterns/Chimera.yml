@@ -1,0 +1,7 @@
+name: Chimera
+pattern: (?<=^|[\s.-])Chimera\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

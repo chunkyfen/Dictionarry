@@ -1,0 +1,7 @@
+name: Pn8
+pattern: (?<=^|[\s.-])Pn8\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

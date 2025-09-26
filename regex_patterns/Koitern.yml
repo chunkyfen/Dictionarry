@@ -1,0 +1,7 @@
+name: Koitern
+pattern: (?<=^|[\s.-])Koitern\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

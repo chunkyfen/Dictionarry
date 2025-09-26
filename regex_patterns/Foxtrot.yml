@@ -1,0 +1,7 @@
+name: Foxtrot
+pattern: (?<=^|[\s.-])Foxtrot\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

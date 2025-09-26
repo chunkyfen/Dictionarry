@@ -1,0 +1,7 @@
+name: D3
+pattern: (?<=^|[\s.-])D3\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

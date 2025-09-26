@@ -1,0 +1,7 @@
+name: HaiveMind
+pattern: (?<=^|[\s.-])HaiveMind\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []
