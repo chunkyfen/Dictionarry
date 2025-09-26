@@ -1,3 +1,18 @@
+name: 1080p Quality
+description: "1080p Quality utilizes the [**Golden Popcorn Performance Index**](https://dictionarry.dev/wiki/gppi)\
+  \ to target **transparent** x264 1080p encodes. \n\n- 1080p Blurays\n- Fallbacks\
+  \ in Place for Proper Quality Progression\n- 1080p Bluray > 1080p WEB-DL > 720p\
+  \ Bluray > 720p WEB-DL > 480p WEB-DL > DVD"
+tags:
+- 1080p
+- Quality Focused
+- Lossy Audio
+- x264
+- h264
+upgradesAllowed: true
+minCustomFormatScore: 20000
+upgradeUntilScore: 400000
+minScoreIncrement: 1
 custom_formats:
 - name: 1080p Bluray
   score: 200000
@@ -7,7 +22,11 @@ custom_formats:
   score: 100000
 - name: 1080p Quality Tier 1
   score: 84000
+- name: Anime BD Tier 01 (Top SeaDex Muxers)
+  score: 84000
 - name: 1080p Quality Tier 2
+  score: 83000
+- name: Anime BD Tier 02 (SeaDex Muxers)
   score: 83000
 - name: 1080p Quality Tier 3
   score: 82000
@@ -78,12 +97,6 @@ custom_formats:
 - name: Xvid
   score: -999999
 custom_formats_radarr:
-- name: 1080p Golden Popcorn
-  score: 8000
-- name: 720p Golden Popcorn
-  score: 6000
-- name: SD Golden Popcorn
-  score: 4000
 - name: Better Theatricals
   score: 1000
 - name: Special Edition
@@ -105,19 +118,11 @@ custom_formats_sonarr:
   score: -999999
 - name: Upscaled
   score: -999999
-description: "1080p Quality utilizes the [**Golden Popcorn Performance Index**](https://dictionarry.dev/wiki/gppi)\
-  \ to target **transparent** x264 1080p encodes. \n\n- 1080p Blurays\n- Fallbacks\
-  \ in Place for Proper Quality Progression\n- 1080p Bluray > 1080p WEB-DL > 720p\
-  \ Bluray > 720p WEB-DL > 480p WEB-DL > DVD"
-language: must_original
-minCustomFormatScore: 20000
-minScoreIncrement: 1
-name: 1080p Quality
 qualities:
-- description: All capable of being indistinguishable from source. WEB-DL included
-    to not allow unknown encode to trump known WEB-DL.
-  id: -1
+- id: -1
   name: Transparent Capable
+  description: All capable of being indistinguishable from source. WEB-DL included
+    to not allow unknown encode to trump known WEB-DL.
   qualities:
   - id: 10
     name: Bluray-1080p
@@ -127,9 +132,9 @@ qualities:
     name: Remux-1080p
 - id: 11
   name: WEBRip-1080p
-- description: Fallback to 720p when 1080p cannot be found.
-  id: -2
+- id: -2
   name: 720p Fallback
+  description: Fallback to 720p when 1080p cannot be found.
   qualities:
   - id: 13
     name: Bluray-720p
@@ -137,9 +142,9 @@ qualities:
     name: WEBDL-720p
 - id: 15
   name: WEBRip-720p
-- description: Standard Definition Fallbacks
-  id: -3
+- id: -3
   name: SD Fallback
+  description: Standard Definition Fallbacks
   qualities:
   - id: 18
     name: Bluray-480p
@@ -149,16 +154,9 @@ qualities:
     name: DVD
 - id: 20
   name: WEBRip-480p
-tags:
-- 1080p
-- Quality Focused
-- Lossy Audio
-- x264
-- h264
-upgradeUntilScore: 400000
 upgrade_until:
-  description: All capable of being indistinguishable from source. WEB-DL included
-    to not allow unknown encode to trump known WEB-DL.
   id: -1
   name: Transparent Capable
-upgradesAllowed: true
+  description: All capable of being indistinguishable from source. WEB-DL included
+    to not allow unknown encode to trump known WEB-DL.
+language: must_original
