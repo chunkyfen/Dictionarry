@@ -1,0 +1,79 @@
+conditions:
+- name: Aergia
+  negate: false
+  pattern: (?<=^|[\s.-])Aergia\b
+  required: false
+  type: release_group
+
+- name: Arg0
+  negate: false
+  pattern: (?<=^|[\s.-])Arg0\b
+  required: false
+  type: release_group
+
+- name: Legion
+  negate: false
+  pattern: (?<=^|[\s.-])Legion\b
+  required: false
+  type: release_group
+
+- name: LYS1TH3A
+  negate: false
+  pattern: (?<=^|[\s.-])LYS1TH3A\b
+  required: false
+  type: release_group
+
+- name: OZR
+  negate: false
+  pattern: (?<=^|[\s.-])OZR\b
+  required: false
+  type: release_group
+
+- name: sam
+  negate: false
+  pattern: (?<=^|[\s.-])sam\b
+  required: false
+  type: release_group
+
+- name: SCY
+  negate: false
+  pattern: (?<=^|[\s.-])SCY\b
+  required: false
+  type: release_group
+
+- name: smol
+  negate: false
+  pattern: (?<=^|[\s.-])smol\b
+  required: false
+  type: release_group
+
+- name: SoM
+  negate: false
+  pattern: (?<=^|[\s.-])SoM\b
+  required: false
+  type: release_group
+
+- name: Vanilla
+  negate: false
+  pattern: (?<=^|[\s.-])Vanilla\b
+  required: false
+  type: release_group
+
+- name: Vodes
+  negate: false
+  pattern: (?<=^|[\s.-])Vodes\b
+  required: false
+  type: release_group
+
+- name: ZeroBuild
+  negate: false
+  pattern: (?<=^|[\s.-])ZeroBuild\b
+  required: false
+  type: release_group
+
+description: Matches top SeaDex muxer release groups for Anime BD Tier 01
+name: Anime BD Tier 01 (Top SeaDex Muxers)
+tags:
+- Release Group Tier
+- Anime
+tests: []
