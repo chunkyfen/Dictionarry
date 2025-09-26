@@ -1,0 +1,10 @@
+description: 'Matches the release group `CsS` only if it is:
+
+  - Preceded by the start of the string (`^`), a whitespace character (`\s`), a period (`.`), or a hyphen (`-`).
+  - Followed by a word boundary (`\b`).'
+name: CsS
+pattern: (?<=^|[\s.-])CsS\b
+tags:
+- Release Group
+- Anime
+tests: []
