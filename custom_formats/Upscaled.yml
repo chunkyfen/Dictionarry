@@ -1,0 +1,20 @@
+conditions:
+- name: Upscaled
+  negate: false
+  pattern: Upscaled
+  required: false
+  type: release_title
+- name: AI TV
+  negate: false
+  pattern: AI TV
+  required: false
+  type: release_title
+description: 'Matches the ''Upscaled'' regex pattern
+
+
+  Sonarr Version'
+name: Upscaled
+tags:
+- Banned
+- Enhancement
+tests: []

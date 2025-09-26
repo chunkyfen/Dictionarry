@@ -1,0 +1,7 @@
+description: ''
+name: ABM
+pattern: (?<=^|[\s.-])ABM\b
+tags:
+- Release Group
+- WEB-DL
+tests: []

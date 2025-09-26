@@ -1,0 +1,7 @@
+description: Matches AI Upscales
+name: AI Movies
+pattern: (?<=\b[12]\d{3}\b).*(\b(AI)\b)
+tags:
+- Enhancement
+- Banned
+tests: []

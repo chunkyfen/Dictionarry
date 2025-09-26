@@ -1,0 +1,7 @@
+description: Matches AI Upscales
+name: AI TV
+pattern: (?<=\bS\d+\b).*(\b(AI)\b)
+tags:
+- Enhancement
+- Banned
+tests: []

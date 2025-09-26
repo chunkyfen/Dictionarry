@@ -1,0 +1,7 @@
+description: ''
+name: Weasley
+pattern: \b(Weasley)\b
+tags:
+- Release Group
+- WEB-DL
+tests: []

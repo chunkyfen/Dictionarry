@@ -1,0 +1,11 @@
+conditions:
+- name: IMAX
+  negate: false
+  pattern: IMAX
+  required: true
+  type: release_title
+description: ''
+name: IMAX
+tags:
+- Edition
+tests: []
