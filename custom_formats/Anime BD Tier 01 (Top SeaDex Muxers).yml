@@ -1,6 +1,8 @@
 name: Anime BD Tier 01 (Top SeaDex Muxers)
-description: Anime BD Tier 01 (Top SeaDex Muxers)
-tags: []
+description: Matches release groups who fall under Anime BD Tier 01 (Top SeaDex Muxers)
+tags:
+- Release Group Tier
+- Anime
 conditions:
 - name: Legion
   negate: false
@@ -8,18 +10,18 @@ conditions:
   required: false
   type: release_group
 - name: Aergia
-  type: release_group
-  required: false
   negate: false
   pattern: Aergia
-- name: Arg0
-  type: release_group
   required: false
+  type: release_group
+- name: Arg0
   negate: false
   pattern: Arg0
-- name: LYS1TH3A
-  type: release_group
   required: false
+  type: release_group
+- name: LYS1TH3A
   negate: false
   pattern: LYS1TH3A
+  required: false
+  type: release_group
 tests: []
