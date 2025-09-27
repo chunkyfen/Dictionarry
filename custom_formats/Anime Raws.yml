@@ -4,59 +4,114 @@ tags:
 - Release Group Tier
 - Anime
 conditions:
-- name: AkihitoSubs
-  negate: false
-  pattern: AkihitoSubs
-  required: false
+- name: AsukaRaws
   type: release_group
-- name: Arukoru
-  negate: false
-  pattern: Arukoru
   required: false
-  type: release_group
-- name: EDGE
   negate: false
-  pattern: EDGE
-  required: false
+  pattern: AsukaRaws
+- name: Beatrice-Raws
   type: release_group
-- name: EMBER
+  required: false
   negate: false
-  pattern: EMBER
-  required: false
+  pattern: Beatrice-Raws
+- name: Daddy-Raws
   type: release_group
-- name: GHOST
+  required: false
   negate: false
-  pattern: GHOST
-  required: false
+  pattern: Daddy-Raws
+- name: Fumi-Raws
   type: release_group
-- name: Judas
+  required: false
   negate: false
-  pattern: Judas
-  required: false
+  pattern: Fumi-Raws
+- name: IrizaRaws
   type: release_group
-- name: naiyas
+  required: false
   negate: false
-  pattern: naiyas
-  required: false
+  pattern: IrizaRaws
+- name: Kawaiika-Raws
   type: release_group
-- name: Nep_Blanc
+  required: false
   negate: false
-  pattern: Nep_Blanc
-  required: false
+  pattern: Kawaiika-Raws
+- name: km
   type: release_group
-- name: Prof
+  required: false
   negate: false
-  pattern: Prof
-  required: false
+  pattern: km
+- name: Koi-Raws
   type: release_group
-- name: "Shir\u03C3"
+  required: false
   negate: false
-  pattern: "Shir\u03C3"
-  required: false
+  pattern: Koi-Raws
+- name: Lilith-Raws
   type: release_group
-- name: YURASAKA
+  required: false
   negate: false
-  pattern: YURASAKA
-  required: false
+  pattern: Lilith-Raws
+- name: LowPower-Raws
   type: release_group
+  required: false
+  negate: false
+  pattern: LowPower-Raws
+- name: Moozzi2
+  type: release_group
+  required: false
+  negate: false
+  pattern: Moozzi2
+- name: NanakoRaws
+  type: release_group
+  required: false
+  negate: false
+  pattern: NanakoRaws
+- name: NC-Raws
+  type: release_group
+  required: false
+  negate: false
+  pattern: NC-Raws
+- name: neko-raws
+  type: release_group
+  required: false
+  negate: false
+  pattern: neko-raws
+- name: New-raws
+  type: release_group
+  required: false
+  negate: false
+  pattern: New-raws
+- name: Ohys-Raws
+  type: release_group
+  required: false
+  negate: false
+  pattern: Ohys-Raws
+- name: Pandoratv-Raws
+  type: release_group
+  required: false
+  negate: false
+  pattern: Pandoratv-Raws
+- name: Raws-Maji
+  type: release_group
+  required: false
+  negate: false
+  pattern: Raws-Maji
+- name: ReinForce
+  type: release_group
+  required: false
+  negate: false
+  pattern: ReinForce
+- name: Scryous-Raws
+  type: release_group
+  required: false
+  negate: false
+  pattern: Scryous-Raws
+- name: Seicher-Raws
+  type: release_group
+  required: false
+  negate: false
+  pattern: Seicher-Raws
+- name: Shiniori-Raws
+  type: release_group
+  required: false
+  negate: false
+  pattern: Shiniori-Raws
 tests: []
