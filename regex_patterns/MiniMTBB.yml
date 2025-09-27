@@ -1,0 +1,7 @@
+name: MiniMTBB
+pattern: (?<=^|[\s.-])MiniMTBB\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []
