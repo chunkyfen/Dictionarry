@@ -5,6 +5,36 @@ tags:
 - 2160p
 - Quality
 conditions:
+- name: b0mbardiers
+  negate: false
+  pattern: b0mbardiers
+  required: false
+  type: release_group
+- name: DEPTH
+  negate: false
+  pattern: DEPTH
+  required: false
+  type: release_group
+- name: iFT
+  negate: false
+  pattern: iFT
+  required: false
+  type: release_group
+- name: NCmt
+  negate: false
+  pattern: NCmt
+  required: false
+  type: release_group
+- name: SPHD
+  negate: false
+  pattern: SPHD
+  required: false
+  type: release_group
+- name: TDD
+  negate: false
+  pattern: TDD
+  required: false
+  type: release_group
 - name: 2160p
   negate: false
   required: true
