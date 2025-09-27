@@ -1,0 +1,7 @@
+name: Setsugen
+pattern: (?<=^|[\s.-])Setsugen\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

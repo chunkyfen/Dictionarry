@@ -1,0 +1,17 @@
+name: Anime Web Tier 01 (Muxers)
+description: Matches release groups who fall under Anime Web Tier 01 (Muxers)
+tags:
+- Anime
+- Release Group Tier
+conditions:
+- name: WEB-DL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests: []

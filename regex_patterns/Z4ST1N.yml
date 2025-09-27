@@ -1,0 +1,7 @@
+name: Z4ST1N
+pattern: (?<=^|[\s.-])Z4ST1N\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []
