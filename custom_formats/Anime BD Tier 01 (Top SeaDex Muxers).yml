@@ -64,4 +64,14 @@ conditions:
   pattern: ZeroBuild
   required: false
   type: release_group
+- name: Bluray
+  type: source
+  required: false
+  negate: false
+  source: bluray
+- name: DVD
+  type: source
+  required: false
+  negate: false
+  source: dvd
 tests: []
