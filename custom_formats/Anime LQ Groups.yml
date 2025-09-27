@@ -1,0 +1,62 @@
+name: Anime LQ Groups
+description: Matches release groups who fall under Anime LQ Groups
+tags:
+- Release Group Tier
+- Anime
+conditions:
+- name: AkihitoSubs
+  negate: false
+  pattern: AkihitoSubs
+  required: false
+  type: release_group
+- name: Arukoru
+  negate: false
+  pattern: Arukoru
+  required: false
+  type: release_group
+- name: EDGE
+  negate: false
+  pattern: EDGE
+  required: false
+  type: release_group
+- name: EMBER
+  negate: false
+  pattern: EMBER
+  required: false
+  type: release_group
+- name: GHOST
+  negate: false
+  pattern: GHOST
+  required: false
+  type: release_group
+- name: Judas
+  negate: false
+  pattern: Judas
+  required: false
+  type: release_group
+- name: naiyas
+  negate: false
+  pattern: naiyas
+  required: false
+  type: release_group
+- name: Nep_Blanc
+  negate: false
+  pattern: Nep_Blanc
+  required: false
+  type: release_group
+- name: Prof
+  negate: false
+  pattern: Prof
+  required: false
+  type: release_group
+- name: "Shir\u03C3"
+  negate: false
+  pattern: "Shir\u03C3"
+  required: false
+  type: release_group
+- name: YURASAKA
+  negate: false
+  pattern: YURASAKA
+  required: false
+  type: release_group
+tests: []

@@ -1,5 +1,15 @@
 name: Dual Audio
-pattern: \b((multi[^a-zA-Z]*)|(dual[\s.-](audio|complete)))\b
+pattern: "\\b(\n    dual[ ._-]?audio |                          # dual audio variants\n\
+  \    dual[ ._-]?complete |                       # dual complete\n    [([]dual[])]\
+  \ |                              # [dual] or (dual)\n    MULTi(?![a-zA-Z]) |   \
+  \                      # standalone MULTi\n    MULTi\\d{1,2} |                 \
+  \             # MULTi19, MULTi5\n    Multi[ ._-]?(DDP|DTS|AAC|AC3|Audio|5\\.1|7\\\
+  .1) | # Multi with audio codecs\n    \\b(JA|ZH|KO)\\b\\s*\\+\\s*\\bEN\\b |     \
+  \         # JA + EN\n    \\bEN\\b\\s*\\+\\s*\\b(JA|ZH|KO)\\b |              # EN\
+  \ + JA\n    \\b(Japanese|Chinese|Korean)[ ._+&-]?English\\b | # Japanese-English\n\
+  \    \\bEnglish[ ._+&-]?(Japanese|Chinese|Korean)\\b | # English-Japanese\n    \\\
+  b(\\d{3,4}(p|i)|4K|U(ltra)?HD)\\b.*?\\bDUAL\\b(?!.*[\\(\\)]) # resolution + DUAL\n\
+  )\\b\n"
 description: Matches releases with Dual Audio; Media releases that contain two language
   tracks - typically the original language (such as Japanese) along with an English
   dub, allowing viewers to switch between either audio track while watching the same
@@ -33,3 +43,7 @@ tests:
 - id: 9
   input: uality.A.Graffiti.Story.2022.1080p.WEB.H264-AEROHOLiCS.mkv
   expected: false
+- id: 10
+  input: Frieren Beyond Journey's End (2023) - S01E11 - 011 - Winter in the Northern
+    Lands [WEBDL-1080p][10bit][x265][AAC 2.0][EN+JA]-Audio.mkv
+  expected: true

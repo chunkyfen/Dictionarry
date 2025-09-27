@@ -83,6 +83,8 @@ custom_formats:
   score: 59000
 - name: 1080p WEB-DL HEVC Tier 1
   score: 58500
+- name: 1080p WEBRip
+  score: 50000
 - name: 720p Quality Tier 1
   score: 44000
 - name: 720p Quality Tier 2
@@ -101,14 +103,14 @@ custom_formats:
   score: 20000
 - name: 720p WEB-DL
   score: 20000
+- name: 720p WEBRip
+  score: 20000
 - name: SD Quality Tier 1
   score: 20000
 - name: SD Quality Tier 2
   score: 20000
 - name: Dolby Vision
   score: 3000
-- name: Anime Dual Audio
-  score: 1000
 - name: HDR
   score: 1000
 - name: HDR10
@@ -136,10 +138,6 @@ custom_formats:
 - name: Banned Groups
   score: -999999
 - name: Banned Groups (Title)
-  score: -999999
-- name: Banned Scene
-  score: -999999
-- name: Banned WEBRip
   score: -999999
 - name: Upscaled
   score: -999999
@@ -207,6 +205,8 @@ custom_formats_sonarr:
   score: 45000
 - name: 1080p Efficient+ TV WEB Tier 6
   score: 44000
+- name: Anime Dual Audio
+  score: 1000
 - name: TV Extras
   score: -999999
 qualities:

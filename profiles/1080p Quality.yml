@@ -18,8 +18,6 @@ custom_formats:
   score: 200000
 - name: 1080p WEB-DL
   score: 200000
-- name: 720p WEB-DL
-  score: 100000
 - name: 1080p Quality Tier 1
   score: 84000
 - name: Anime BD Tier 01 (Top SeaDex Muxers)
@@ -36,33 +34,39 @@ custom_formats:
   score: 81000
 - name: Anime BD Tier 04 (SeaDex Muxers)
   score: 81000
-- name: 1080p Quality Tier 5
+- name: 1080p Balanced Tier 1
   score: 80000
-- name: 720p Bluray
+- name: 1080p Quality Tier 5
   score: 80000
 - name: Anime BD Tier 05 (Remuxes)
   score: 80000
+- name: 1080p WEBRip
+  score: 79000
 - name: Anime BD Tier 06 (FanSubs)
   score: 79000
 - name: Anime BD Tier 07 (P2P-Scene)
   score: 78000
 - name: Anime BD Tier 08 (Mini Encodes)
   score: 77000
-- name: 1080p Balanced Tier 1
-  score: 60000
-- name: 480p WEB-DL
-  score: 60000
 - name: 720p Quality Tier 1
-  score: 44000
+  score: 76800
 - name: 720p Quality Tier 2
-  score: 43000
+  score: 76700
 - name: 720p Quality Tier 3
-  score: 42000
+  score: 76600
 - name: 720p Quality Tier 4
-  score: 41000
+  score: 76500
 - name: 720p Quality Tier 5
-  score: 40000
+  score: 76000
 - name: 720p Balanced Tier 1
+  score: 75000
+- name: 720p Bluray
+  score: 75000
+- name: 720p WEB-DL
+  score: 75000
+- name: 720p WEBRip
+  score: 40000
+- name: 480p WEB-DL
   score: 20000
 - name: DVD
   score: 20000
@@ -72,8 +76,6 @@ custom_formats:
   score: 11000
 - name: SD Quality Tier 2
   score: 10000
-- name: Anime Dual Audio
-  score: 1000
 - name: WEB-DL Tier 1
   score: 100
 - name: WEB-DL Tier 2
@@ -98,17 +100,9 @@ custom_formats:
   score: -999999
 - name: Banned Groups (Title)
   score: -999999
-- name: Banned Scene
-  score: -999999
-- name: Banned WEBRip
-  score: -999999
-- name: Full Disc
-  score: -999999
 - name: VP9
   score: -999999
 - name: VVC
-  score: -999999
-- name: Xvid
   score: -999999
 custom_formats_radarr:
 - name: Better Theatricals
@@ -119,13 +113,13 @@ custom_formats_radarr:
   score: -999999
 - name: Extras
   score: -999999
-- name: Full Disc (Quality Match)
-  score: -999999
 - name: Sing Along
   score: -999999
 - name: Upscale
   score: -999999
 custom_formats_sonarr:
+- name: Anime Dual Audio
+  score: 1000
 - name: Season Pack
   score: 10
 - name: TV Extras

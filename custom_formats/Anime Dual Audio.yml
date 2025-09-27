@@ -4,8 +4,8 @@ tags:
 - Anime
 conditions:
 - name: Dual Audio
-  type: release_title
-  required: true
   negate: false
   pattern: Dual Audio
+  required: true
+  type: release_title
 tests: []
