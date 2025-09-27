@@ -34,6 +34,8 @@ custom_formats:
   score: 82000
 - name: 1080p Quality Tier 4
   score: 81000
+- name: Anime BD Tier 04 (SeaDex Muxers)
+  score: 81000
 - name: 1080p Quality Tier 5
   score: 80000
 - name: 720p Bluray

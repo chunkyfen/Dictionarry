@@ -1,0 +1,7 @@
+name: D4C
+pattern: (?<=^|[\s.-])D4C\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

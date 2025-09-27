@@ -1,0 +1,7 @@
+name: PMR
+pattern: (?<=^|[\s.-])PMR\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

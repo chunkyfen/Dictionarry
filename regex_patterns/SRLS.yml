@@ -1,0 +1,7 @@
+name: SRLS
+pattern: (?<=^|[\s.-])SRLS\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

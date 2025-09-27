@@ -1,0 +1,7 @@
+name: VULCAN
+pattern: (?<=^|[\s.-])VULCAN\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []
