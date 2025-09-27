@@ -4,6 +4,16 @@ tags:
 - Release Group Tier
 - Anime
 conditions:
+- name: Bluray
+  type: source
+  required: false
+  negate: false
+  source: bluray
+- name: DVD
+  type: source
+  required: false
+  negate: false
+  source: dvd
 - name: 9volt
   negate: false
   pattern: 9volt
