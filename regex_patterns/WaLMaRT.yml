@@ -1,0 +1,7 @@
+name: WaLMaRT
+pattern: (?<=^|[\s.-])WaLMaRT\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

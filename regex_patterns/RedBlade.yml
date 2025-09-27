@@ -1,0 +1,7 @@
+name: RedBlade
+pattern: (?<=^|[\s.-])RedBlade\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

@@ -1,0 +1,7 @@
+name: TENEIGHTY
+pattern: (?<=^|[\s.-])TENEIGHTY\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

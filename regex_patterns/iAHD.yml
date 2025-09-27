@@ -1,0 +1,7 @@
+name: iAHD
+pattern: (?<=^|[\s.-])iAHD\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

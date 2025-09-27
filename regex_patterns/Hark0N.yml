@@ -1,0 +1,7 @@
+name: Hark0N
+pattern: (?<=^|[\s.-])Hark0N\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

@@ -1,0 +1,7 @@
+name: DragsterPS
+pattern: (?<=^|[\s.-])DragsterPS\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

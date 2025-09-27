@@ -1,0 +1,7 @@
+name: SEV
+pattern: (?<=^|[\s.-])SEV\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

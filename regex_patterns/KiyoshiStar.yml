@@ -1,0 +1,7 @@
+name: KiyoshiStar
+pattern: (?<=^|[\s.-])KiyoshiStar\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []
