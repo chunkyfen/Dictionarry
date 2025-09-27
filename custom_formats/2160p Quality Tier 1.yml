@@ -5,309 +5,49 @@ tags:
 - 2160p
 - Quality
 conditions:
-- name: 4KDVS
+- name: CtrlHD
   negate: false
-  pattern: 4KDVS
+  pattern: CtrlHD
   required: false
   type: release_group
-- name: BlzT
+- name: DON
   negate: false
-  pattern: BlzT
+  pattern: DON
   required: false
   type: release_group
-- name: BSTD
+- name: HQMUX
   negate: false
-  pattern: BSTD
+  pattern: HQMUX
   required: false
   type: release_group
-- name: DEFLATE
+- name: SA89
   negate: false
-  pattern: DEFLATE
+  pattern: SA89
   required: false
   type: release_group
-- name: JustWatch
+- name: W4NK3R
   negate: false
-  pattern: JustWatch
+  pattern: W4NK3R
   required: false
   type: release_group
-- name: SURCODE
+- name: MainFrame
   negate: false
-  pattern: SURCODE
+  pattern: MainFrame
   required: false
   type: release_group
-- name: TnP
+  - name: c0kE
   negate: false
-  pattern: TnP
+  pattern: c0kE
   required: false
   type: release_group
-- name: WATCHABLE
+- name: D-Z0N3
   negate: false
-  pattern: WATCHABLE
+  pattern: D-Z0N3
   required: false
   type: release_group
-- name: AAAUHD
+- name: PTer
   negate: false
-  pattern: AAAUHD
-  required: false
-  type: release_group
-- name: Absinth
-  negate: false
-  pattern: Absinth
-  required: false
-  type: release_group
-- name: ADE
-  negate: false
-  pattern: ADE
-  required: false
-  type: release_group
-- name: AViATOR
-  negate: false
-  pattern: AViATOR
-  required: false
-  type: release_group
-- name: beAst
-  negate: false
-  pattern: beAst
-  required: false
-  type: release_group
-- name: CHD
-  negate: false
-  pattern: CHD
-  required: false
-  type: release_group
-- name: CMCT
-  negate: false
-  pattern: CMCT
-  required: false
-  type: release_group
-- name: EDPH
-  negate: false
-  pattern: EDPH
-  required: false
-  type: release_group
-- name: EMERALD
-  negate: false
-  pattern: EMERALD
-  required: false
-  type: release_group
-- name: ESiR
-  negate: false
-  pattern: ESiR
-  required: false
-  type: release_group
-- name: FRDS
-  negate: false
-  pattern: FRDS
-  required: false
-  type: release_group
-- name: GUHZER
-  negate: false
-  pattern: GUHZER
-  required: false
-  type: release_group
-- name: HD77
-  negate: false
-  pattern: HD77
-  required: false
-  type: release_group
-- name: HDChina
-  negate: false
-  pattern: HDChina
-  required: false
-  type: release_group
-- name: HDmux
-  negate: false
-  pattern: HDmux
-  required: false
-  type: release_group
-- name: HUNTJR
-  negate: false
-  pattern: HUNTJR
-  required: false
-  type: release_group
-- name: HypStu
-  negate: false
-  pattern: HypStu
-  required: false
-  type: release_group
-- name: IAMABLE
-  negate: false
-  pattern: IAMABLE
-  required: false
-  type: release_group
-- name: iCandy
-  negate: false
-  pattern: iCandy
-  required: false
-  type: release_group
-- name: iNVANDRAREN
-  negate: false
-  pattern: iNVANDRAREN
-  required: false
-  type: release_group
-- name: k00kie
-  negate: false
-  pattern: k00kie
-  required: false
-  type: release_group
-- name: KAN3D2M
-  negate: false
-  pattern: KAN3D2M
-  required: false
-  type: release_group
-- name: KNiVES
-  negate: false
-  pattern: KNiVES
-  required: false
-  type: release_group
-- name: LAZARUS
-  negate: false
-  pattern: LAZARUS
-  required: false
-  type: release_group
-- name: MiMiC
-  negate: false
-  pattern: MiMiC
-  required: false
-  type: release_group
-- name: PussyFoot
-  negate: false
-  pattern: PussyFoot
-  required: false
-  type: release_group
-- name: ReaLHD
-  negate: false
-  pattern: ReaLHD
-  required: false
-  type: release_group
-- name: ReQuEsT
-  negate: false
-  pattern: ReQuEsT
-  required: false
-  type: release_group
-- name: SMAHAWUG
-  negate: false
-  pattern: SMAHAWUG
-  required: false
-  type: release_group
-- name: SoLaR
-  negate: false
-  pattern: SoLaR
-  required: false
-  type: release_group
-- name: SPECTACLE
-  negate: false
-  pattern: SPECTACLE
-  required: false
-  type: release_group
-- name: STRiKES
-  negate: false
-  pattern: STRiKES
-  required: false
-  type: release_group
-- name: SWAGGERUHD
-  negate: false
-  pattern: SWAGGERUHD
-  required: false
-  type: release_group
-- name: SWTYBLZ
-  negate: false
-  pattern: SWTYBLZ
-  required: false
-  type: release_group
-- name: TERMiNAL
-  negate: false
-  pattern: TERMiNAL
-  required: false
-  type: release_group
-- name: TOMBCRUISE
-  negate: false
-  pattern: TOMBCRUISE
-  required: false
-  type: release_group
-- name: Tron
-  negate: false
-  pattern: Tron
-  required: false
-  type: release_group
-- name: ULTRAHDCLUB
-  negate: false
-  pattern: ULTRAHDCLUB
-  required: false
-  type: release_group
-- name: VALiS
-  negate: false
-  pattern: VALiS
-  required: false
-  type: release_group
-- name: Whiterhino
-  negate: false
-  pattern: WhiteRhino
-  required: false
-  type: release_group
-- name: BeiTai
-  negate: false
-  pattern: BeiTai
-  required: false
-  type: release_group
-- name: BLUEBIRD
-  negate: false
-  pattern: BLUEBIRD
-  required: false
-  type: release_group
-- name: BOREDOR
-  negate: false
-  pattern: BOREDOR
-  required: false
-  type: release_group
-- name: CHAOS
-  negate: false
-  pattern: CHAOS
-  required: false
-  type: release_group
-- name: dkore
-  negate: false
-  pattern: dkore
-  required: false
-  type: release_group
-- name: FLAME
-  negate: false
-  pattern: FLAME
-  required: false
-  type: release_group
-- name: Hares
-  negate: false
-  pattern: Hares
-  required: false
-  type: release_group
-- name: LittleBakas
-  negate: false
-  pattern: LittleBakas
-  required: false
-  type: release_group
-- name: Lucifer
-  negate: false
-  pattern: Lucifer
-  required: false
-  type: release_group
-- name: micius
-  negate: false
-  pattern: micius
-  required: false
-  type: release_group
-- name: PTH
-  negate: false
-  pattern: PTH
-  required: false
-  type: release_group
-- name: THREESOME
-  negate: false
-  pattern: THREESOME
-  required: false
-  type: release_group
-- name: UHDCLUBREMUX
-  negate: false
-  pattern: UHDCLUBREMUX
+  pattern: PTer
   required: false
   type: release_group
 - name: 2160p
