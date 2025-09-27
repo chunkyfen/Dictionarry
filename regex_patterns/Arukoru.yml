@@ -1,0 +1,7 @@
+name: Arukoru
+pattern: (?<=^|[\s.-])Arukoru\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

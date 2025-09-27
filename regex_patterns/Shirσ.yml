@@ -1,0 +1,7 @@
+name: "Shir\u03C3"
+pattern: "(?<=^|[\\s.-])Shir\u03C3\\b"
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

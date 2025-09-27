@@ -1,0 +1,7 @@
+name: EMBER
+pattern: (?<=^|[\s.-])EMBER\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

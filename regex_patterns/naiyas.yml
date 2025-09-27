@@ -1,0 +1,7 @@
+name: naiyas
+pattern: (?<=^|[\s.-])naiyas\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

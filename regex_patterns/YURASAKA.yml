@@ -1,0 +1,7 @@
+name: YURASAKA
+pattern: (?<=^|[\s.-])YURASAKA\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

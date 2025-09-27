@@ -1,0 +1,7 @@
+name: Nep_Blanc
+pattern: (?<=^|[\s.-])Nep_Blanc\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

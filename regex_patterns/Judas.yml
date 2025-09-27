@@ -1,0 +1,7 @@
+name: Judas
+pattern: (?<=^|[\s.-])Judas\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

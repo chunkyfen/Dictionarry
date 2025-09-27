@@ -1,0 +1,7 @@
+name: GHOST
+pattern: (?<=^|[\s.-])GHOST\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []
