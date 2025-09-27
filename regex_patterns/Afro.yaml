@@ -1,7 +1,7 @@
 - name: 'Afro'
-  pattern: (?<=^|[\s.-])Afro\b
-  description: ''
-  tags:
-  - Release Group
-  - Anime
-  tests: []
+pattern: (?<=^|[\s.-])Afro\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []
