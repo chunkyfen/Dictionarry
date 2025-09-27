@@ -61,10 +61,14 @@ custom_formats:
   score: 81000
 - name: 1080p Quality Tier 5
   score: 80000
+- name: Anime BD Tier 05 (Remuxes)
+  score: 80000
 - name: IMAX
   score: 80000
 - name: IMAX Enhanced
   score: 80000
+- name: Anime BD Tier 06 (FanSubs)
+  score: 75000
 - name: 1080p Balanced Tier 1
   score: 70000
 - name: 1080p Bluray

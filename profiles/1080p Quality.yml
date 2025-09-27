@@ -40,6 +40,10 @@ custom_formats:
   score: 80000
 - name: 720p Bluray
   score: 80000
+- name: Anime BD Tier 05 (Remuxes)
+  score: 80000
+- name: Anime BD Tier 06 (FanSubs)
+  score: 79000
 - name: 1080p Balanced Tier 1
   score: 60000
 - name: 480p WEB-DL
