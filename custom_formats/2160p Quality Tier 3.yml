@@ -5,6 +5,46 @@ tags:
 - 2160p
 - Quality
 conditions:
+- name: 4KDVS
+  negate: false
+  pattern: 4KDVS
+  required: false
+  type: release_group
+- name: BlzT
+  negate: false
+  pattern: BlzT
+  required: false
+  type: release_group
+- name: BSTD
+  negate: false
+  pattern: BSTD
+  required: false
+  type: release_group
+- name: DEFLATE
+  negate: false
+  pattern: DEFLATE
+  required: false
+  type: release_group
+- name: JustWatch
+  negate: false
+  pattern: JustWatch
+  required: false
+  type: release_group
+- name: SURCODE
+  negate: false
+  pattern: SURCODE
+  required: false
+  type: release_group
+- name: TnP
+  negate: false
+  pattern: TnP
+  required: false
+  type: release_group
+- name: WATCHABLE
+  negate: false
+  pattern: WATCHABLE
+  required: false
+  type: release_group
 - name: 2160p
   negate: false
   required: true
