@@ -1,0 +1,7 @@
+name: IrizaRaws
+pattern: (?<=^|[\s.-])IrizaRaws\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

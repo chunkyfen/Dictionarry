@@ -1,0 +1,7 @@
+name: Shiniori-Raws
+pattern: (?<=^|[\s.-])Shiniori-Raws\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

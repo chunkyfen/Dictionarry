@@ -1,0 +1,7 @@
+name: Pandoratv-Raws
+pattern: (?<=^|[\s.-])Pandoratv-Raws\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

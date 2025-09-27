@@ -1,0 +1,7 @@
+name: New-raws
+pattern: (?<=^|[\s.-])New-raws\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

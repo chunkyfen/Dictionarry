@@ -1,0 +1,7 @@
+name: ReinForce
+pattern: (?<=^|[\s.-])ReinForce\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

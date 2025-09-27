@@ -1,0 +1,7 @@
+name: Daddy-Raws
+pattern: (?<=^|[\s.-])Daddy-Raws\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

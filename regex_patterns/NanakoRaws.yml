@@ -1,0 +1,7 @@
+name: NanakoRaws
+pattern: (?<=^|[\s.-])NanakoRaws\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

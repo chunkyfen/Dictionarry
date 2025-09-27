@@ -92,6 +92,8 @@ custom_formats:
   score: 7
 - name: Repack1
   score: 6
+- name: Anime LQ Groups
+  score: -999999
 - name: AV1
   score: -999999
 - name: B&W
