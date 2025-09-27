@@ -1,0 +1,7 @@
+name: mal lu zen
+pattern: (?<=^|[\s.-])mal lu zen\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []
