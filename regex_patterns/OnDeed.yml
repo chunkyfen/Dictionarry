@@ -1,0 +1,7 @@
+name: OnDeed
+pattern: (?<=^|[\s.-])OnDeed\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

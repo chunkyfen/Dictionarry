@@ -1,0 +1,7 @@
+name: Sushi
+pattern: (?<=^|[\s.-])Sushi\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

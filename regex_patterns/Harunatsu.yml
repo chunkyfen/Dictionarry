@@ -1,0 +1,7 @@
+name: Harunatsu
+pattern: (?<=^|[\s.-])Harunatsu\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

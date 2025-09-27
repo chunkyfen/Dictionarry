@@ -1,0 +1,7 @@
+name: Licca
+pattern: (?<=^|[\s.-])Licca\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

@@ -1,0 +1,7 @@
+name: SCP-2223
+pattern: (?<=^|[\s.-])SCP-2223\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

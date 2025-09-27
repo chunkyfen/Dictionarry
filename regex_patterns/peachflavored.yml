@@ -1,0 +1,7 @@
+name: peachflavored
+pattern: (?<=^|[\s.-])peachflavored\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

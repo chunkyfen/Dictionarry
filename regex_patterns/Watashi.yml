@@ -1,0 +1,7 @@
+name: Watashi
+pattern: (?<=^|[\s.-])Watashi\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

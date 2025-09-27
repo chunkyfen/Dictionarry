@@ -1,0 +1,7 @@
+name: Yabai
+pattern: (?<=^|[\s.-])Yabai\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

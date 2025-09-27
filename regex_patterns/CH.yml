@@ -1,0 +1,7 @@
+name: CH
+pattern: (?<=^|[\s.-])CH\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

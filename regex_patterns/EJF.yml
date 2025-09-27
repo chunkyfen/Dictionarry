@@ -1,0 +1,7 @@
+name: EJF
+pattern: (?<=^|[\s.-])EJF\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

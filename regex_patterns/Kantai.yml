@@ -1,0 +1,7 @@
+name: Kantai
+pattern: (?<=^|[\s.-])Kantai\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

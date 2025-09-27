@@ -1,0 +1,7 @@
+name: SmugCat
+pattern: (?<=^|[\s.-])SmugCat\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

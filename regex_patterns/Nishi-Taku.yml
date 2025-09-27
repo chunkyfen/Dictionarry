@@ -1,0 +1,7 @@
+name: Nishi-Taku
+pattern: (?<=^|[\s.-])Nishi-Taku\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

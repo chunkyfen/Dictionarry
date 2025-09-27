@@ -1,0 +1,7 @@
+name: PAS
+pattern: (?<=^|[\s.-])PAS\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []
