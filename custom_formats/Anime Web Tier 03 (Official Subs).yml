@@ -1,0 +1,32 @@
+name: Anime Web Tier 03 (Official Subs)
+description: Matches release groups who fall under Anime Web Tier 03 (Official Subs)
+tags:
+- Anime
+- Release Group Tier
+conditions:
+- name: WEB-DL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
+- name: SubsPlease
+  type: release_group
+  required: false
+  negate: false
+  pattern: SubsPlease
+- name: SubsPlus+
+  type: release_group
+  required: false
+  negate: false
+  pattern: SubsPlus+
+- name: ZR
+  type: release_group
+  required: false
+  negate: false
+  pattern: ZR
+tests: []
