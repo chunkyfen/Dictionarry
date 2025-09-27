@@ -35,7 +35,7 @@ conditions:
   pattern: MainFrame
   required: false
   type: release_group
-  - name: c0kE
+- name: c0kE
   negate: false
   pattern: c0kE
   required: false
