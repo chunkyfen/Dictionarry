@@ -1,0 +1,47 @@
+name: Anime Web Tier 05 (FanSubs)
+description: Matches release groups who fall under Anime Web Tier 04 (Official Subs)
+tags:
+- Anime
+- Release Group Tier
+conditions:
+- name: WEB-DL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
+- name: 9volt
+  type: release_group
+  required: false
+  negate: false
+  pattern: 9volt
+- name: GJM
+  type: release_group
+  required: false
+  negate: false
+  pattern: GJM
+- name: Kaleido
+  type: release_group
+  required: false
+  negate: false
+  pattern: Kaleido
+- name: Kantai
+  type: release_group
+  required: false
+  negate: false
+  pattern: Kantai
+- name: SobsPlease
+  type: release_group
+  required: false
+  negate: false
+  pattern: SobsPlease
+- name: Some-Stuffs
+  type: release_group
+  required: false
+  negate: false
+  pattern: Some-Stuffs
+tests: []
