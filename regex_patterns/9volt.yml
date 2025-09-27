@@ -1,5 +1,5 @@
-name: Kametsu
-pattern: (?<=^|[\s.-])Kametsu\b
+name: 9volt
+pattern: (?<=^|[\s.-])9volt\b
 description: ''
 tags:
 - Release Group
