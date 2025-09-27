@@ -1,4 +1,4 @@
-- name: 'Afro'
+name: 'Afro'
 pattern: (?<=^|[\s.-])Afro\b
 description: ''
 tags:
