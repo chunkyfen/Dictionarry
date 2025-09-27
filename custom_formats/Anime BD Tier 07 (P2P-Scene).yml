@@ -4,189 +4,94 @@ tags:
 - Release Group Tier
 - Anime
 conditions:
-- name: Afro
-  negate: false
-  pattern: Afro
-  required: false
+- name: A-L
   type: release_group
-- name: Akai
-  negate: false
-  pattern: Akai
   required: false
-  type: release_group
-- name: Almighty
   negate: false
-  pattern: Almighty
-  required: false
+  pattern: A-L
+- name: ANiHLS
   type: release_group
-- name: ANE
+  required: false
   negate: false
-  pattern: ANE
-  required: false
+  pattern: ANiHLS
+- name: CBM
   type: release_group
-- name: Asenshi
+  required: false
   negate: false
-  pattern: Asenshi
-  required: false
+  pattern: CBM
+- name: DHD
   type: release_group
-- name: BlurayDesuYo
+  required: false
   negate: false
-  pattern: BlurayDesuYo
-  required: false
+  pattern: DHD
+- name: DragsterPS
   type: release_group
-- name: Bunny-Apocalypse
+  required: false
   negate: false
-  pattern: Bunny-Apocalypse
-  required: false
+  pattern: DragsterPS
+- name: HAiKU
   type: release_group
-- name: CH
+  required: false
   negate: false
-  pattern: CH
-  required: false
+  pattern: HAiKU
+- name: Hark0N
   type: release_group
-- name: EJF
+  required: false
   negate: false
-  pattern: EJF
-  required: false
+  pattern: Hark0N
+- name: iAHD
   type: release_group
-- name: Exiled-Destiny
+  required: false
   negate: false
-  pattern: Exiled-Destiny
-  required: false
+  pattern: iAHD
+- name: inid4c
   type: release_group
-- name: FFF
+  required: false
   negate: false
-  pattern: FFF
-  required: false
+  pattern: inid4c
+- name: KiyoshiStar
   type: release_group
-- name: Final8
+  required: false
   negate: false
-  pattern: Final8
-  required: false
+  pattern: KiyoshiStar
+- name: MCR
   type: release_group
-- name: GS
+  required: false
   negate: false
-  pattern: GS
-  required: false
+  pattern: MCR
+- name: NPC
   type: release_group
-- name: Harunatsu
+  required: false
   negate: false
-  pattern: Harunatsu
-  required: false
+  pattern: NPC
+- name: RedBlade
   type: release_group
-- name: Impatience
+  required: false
   negate: false
-  pattern: Impatience
-  required: false
+  pattern: RedBlade
+- name: RH
   type: release_group
-- name: Inka-Subs
+  required: false
   negate: false
-  pattern: Inka-Subs
-  required: false
+  pattern: RH
+- name: SEV
   type: release_group
-- name: Judgement
+  required: false
   negate: false
-  pattern: Judgement
-  required: false
+  pattern: SEV
+- name: STRiFE
   type: release_group
-- name: Kantai
+  required: false
   negate: false
-  pattern: Kantai
-  required: false
+  pattern: STRiFE
+- name: TENEIGHTY
   type: release_group
-- name: LCE
+  required: false
   negate: false
-  pattern: LCE
-  required: false
+  pattern: TENEIGHTY
+- name: WaLMaRT
   type: release_group
-- name: Licca
+  required: false
   negate: false
-  pattern: Licca
-  required: false
-  type: release_group
-- name: Nii-sama
-  negate: false
-  pattern: Nii-sama
-  required: false
-  type: release_group
-- name: niizk
-  negate: false
-  pattern: niizk
-  required: false
-  type: release_group
-- name: Nishi-Taku
-  negate: false
-  pattern: Nishi-Taku
-  required: false
-  type: release_group
-- name: OnDeed
-  negate: false
-  pattern: OnDeed
-  required: false
-  type: release_group
-- name: orz
-  negate: false
-  pattern: orz
-  required: false
-  type: release_group
-- name: PAS
-  negate: false
-  pattern: PAS
-  required: false
-  type: release_group
-- name: peachflavored
-  negate: false
-  pattern: peachflavored
-  required: false
-  type: release_group
-- name: Saizen
-  negate: false
-  pattern: Saizen
-  required: false
-  type: release_group
-- name: SCP-2223
-  negate: false
-  pattern: SCP-2223
-  required: false
-  type: release_group
-- name: SHiN-gx
-  negate: false
-  pattern: SHiN-gx
-  required: false
-  type: release_group
-- name: SmugCat
-  negate: false
-  pattern: SmugCat
-  required: false
-  type: release_group
-- name: Soldado
-  negate: false
-  pattern: Soldado
-  required: false
-  type: release_group
-- name: Sushi
-  negate: false
-  pattern: Sushi
-  required: false
-  type: release_group
-- name: Vivid
-  negate: false
-  pattern: Vivid
-  required: false
-  type: release_group
-- name: Watashi
-  negate: false
-  pattern: Watashi
-  required: false
-  type: release_group
-- name: Yabai
-  negate: false
-  pattern: Yabai
-  required: false
-  type: release_group
-- name: Zurako
-  negate: false
-  pattern: Zurako
-  required: false
-  type: release_group
+  pattern: WaLMaRT
 tests: []
