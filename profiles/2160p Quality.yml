@@ -73,6 +73,8 @@ custom_formats:
   score: 70000
 - name: Anime BD Tier 07 (P2P-Scene)
   score: 70000
+- name: Anime BD Tier 08 (Mini Encodes)
+  score: 65000
 - name: 1080p Bluray
   score: 60000
 - name: 1080p WEB-DL

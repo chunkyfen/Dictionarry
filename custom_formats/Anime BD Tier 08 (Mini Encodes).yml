@@ -5,58 +5,58 @@ tags:
 - Anime
 conditions:
 - name: AkihitoSubs
-  type: release_group
-  required: false
   negate: false
   pattern: AkihitoSubs
-- name: Arukoru
-  type: release_group
   required: false
+  type: release_group
+- name: Arukoru
   negate: false
   pattern: Arukoru
-- name: EDGE
-  type: release_group
   required: false
+  type: release_group
+- name: EDGE
   negate: false
   pattern: EDGE
-- name: EMBER
-  type: release_group
   required: false
+  type: release_group
+- name: EMBER
   negate: false
   pattern: EMBER
-- name: GHOST
-  type: release_group
   required: false
+  type: release_group
+- name: GHOST
   negate: false
   pattern: GHOST
-- name: Judas
-  type: release_group
   required: false
+  type: release_group
+- name: Judas
   negate: false
   pattern: Judas
-- name: naiyas
-  type: release_group
   required: false
+  type: release_group
+- name: naiyas
   negate: false
   pattern: naiyas
-- name: Nep_Blanc
-  type: release_group
   required: false
+  type: release_group
+- name: Nep_Blanc
   negate: false
   pattern: Nep_Blanc
-- name: Prof
-  type: release_group
   required: false
+  type: release_group
+- name: Prof
   negate: false
   pattern: Prof
-- name: Shirσ
-  type: release_group
   required: false
+  type: release_group
+- name: "Shir\u03C3"
   negate: false
-  pattern: Shirσ
-- name: YURASAKA
-  type: release_group
+  pattern: "Shir\u03C3"
   required: false
+  type: release_group
+- name: YURASAKA
   negate: false
   pattern: YURASAKA
+  required: false
+  type: release_group
 tests: []
