@@ -5,93 +5,93 @@ tags:
 - Anime
 conditions:
 - name: A-L
-  type: release_group
-  required: false
   negate: false
   pattern: A-L
-- name: ANiHLS
-  type: release_group
   required: false
+  type: release_group
+- name: ANiHLS
   negate: false
   pattern: ANiHLS
-- name: CBM
-  type: release_group
   required: false
+  type: release_group
+- name: CBM
   negate: false
   pattern: CBM
-- name: DHD
-  type: release_group
   required: false
+  type: release_group
+- name: DHD
   negate: false
   pattern: DHD
-- name: DragsterPS
-  type: release_group
   required: false
+  type: release_group
+- name: DragsterPS
   negate: false
   pattern: DragsterPS
-- name: HAiKU
-  type: release_group
   required: false
+  type: release_group
+- name: HAiKU
   negate: false
   pattern: HAiKU
-- name: Hark0N
-  type: release_group
   required: false
+  type: release_group
+- name: Hark0N
   negate: false
   pattern: Hark0N
-- name: iAHD
-  type: release_group
   required: false
+  type: release_group
+- name: iAHD
   negate: false
   pattern: iAHD
-- name: inid4c
-  type: release_group
   required: false
+  type: release_group
+- name: inid4c
   negate: false
   pattern: inid4c
-- name: KiyoshiStar
-  type: release_group
   required: false
+  type: release_group
+- name: KiyoshiStar
   negate: false
   pattern: KiyoshiStar
-- name: MCR
-  type: release_group
   required: false
+  type: release_group
+- name: MCR
   negate: false
   pattern: MCR
-- name: NPC
-  type: release_group
   required: false
+  type: release_group
+- name: NPC
   negate: false
   pattern: NPC
-- name: RedBlade
-  type: release_group
   required: false
+  type: release_group
+- name: RedBlade
   negate: false
   pattern: RedBlade
-- name: RH
-  type: release_group
   required: false
+  type: release_group
+- name: RH
   negate: false
   pattern: RH
-- name: SEV
-  type: release_group
   required: false
+  type: release_group
+- name: SEV
   negate: false
   pattern: SEV
-- name: STRiFE
-  type: release_group
   required: false
+  type: release_group
+- name: STRiFE
   negate: false
   pattern: STRiFE
-- name: TENEIGHTY
-  type: release_group
   required: false
+  type: release_group
+- name: TENEIGHTY
   negate: false
   pattern: TENEIGHTY
-- name: WaLMaRT
-  type: release_group
   required: false
+  type: release_group
+- name: WaLMaRT
   negate: false
   pattern: WaLMaRT
+  required: false
+  type: release_group
 tests: []
