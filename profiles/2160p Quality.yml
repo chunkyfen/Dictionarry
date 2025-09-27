@@ -71,6 +71,8 @@ custom_formats:
   score: 75000
 - name: 1080p Balanced Tier 1
   score: 70000
+- name: Anime BD Tier 07 (P2P-Scene)
+  score: 70000
 - name: 1080p Bluray
   score: 60000
 - name: 1080p WEB-DL
