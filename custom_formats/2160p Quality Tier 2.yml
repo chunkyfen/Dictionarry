@@ -1,3 +1,9 @@
+name: 2160p Quality Tier 2
+description: Matches release groups who fall under 2160p Quality Tier 2
+tags:
+- Release Group Tier
+- 2160p
+- Quality
 conditions:
 - name: 2160p
   negate: false
@@ -19,20 +25,9 @@ conditions:
   pattern: D-Z0N3
   required: false
   type: release_group
-- name: MainFrame
-  negate: false
-  pattern: MainFrame
-  required: false
-  type: release_group
 - name: PTer
   negate: false
   pattern: PTer
   required: false
   type: release_group
-description: Matches release groups who fall under 2160p Quality Tier 2
-name: 2160p Quality Tier 2
-tags:
-- Release Group Tier
-- 2160p
-- Quality
 tests: []

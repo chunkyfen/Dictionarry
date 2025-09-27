@@ -1,3 +1,25 @@
+name: 2160p Quality Language Override
+description: '2160p Quality utilizes the [**Encode Efficiency Index**](https://dictionarry.dev/wiki/eei)
+  metric at a 55% target ratio to prioritize **transparent** x265 4k encodes
+
+
+  - 2160p Blurays
+
+  - Fallbacks in Place for Proper Quality Progression
+
+  - 2160p Bluray > 2160p WEB-DL > 1080p Bluray > 1080p WEB-DL > 720p Bluray > 720p
+  WEB-DL > 480p WEB-DL > DVD'
+tags:
+- 2160p
+- Quality Focused
+- HDR
+- Lossless Audio
+- x265
+- h265
+upgradesAllowed: true
+minCustomFormatScore: 20000
+upgradeUntilScore: 400000
+minScoreIncrement: 1
 custom_formats:
 - name: 2160p Quality Tier 1
   score: 304000
@@ -9,10 +31,6 @@ custom_formats:
   score: 301000
 - name: 2160p Quality Tier 5
   score: 300000
-- name: 2160p Balanced Tier 1
-  score: 283000
-- name: 2160p Balanced Tier 2
-  score: 280000
 - name: 2160p Quality Tier 6
   score: 261000
 - name: 2160p Bluray
@@ -21,6 +39,14 @@ custom_formats:
   score: 260000
 - name: 2160p WEB-DL
   score: 260000
+- name: Anime BD Tier 01 (Top SeaDex Muxers)
+  score: 100000
+- name: Anime BD Tier 02 (SeaDex Muxers)
+  score: 95000
+- name: Anime BD Tier 03 (SeaDex Muxers)
+  score: 90000
+- name: Anime BD Tier 04 (SeaDex Muxers)
+  score: 85000
 - name: 1080p Quality Tier 1
   score: 84000
 - name: 1080p Quality Tier 2
@@ -31,20 +57,42 @@ custom_formats:
   score: 81000
 - name: 1080p Quality Tier 5
   score: 80000
+- name: Anime BD Tier 05 (Remuxes)
+  score: 80000
 - name: IMAX
   score: 80000
 - name: IMAX Enhanced
   score: 80000
+- name: Anime BD Tier 06 (FanSubs)
+  score: 75000
 - name: 1080p Balanced Tier 1
   score: 70000
+- name: Anime BD Tier 07 (P2P-Scene)
+  score: 70000
+- name: Anime BD Tier 08 (Mini Encodes)
+  score: 65000
 - name: 1080p Bluray
   score: 60000
 - name: 1080p WEB-DL
   score: 60000
+- name: Anime Web Tier 01 (Muxers)
+  score: 60000
 - name: 1080p Bluray HEVC Tier 1
+  score: 59000
+- name: Anime Web Tier 02 (Top FanSubs)
   score: 59000
 - name: 1080p WEB-DL HEVC Tier 1
   score: 58500
+- name: Anime Web Tier 03 (Official Subs)
+  score: 58000
+- name: Anime Web Tier 04 (Official Subs)
+  score: 57000
+- name: Anime Web Tier 05 (FanSubs)
+  score: 56000
+- name: Anime Web Tier 06 (FanSubs)
+  score: 55000
+- name: 1080p WEBRip
+  score: 50000
 - name: 720p Quality Tier 1
   score: 44000
 - name: 720p Quality Tier 2
@@ -62,6 +110,10 @@ custom_formats:
 - name: 720p Bluray
   score: 20000
 - name: 720p WEB-DL
+  score: 20000
+- name: 720p WEBRip
+  score: 20000
+- name: Criterion Collection
   score: 20000
 - name: SD Quality Tier 1
   score: 20000
@@ -89,6 +141,10 @@ custom_formats:
   score: 7
 - name: Repack1
   score: 6
+- name: Anime LQ Groups
+  score: -999999
+- name: Anime Raws
+  score: -999999
 - name: AV1
   score: -999999
 - name: B&W
@@ -96,10 +152,6 @@ custom_formats:
 - name: Banned Groups
   score: -999999
 - name: Banned Groups (Title)
-  score: -999999
-- name: Banned Scene
-  score: -999999
-- name: Banned WEBRip
   score: -999999
 - name: Upscaled
   score: -999999
@@ -167,26 +219,14 @@ custom_formats_sonarr:
   score: 45000
 - name: 1080p Efficient+ TV WEB Tier 6
   score: 44000
+- name: Anime Dual Audio
+  score: 1000
 - name: TV Extras
   score: -999999
-description: '2160p Quality utilizes the [**Encode Efficiency Index**](https://dictionarry.dev/wiki/eei)
-  metric at a 55% target ratio to prioritize **transparent** x265 4k encodes
-
-
-  - 2160p Blurays
-
-  - Fallbacks in Place for Proper Quality Progression
-
-  - 2160p Bluray > 2160p WEB-DL > 1080p Bluray > 1080p WEB-DL > 720p Bluray > 720p
-  WEB-DL > 480p WEB-DL > DVD'
-language: must_original
-minCustomFormatScore: 20000
-minScoreIncrement: 1
-name: 2160p Quality Language Override
 qualities:
-- description: Indistinguishable from source
-  id: -1
+- id: -1
   name: 2160p Transparent
+  description: Indistinguishable from source
   qualities:
   - id: 4
     name: Bluray-2160p
@@ -194,9 +234,9 @@ qualities:
     name: WEBDL-2160p
 - id: 6
   name: WEBRip-2160p
-- description: Indistinguishable from source
-  id: -2
+- id: -2
   name: 1080p Transparent
+  description: Indistinguishable from source
   qualities:
   - id: 10
     name: Bluray-1080p
@@ -206,9 +246,9 @@ qualities:
     name: Remux-1080p
 - id: 11
   name: WEBRip-1080p
-- description: Fallback to 720p when 1080p cannot be found.
-  id: -3
+- id: -3
   name: 720p Fallback
+  description: Fallback to 720p when 1080p cannot be found.
   qualities:
   - id: 13
     name: Bluray-720p
@@ -216,9 +256,9 @@ qualities:
     name: WEBDL-720p
 - id: 15
   name: WEBRip-720p
-- description: Standard Definition Fallbacks
-  id: -4
+- id: -4
   name: SD Fallback
+  description: Standard Definition Fallbacks
   qualities:
   - id: 18
     name: Bluray-480p
@@ -228,16 +268,8 @@ qualities:
     name: DVD
 - id: 20
   name: WEBRip-480p
-tags:
-- 2160p
-- Quality Focused
-- HDR
-- Lossless Audio
-- x265
-- h265
-upgradeUntilScore: 400000
 upgrade_until:
-  description: Indistinguishable from source
   id: -1
   name: 2160p Transparent
-upgradesAllowed: true
+  description: Indistinguishable from source
+language: must_original
