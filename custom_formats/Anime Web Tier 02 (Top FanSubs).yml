@@ -14,74 +14,94 @@ conditions:
   required: false
   negate: false
   source: webrip
-- name: Arg0
+- name: 0x539
   type: release_group
   required: false
   negate: false
-  pattern: Arg0
-- name: Arid
+  pattern: 0x539
+- name: Asakura
   type: release_group
   required: false
   negate: false
-  pattern: Arid
-- name: Baws
+  pattern: Asakura
+- name: Cyan
   type: release_group
   required: false
   negate: false
-  pattern: Baws
-- name: LostYears
+  pattern: Cyan
+- name: Dae
   type: release_group
   required: false
   negate: false
-  pattern: LostYears
-- name: LYS1TH3A
+  pattern: Dae
+- name: Foxtrot
   type: release_group
   required: false
   negate: false
-  pattern: LYS1TH3A
-- name: McBalls
+  pattern: Foxtrot
+- name: Gao
   type: release_group
   required: false
   negate: false
-  pattern: McBalls
-- name: sam
+  pattern: Gao
+- name: GSK_kun
   type: release_group
   required: false
   negate: false
-  pattern: sam
-- name: SCY
+  pattern: GSK_kun
+- name: Half-Baked
   type: release_group
   required: false
   negate: false
-  pattern: SCY
-- name: Setsugen
+  pattern: Half-Baked
+- name: HatSubs
   type: release_group
   required: false
   negate: false
-  pattern: Setsugen
-- name: smol
+  pattern: HatSubs
+- name: MALD
   type: release_group
   required: false
   negate: false
-  pattern: smol
-- name: SoM
+  pattern: MALD
+- name: MTBB
   type: release_group
   required: false
   negate: false
-  pattern: SoM
-- name: Vodes
+  pattern: MTBB
+- name: Not-Vodes
   type: release_group
   required: false
   negate: false
-  pattern: Vodes
-- name: Z4ST1N
+  pattern: Not-Vodes
+- name: Okay-Subs
   type: release_group
   required: false
   negate: false
-  pattern: Z4ST1N
-- name: ZeroBuild
+  pattern: Okay-Subs
+- name: Pizza
   type: release_group
   required: false
   negate: false
-  pattern: ZeroBuild
+  pattern: Pizza
+- name: Reza
+  type: release_group
+  required: false
+  negate: false
+  pattern: Reza
+- name: Slyfox
+  type: release_group
+  required: false
+  negate: false
+  pattern: Slyfox
+- name: SoLCE
+  type: release_group
+  required: false
+  negate: false
+  pattern: SoLCE
+- name: Tenshi
+  type: release_group
+  required: false
+  negate: false
+  pattern: Tenshi
 tests: []
