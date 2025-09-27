@@ -30,6 +30,8 @@ custom_formats:
   score: 83000
 - name: 1080p Quality Tier 3
   score: 82000
+- name: Anime BD Tier 03 (SeaDex Muxers)
+  score: 82000
 - name: 1080p Quality Tier 4
   score: 81000
 - name: 1080p Quality Tier 5
