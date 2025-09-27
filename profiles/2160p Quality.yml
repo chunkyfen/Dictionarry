@@ -27,15 +27,7 @@ custom_formats:
   score: 303000
 - name: 2160p Quality Tier 3
   score: 302000
-- name: 2160p Quality Tier 4
-  score: 301000
-- name: 2160p Quality Tier 5
-  score: 300000
-- name: 2160p Quality Tier 6
-  score: 261000
 - name: 2160p Bluray
-  score: 260000
-- name: 2160p Quality Tier 7
   score: 260000
 - name: 2160p WEB-DL
   score: 260000
