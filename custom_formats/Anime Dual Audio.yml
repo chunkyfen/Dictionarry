@@ -1,0 +1,11 @@
+name: Anime Dual Audio
+description: This Custom Format covers releases that have Dual Audio
+tags:
+- Anime
+conditions:
+- name: Dual Audio
+  type: release_title
+  required: true
+  negate: false
+  pattern: Dual Audio
+tests: []

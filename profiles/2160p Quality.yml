@@ -107,6 +107,8 @@ custom_formats:
   score: 20000
 - name: Dolby Vision
   score: 3000
+- name: Anime Dual Audio
+  score: 1000
 - name: HDR
   score: 1000
 - name: HDR10

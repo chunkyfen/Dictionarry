@@ -72,6 +72,8 @@ custom_formats:
   score: 11000
 - name: SD Quality Tier 2
   score: 10000
+- name: Anime Dual Audio
+  score: 1000
 - name: WEB-DL Tier 1
   score: 100
 - name: WEB-DL Tier 2
