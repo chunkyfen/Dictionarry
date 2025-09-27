@@ -35,7 +35,7 @@ conditions:
   pattern: TDD
   required: false
   type: release_group
-  - name: Chotab
+- name: Chotab
   negate: false
   pattern: Chotab
   required: false
