@@ -64,6 +64,18 @@ custom_formats:
   score: 75000
 - name: 720p WEB-DL
   score: 75000
+- name: Anime Web Tier 01 (Muxers)
+  score: 70000
+- name: Anime Web Tier 02 (Top FanSubs)
+  score: 69000
+- name: Anime Web Tier 03 (Official Subs)
+  score: 68000
+- name: Anime Web Tier 04 (Official Subs)
+  score: 67000
+- name: Anime Web Tier 05 (FanSubs)
+  score: 66000
+- name: Anime Web Tier 06 (FanSubs)
+  score: 65000
 - name: 720p WEBRip
   score: 40000
 - name: 480p WEB-DL
