@@ -1,0 +1,7 @@
+name: BlueLobster
+pattern: (?<=^|[\s.-])BlueLobster\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

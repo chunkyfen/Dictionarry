@@ -1,0 +1,7 @@
+name: DameDesuYo
+pattern: (?<=^|[\s.-])DameDesuYo\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

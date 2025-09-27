@@ -1,0 +1,7 @@
+name: Some-Stuffs
+pattern: (?<=^|[\s.-])Some-Stuffs\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

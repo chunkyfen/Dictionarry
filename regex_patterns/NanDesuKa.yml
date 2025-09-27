@@ -1,0 +1,7 @@
+name: NanDesuKa
+pattern: (?<=^|[\s.-])NanDesuKa\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

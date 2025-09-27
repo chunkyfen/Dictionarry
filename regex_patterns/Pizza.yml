@@ -1,0 +1,7 @@
+name: Pizza
+pattern: (?<=^|[\s.-])Pizza\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

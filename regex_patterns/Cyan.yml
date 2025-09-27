@@ -1,0 +1,7 @@
+name: Cyan
+pattern: (?<=^|[\s.-])Cyan\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

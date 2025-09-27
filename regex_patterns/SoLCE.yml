@@ -1,0 +1,7 @@
+name: SoLCE
+pattern: (?<=^|[\s.-])SoLCE\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

@@ -1,0 +1,7 @@
+name: GJM
+pattern: (?<=^|[\s.-])GJM\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

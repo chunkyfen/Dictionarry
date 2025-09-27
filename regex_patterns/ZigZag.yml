@@ -1,0 +1,7 @@
+name: ZigZag
+pattern: (?<=^|[\s.-])ZigZag\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

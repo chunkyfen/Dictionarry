@@ -1,0 +1,7 @@
+name: HatSubs
+pattern: (?<=^|[\s.-])HatSubs\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

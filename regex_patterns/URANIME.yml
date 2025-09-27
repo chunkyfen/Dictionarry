@@ -1,0 +1,7 @@
+name: URANIME
+pattern: (?<=^|[\s.-])URANIME\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

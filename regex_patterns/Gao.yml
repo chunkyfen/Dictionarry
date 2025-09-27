@@ -1,0 +1,7 @@
+name: Gao
+pattern: (?<=^|[\s.-])Gao\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

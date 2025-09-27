@@ -1,0 +1,7 @@
+name: SobsPlease
+pattern: (?<=^|[\s.-])SobsPlease\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []
