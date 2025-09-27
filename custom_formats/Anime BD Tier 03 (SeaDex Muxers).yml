@@ -1,0 +1,15 @@
+name: Anime BD Tier 03 (SeaDex Muxers)
+description: Matches release groups who fall under Anime BD Tier 03 (SeaDex Muxers)
+tags: []
+conditions:
+- name: AC
+  type: release_group
+  required: false
+  negate: false
+  pattern: AC
+- name: ASC
+  type: release_group
+  required: false
+  negate: false
+  pattern: ASC
+tests: []
