@@ -1,0 +1,7 @@
+name: NTRM
+pattern: (?<=^|[\s.-])NTRM\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

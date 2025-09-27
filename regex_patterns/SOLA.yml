@@ -1,0 +1,7 @@
+name: SOLA
+pattern: (?<=^|[\s.-])SOLA\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

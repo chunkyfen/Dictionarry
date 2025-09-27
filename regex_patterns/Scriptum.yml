@@ -1,0 +1,7 @@
+name: Scriptum
+pattern: (?<=^|[\s.-])Scriptum\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

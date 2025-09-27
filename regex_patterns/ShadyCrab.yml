@@ -1,0 +1,7 @@
+name: ShadyCrab
+pattern: (?<=^|[\s.-])ShadyCrab\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

@@ -1,0 +1,7 @@
+name: RMX
+pattern: (?<=^|[\s.-])RMX\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

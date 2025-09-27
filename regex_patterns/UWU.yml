@@ -1,0 +1,7 @@
+name: UWU
+pattern: (?<=^|[\s.-])UWU\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []
