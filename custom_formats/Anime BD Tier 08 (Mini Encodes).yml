@@ -4,94 +4,59 @@ tags:
 - Release Group Tier
 - Anime
 conditions:
-- name: A-L
-  negate: false
-  pattern: A-L
-  required: false
+- name: AkihitoSubs
   type: release_group
-- name: ANiHLS
-  negate: false
-  pattern: ANiHLS
   required: false
-  type: release_group
-- name: CBM
   negate: false
-  pattern: CBM
-  required: false
+  pattern: AkihitoSubs
+- name: Arukoru
   type: release_group
-- name: DHD
+  required: false
   negate: false
-  pattern: DHD
-  required: false
+  pattern: Arukoru
+- name: EDGE
   type: release_group
-- name: DragsterPS
+  required: false
   negate: false
-  pattern: DragsterPS
-  required: false
+  pattern: EDGE
+- name: EMBER
   type: release_group
-- name: HAiKU
+  required: false
   negate: false
-  pattern: HAiKU
-  required: false
+  pattern: EMBER
+- name: GHOST
   type: release_group
-- name: Hark0N
+  required: false
   negate: false
-  pattern: Hark0N
-  required: false
+  pattern: GHOST
+- name: Judas
   type: release_group
-- name: iAHD
+  required: false
   negate: false
-  pattern: iAHD
-  required: false
+  pattern: Judas
+- name: naiyas
   type: release_group
-- name: inid4c
+  required: false
   negate: false
-  pattern: inid4c
-  required: false
+  pattern: naiyas
+- name: Nep_Blanc
   type: release_group
-- name: KiyoshiStar
+  required: false
   negate: false
-  pattern: KiyoshiStar
-  required: false
+  pattern: Nep_Blanc
+- name: Prof
   type: release_group
-- name: MCR
+  required: false
   negate: false
-  pattern: MCR
-  required: false
+  pattern: Prof
+- name: Shirσ
   type: release_group
-- name: NPC
+  required: false
   negate: false
-  pattern: NPC
-  required: false
+  pattern: Shirσ
+- name: YURASAKA
   type: release_group
-- name: RedBlade
+  required: false
   negate: false
-  pattern: RedBlade
-  required: false
-  type: release_group
-- name: RH
-  negate: false
-  pattern: RH
-  required: false
-  type: release_group
-- name: SEV
-  negate: false
-  pattern: SEV
-  required: false
-  type: release_group
-- name: STRiFE
-  negate: false
-  pattern: STRiFE
-  required: false
-  type: release_group
-- name: TENEIGHTY
-  negate: false
-  pattern: TENEIGHTY
-  required: false
-  type: release_group
-- name: WaLMaRT
-  negate: false
-  pattern: WaLMaRT
-  required: false
-  type: release_group
+  pattern: YURASAKA
 tests: []
