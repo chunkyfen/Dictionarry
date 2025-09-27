@@ -15,34 +15,4 @@ conditions:
   required: true
   source: bluray
   type: source
-- name: Chotab
-  negate: false
-  pattern: Chotab
-  required: false
-  type: release_group
-- name: Kitsune
-  negate: false
-  pattern: Kitsune
-  required: false
-  type: release_group
-- name: REBORN
-  negate: false
-  pattern: REBORN
-  required: false
-  type: release_group
-- name: HONE
-  negate: false
-  pattern: HONE
-  required: false
-  type: release_group
-- name: BHDStudio
-  negate: false
-  pattern: BHDStudio
-  required: false
-  type: release_group
-- name: hallowed
-  type: release_group
-  required: false
-  negate: false
-  pattern: hallowed
 tests: []
