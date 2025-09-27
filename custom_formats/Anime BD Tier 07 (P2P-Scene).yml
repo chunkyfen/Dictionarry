@@ -1,227 +1,192 @@
-name: Anime BD Tier 04 (SeaDex Muxers)
-description: Matches release groups who fall under Anime BD Tier 04 (SeaDex Muxers)
+name: Anime BD Tier 07 (P2P-Scene)
+description: Matches release groups who fall under Anime BD Tier 07 (P2P/Scene)
 tags:
 - Release Group Tier
 - Anime
 conditions:
-- name: 9volt
+- name: Afro
   negate: false
-  pattern: 9volt
+  pattern: Afro
   required: false
   type: release_group
-- name: AOmundson
+- name: Akai
   negate: false
-  pattern: AOmundson
+  pattern: Akai
   required: false
   type: release_group
-- name: Asakura
+- name: Almighty
   negate: false
-  pattern: Asakura
+  pattern: Almighty
   required: false
   type: release_group
-- name: ASO
+- name: ANE
   negate: false
-  pattern: ASO
+  pattern: ANE
   required: false
   type: release_group
-- name: Bolshevik
+- name: Asenshi
   negate: false
-  pattern: Bolshevik
+  pattern: Asenshi
   required: false
   type: release_group
-- name: Bulldog
+- name: BlurayDesuYo
   negate: false
-  pattern: Bulldog
+  pattern: BlurayDesuYo
   required: false
   type: release_group
-- name: Cait-Sidhe
+- name: Bunny-Apocalypse
   negate: false
-  pattern: Cait-Sidhe
+  pattern: Bunny-Apocalypse
   required: false
   type: release_group
-- name: Chihiro
+- name: CH
   negate: false
-  pattern: Chihiro
+  pattern: CH
   required: false
   type: release_group
-- name: Chimera
+- name: EJF
   negate: false
-  pattern: Chimera
+  pattern: EJF
   required: false
   type: release_group
-- name: CoalGirls
+- name: Exiled-Destiny
   negate: false
-  pattern: CoalGirls
+  pattern: Exiled-Destiny
   required: false
   type: release_group
-- name: Commie
+- name: FFF
   negate: false
-  pattern: Commie
+  pattern: FFF
   required: false
   type: release_group
-- name: D3
+- name: Final8
   negate: false
-  pattern: D3
+  pattern: Final8
   required: false
   type: release_group
-- name: Davinci
+- name: GS
   negate: false
-  pattern: Davinci
+  pattern: GS
   required: false
   type: release_group
-- name: deanzel
+- name: Harunatsu
   negate: false
-  pattern: deanzel
+  pattern: Harunatsu
   required: false
   type: release_group
-- name: Doki
+- name: Impatience
   negate: false
-  pattern: Doki
+  pattern: Impatience
   required: false
   type: release_group
-- name: Dragon-Releases
+- name: Inka-Subs
   negate: false
-  pattern: Dragon-Releases
+  pattern: Inka-Subs
   required: false
   type: release_group
-- name: Foxtrot
+- name: Judgement
   negate: false
-  pattern: Foxtrot
+  pattern: Judgement
   required: false
   type: release_group
-- name: GHS
+- name: Kantai
   negate: false
-  pattern: GHS
+  pattern: Kantai
   required: false
   type: release_group
-- name: HaiveMind
+- name: LCE
   negate: false
-  pattern: HaiveMind
+  pattern: LCE
   required: false
   type: release_group
-- name: hchcsen
+- name: Licca
   negate: false
-  pattern: hchcsen
+  pattern: Licca
   required: false
   type: release_group
-- name: Iznjie Biznjie
+- name: Nii-sama
   negate: false
-  pattern: Iznjie Biznjie
+  pattern: Nii-sama
   required: false
   type: release_group
-- name: Kaleido
+- name: niizk
   negate: false
-  pattern: Kaleido
+  pattern: niizk
   required: false
   type: release_group
-- name: karios
+- name: Nishi-Taku
   negate: false
-  pattern: karios
+  pattern: Nishi-Taku
   required: false
   type: release_group
-- name: kBaraka
+- name: OnDeed
   negate: false
-  pattern: kBaraka
+  pattern: OnDeed
   required: false
   type: release_group
-- name: kmplx
+- name: orz
   negate: false
-  pattern: kmplx
+  pattern: orz
   required: false
   type: release_group
-- name: Koitern
+- name: PAS
   negate: false
-  pattern: Koitern
+  pattern: PAS
   required: false
   type: release_group
-- name: Koten_Gars
+- name: peachflavored
   negate: false
-  pattern: Koten_Gars
+  pattern: peachflavored
   required: false
   type: release_group
-- name: Kulot
+- name: Saizen
   negate: false
-  pattern: Kulot
+  pattern: Saizen
   required: false
   type: release_group
-- name: Lia
+- name: SCP-2223
   negate: false
-  pattern: Lia
+  pattern: SCP-2223
   required: false
   type: release_group
-- name: MCLR
+- name: SHiN-gx
   negate: false
-  pattern: MCLR
+  pattern: SHiN-gx
   required: false
   type: release_group
-- name: mottoj
+- name: SmugCat
   negate: false
-  pattern: mottoj
+  pattern: SmugCat
   required: false
   type: release_group
-- name: NH
+- name: Soldado
   negate: false
-  pattern: NH
+  pattern: Soldado
   required: false
   type: release_group
-- name: NTRM
+- name: Sushi
   negate: false
-  pattern: NTRM
+  pattern: Sushi
   required: false
   type: release_group
-- name: Orphan
+- name: Vivid
   negate: false
-  pattern: Orphan
+  pattern: Vivid
   required: false
   type: release_group
-- name: RMX
+- name: Watashi
   negate: false
-  pattern: RMX
+  pattern: Watashi
   required: false
   type: release_group
-- name: SallySubs
+- name: Yabai
   negate: false
-  pattern: SallySubs
+  pattern: Yabai
   required: false
   type: release_group
-- name: Scriptum
+- name: Zurako
   negate: false
-  pattern: Scriptum
-  required: false
-  type: release_group
-- name: ShadyCrab
-  negate: false
-  pattern: ShadyCrab
-  required: false
-  type: release_group
-- name: SNSbu
-  negate: false
-  pattern: SNSbu
-  required: false
-  type: release_group
-- name: SOLA
-  negate: false
-  pattern: SOLA
-  required: false
-  type: release_group
-- name: THORA
-  negate: false
-  pattern: THORA
-  required: false
-  type: release_group
-- name: Tsundere
-  negate: false
-  pattern: Tsundere
-  required: false
-  type: release_group
-- name: UWU
-  negate: false
-  pattern: UWU
-  required: false
-  type: release_group
-- name: xPearse
-  negate: false
-  pattern: xPearse
+  pattern: Zurako
   required: false
   type: release_group
 tests: []

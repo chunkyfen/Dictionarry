@@ -5,188 +5,188 @@ tags:
 - Anime
 conditions:
 - name: Afro
-  type: release_group
-  required: false
   negate: false
   pattern: Afro
-- name: Akai
-  type: release_group
   required: false
+  type: release_group
+- name: Akai
   negate: false
   pattern: Akai
-- name: Almighty
-  type: release_group
   required: false
+  type: release_group
+- name: Almighty
   negate: false
   pattern: Almighty
-- name: ANE
-  type: release_group
   required: false
+  type: release_group
+- name: ANE
   negate: false
   pattern: ANE
-- name: Asenshi
-  type: release_group
   required: false
+  type: release_group
+- name: Asenshi
   negate: false
   pattern: Asenshi
-- name: BlurayDesuYo
-  type: release_group
   required: false
+  type: release_group
+- name: BlurayDesuYo
   negate: false
   pattern: BlurayDesuYo
-- name: Bunny-Apocalypse
-  type: release_group
   required: false
+  type: release_group
+- name: Bunny-Apocalypse
   negate: false
   pattern: Bunny-Apocalypse
-- name: CH
-  type: release_group
   required: false
+  type: release_group
+- name: CH
   negate: false
   pattern: CH
-- name: EJF
-  type: release_group
   required: false
+  type: release_group
+- name: EJF
   negate: false
   pattern: EJF
-- name: Exiled-Destiny
-  type: release_group
   required: false
+  type: release_group
+- name: Exiled-Destiny
   negate: false
   pattern: Exiled-Destiny
-- name: FFF
-  type: release_group
   required: false
+  type: release_group
+- name: FFF
   negate: false
   pattern: FFF
-- name: Final8
-  type: release_group
   required: false
+  type: release_group
+- name: Final8
   negate: false
   pattern: Final8
-- name: GS
-  type: release_group
   required: false
+  type: release_group
+- name: GS
   negate: false
   pattern: GS
-- name: Harunatsu
-  type: release_group
   required: false
+  type: release_group
+- name: Harunatsu
   negate: false
   pattern: Harunatsu
-- name: Impatience
-  type: release_group
   required: false
+  type: release_group
+- name: Impatience
   negate: false
   pattern: Impatience
-- name: Inka-Subs
-  type: release_group
   required: false
+  type: release_group
+- name: Inka-Subs
   negate: false
   pattern: Inka-Subs
-- name: Judgement
-  type: release_group
   required: false
+  type: release_group
+- name: Judgement
   negate: false
   pattern: Judgement
-- name: Kantai
-  type: release_group
   required: false
+  type: release_group
+- name: Kantai
   negate: false
   pattern: Kantai
-- name: LCE
-  type: release_group
   required: false
+  type: release_group
+- name: LCE
   negate: false
   pattern: LCE
-- name: Licca
-  type: release_group
   required: false
+  type: release_group
+- name: Licca
   negate: false
   pattern: Licca
-- name: Nii-sama
-  type: release_group
   required: false
+  type: release_group
+- name: Nii-sama
   negate: false
   pattern: Nii-sama
-- name: niizk
-  type: release_group
   required: false
+  type: release_group
+- name: niizk
   negate: false
   pattern: niizk
-- name: Nishi-Taku
-  type: release_group
   required: false
+  type: release_group
+- name: Nishi-Taku
   negate: false
   pattern: Nishi-Taku
-- name: OnDeed
-  type: release_group
   required: false
+  type: release_group
+- name: OnDeed
   negate: false
   pattern: OnDeed
-- name: orz
-  type: release_group
   required: false
+  type: release_group
+- name: orz
   negate: false
   pattern: orz
-- name: PAS
-  type: release_group
   required: false
+  type: release_group
+- name: PAS
   negate: false
   pattern: PAS
-- name: peachflavored
-  type: release_group
   required: false
+  type: release_group
+- name: peachflavored
   negate: false
   pattern: peachflavored
-- name: Saizen
-  type: release_group
   required: false
+  type: release_group
+- name: Saizen
   negate: false
   pattern: Saizen
-- name: SCP-2223
-  type: release_group
   required: false
+  type: release_group
+- name: SCP-2223
   negate: false
   pattern: SCP-2223
-- name: SHiN-gx
-  type: release_group
   required: false
+  type: release_group
+- name: SHiN-gx
   negate: false
   pattern: SHiN-gx
-- name: SmugCat
-  type: release_group
   required: false
+  type: release_group
+- name: SmugCat
   negate: false
   pattern: SmugCat
-- name: Soldado
-  type: release_group
   required: false
+  type: release_group
+- name: Soldado
   negate: false
   pattern: Soldado
-- name: Sushi
-  type: release_group
   required: false
+  type: release_group
+- name: Sushi
   negate: false
   pattern: Sushi
-- name: Vivid
-  type: release_group
   required: false
+  type: release_group
+- name: Vivid
   negate: false
   pattern: Vivid
-- name: Watashi
-  type: release_group
   required: false
+  type: release_group
+- name: Watashi
   negate: false
   pattern: Watashi
-- name: Yabai
-  type: release_group
   required: false
+  type: release_group
+- name: Yabai
   negate: false
   pattern: Yabai
-- name: Zurako
-  type: release_group
   required: false
+  type: release_group
+- name: Zurako
   negate: false
-  pattern: 
+  pattern: Zurako
+  required: false
+  type: release_group
 tests: []

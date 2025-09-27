@@ -5,48 +5,48 @@ tags:
 - Anime
 conditions:
 - name: BluDragon
-  type: release_group
-  required: false
   negate: false
   pattern: BluDragon
-- name: D4C
-  type: release_group
   required: false
+  type: release_group
+- name: D4C
   negate: false
   pattern: D4C
-- name: E.N.D
-  type: release_group
   required: false
+  type: release_group
+- name: E.N.D
   negate: false
   pattern: E.N.D
-- name: PMR
-  type: release_group
   required: false
+  type: release_group
+- name: PMR
   negate: false
   pattern: PMR
-- name: Raizel
-  type: release_group
   required: false
+  type: release_group
+- name: Raizel
   negate: false
   pattern: Raizel
-- name: REVO
-  type: release_group
   required: false
+  type: release_group
+- name: REVO
   negate: false
   pattern: REVO
-- name: SRLS
-  type: release_group
   required: false
+  type: release_group
+- name: SRLS
   negate: false
   pattern: SRLS
-- name: TTGA
-  type: release_group
   required: false
+  type: release_group
+- name: TTGA
   negate: false
   pattern: TTGA
-- name: VULCAN
-  type: release_group
   required: false
+  type: release_group
+- name: VULCAN
   negate: false
   pattern: VULCAN
+  required: false
+  type: release_group
 tests: []

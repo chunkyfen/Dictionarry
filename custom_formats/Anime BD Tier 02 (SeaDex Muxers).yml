@@ -5,10 +5,10 @@ tags:
 - Anime
 conditions:
 - name: '0x539'
-  type: release_group
-  required: false
   negate: false
   pattern: Headpatter
+  required: false
+  type: release_group
 - name: Alt
   negate: false
   pattern: Alt
