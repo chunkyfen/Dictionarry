@@ -4,49 +4,189 @@ tags:
 - Release Group Tier
 - Anime
 conditions:
-- name: BluDragon
-  negate: false
-  pattern: BluDragon
-  required: false
+- name: Afro
   type: release_group
-- name: D4C
-  negate: false
-  pattern: D4C
   required: false
-  type: release_group
-- name: E.N.D
   negate: false
-  pattern: E.N.D
-  required: false
+  pattern: Afro
+- name: Akai
   type: release_group
-- name: PMR
+  required: false
   negate: false
-  pattern: PMR
-  required: false
+  pattern: Akai
+- name: Almighty
   type: release_group
-- name: Raizel
+  required: false
   negate: false
-  pattern: Raizel
-  required: false
+  pattern: Almighty
+- name: ANE
   type: release_group
-- name: REVO
+  required: false
   negate: false
-  pattern: REVO
-  required: false
+  pattern: ANE
+- name: Asenshi
   type: release_group
-- name: SRLS
+  required: false
   negate: false
-  pattern: SRLS
-  required: false
+  pattern: Asenshi
+- name: BlurayDesuYo
   type: release_group
-- name: TTGA
+  required: false
   negate: false
-  pattern: TTGA
-  required: false
+  pattern: BlurayDesuYo
+- name: Bunny-Apocalypse
   type: release_group
-- name: VULCAN
+  required: false
   negate: false
-  pattern: VULCAN
-  required: false
+  pattern: Bunny-Apocalypse
+- name: CH
   type: release_group
+  required: false
+  negate: false
+  pattern: CH
+- name: EJF
+  type: release_group
+  required: false
+  negate: false
+  pattern: EJF
+- name: Exiled-Destiny
+  type: release_group
+  required: false
+  negate: false
+  pattern: Exiled-Destiny
+- name: FFF
+  type: release_group
+  required: false
+  negate: false
+  pattern: FFF
+- name: Final8
+  type: release_group
+  required: false
+  negate: false
+  pattern: Final8
+- name: GS
+  type: release_group
+  required: false
+  negate: false
+  pattern: GS
+- name: Harunatsu
+  type: release_group
+  required: false
+  negate: false
+  pattern: Harunatsu
+- name: Impatience
+  type: release_group
+  required: false
+  negate: false
+  pattern: Impatience
+- name: Inka-Subs
+  type: release_group
+  required: false
+  negate: false
+  pattern: Inka-Subs
+- name: Judgement
+  type: release_group
+  required: false
+  negate: false
+  pattern: Judgement
+- name: Kantai
+  type: release_group
+  required: false
+  negate: false
+  pattern: Kantai
+- name: LCE
+  type: release_group
+  required: false
+  negate: false
+  pattern: LCE
+- name: Licca
+  type: release_group
+  required: false
+  negate: false
+  pattern: Licca
+- name: Nii-sama
+  type: release_group
+  required: false
+  negate: false
+  pattern: Nii-sama
+- name: niizk
+  type: release_group
+  required: false
+  negate: false
+  pattern: niizk
+- name: Nishi-Taku
+  type: release_group
+  required: false
+  negate: false
+  pattern: Nishi-Taku
+- name: OnDeed
+  type: release_group
+  required: false
+  negate: false
+  pattern: OnDeed
+- name: orz
+  type: release_group
+  required: false
+  negate: false
+  pattern: orz
+- name: PAS
+  type: release_group
+  required: false
+  negate: false
+  pattern: PAS
+- name: peachflavored
+  type: release_group
+  required: false
+  negate: false
+  pattern: peachflavored
+- name: Saizen
+  type: release_group
+  required: false
+  negate: false
+  pattern: Saizen
+- name: SCP-2223
+  type: release_group
+  required: false
+  negate: false
+  pattern: SCP-2223
+- name: SHiN-gx
+  type: release_group
+  required: false
+  negate: false
+  pattern: SHiN-gx
+- name: SmugCat
+  type: release_group
+  required: false
+  negate: false
+  pattern: SmugCat
+- name: Soldado
+  type: release_group
+  required: false
+  negate: false
+  pattern: Soldado
+- name: Sushi
+  type: release_group
+  required: false
+  negate: false
+  pattern: Sushi
+- name: Vivid
+  type: release_group
+  required: false
+  negate: false
+  pattern: Vivid
+- name: Watashi
+  type: release_group
+  required: false
+  negate: false
+  pattern: Watashi
+- name: Yabai
+  type: release_group
+  required: false
+  negate: false
+  pattern: Yabai
+- name: Zurako
+  type: release_group
+  required: false
+  negate: false
+  pattern: 
 tests: []
