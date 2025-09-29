@@ -80,8 +80,6 @@ custom_formats:
   score: 40000
 - name: 480p WEB-DL
   score: 20000
-- name: Criterion Collection
-  score: 20000
 - name: DVD
   score: 20000
 - name: DVD Remux

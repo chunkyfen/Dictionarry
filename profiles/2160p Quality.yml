@@ -21,16 +21,24 @@ minCustomFormatScore: 20000
 upgradeUntilScore: 400000
 minScoreIncrement: 1
 custom_formats:
-- name: 2160p Quality Tier 1
-  score: 304000
-- name: 2160p Quality Tier 2
-  score: 303000
-- name: 2160p Quality Tier 3
-  score: 302000
 - name: 2160p Bluray
-  score: 260000
+  score: 200000
 - name: 2160p WEB-DL
-  score: 260000
+  score: 200000
+- name: 1080p Bluray
+  score: 105000
+- name: 1080p WEB-DL
+  score: 105000
+- name: 2160p Quality Tier 1
+  score: 104000
+- name: IMAX
+  score: 104000
+- name: IMAX Enhanced
+  score: 104000
+- name: 2160p Quality Tier 2
+  score: 103000
+- name: 2160p Quality Tier 3
+  score: 102000
 - name: Anime BD Tier 01 (Top SeaDex Muxers)
   score: 100000
 - name: Anime BD Tier 02 (SeaDex Muxers)
@@ -51,10 +59,6 @@ custom_formats:
   score: 80000
 - name: Anime BD Tier 05 (Remuxes)
   score: 80000
-- name: IMAX
-  score: 80000
-- name: IMAX Enhanced
-  score: 80000
 - name: Anime BD Tier 06 (FanSubs)
   score: 75000
 - name: 1080p Balanced Tier 1
@@ -63,10 +67,6 @@ custom_formats:
   score: 70000
 - name: Anime BD Tier 08 (Mini Encodes)
   score: 65000
-- name: 1080p Bluray
-  score: 60000
-- name: 1080p WEB-DL
-  score: 60000
 - name: Anime Web Tier 01 (Muxers)
   score: 60000
 - name: 1080p Bluray HEVC Tier 1
@@ -104,8 +104,6 @@ custom_formats:
 - name: 720p WEB-DL
   score: 20000
 - name: 720p WEBRip
-  score: 20000
-- name: Criterion Collection
   score: 20000
 - name: SD Quality Tier 1
   score: 20000

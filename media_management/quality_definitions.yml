@@ -9,8 +9,8 @@ qualityDefinitions:
       min: 30
       preferred: 243
     Bluray-2160p:
-      max: 253
-      min: 51
+      max: 282
+      min: 137
       preferred: 243
     Bluray-480p:
       max: 2000
@@ -45,9 +45,9 @@ qualityDefinitions:
       min: 30
       preferred: 243
     HDTV-2160p:
-      max: 253
-      min: 51
-      preferred: 243
+      max: 282
+      min: 137
+      preferred: 237
     HDTV-720p:
       max: 2000
       min: 0
@@ -65,8 +65,8 @@ qualityDefinitions:
       min: 30
       preferred: 243
     Remux-2160p:
-      max: 253
-      min: 51
+      max: 282
+      min: 137
       preferred: 243
     SDTV:
       max: 2000
@@ -89,8 +89,8 @@ qualityDefinitions:
       min: 30
       preferred: 243
     WEBDL-2160p:
-      max: 253
-      min: 51
+      max: 282
+      min: 137
       preferred: 243
     WEBDL-480p:
       max: 2000
@@ -105,8 +105,8 @@ qualityDefinitions:
       min: 30
       preferred: 243
     WEBRip-2160p:
-      max: 253
-      min: 51
+      max: 282
+      min: 137
       preferred: 243
     WEBRip-480p:
       max: 2000

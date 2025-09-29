@@ -3,4 +3,10 @@ pattern: \\b(CC)\\b
 description: Criterion Collection
 tags:
 - Release title
-tests: []
+tests:
+- id: 1
+  input: Bottle Rocket (1994) {tmdb-56149} [Bluray-1080p][AC3 1.0][x264]-CiNEFiLE.mkv
+  expected: false
+- id: 2
+  input: Bottle.Rocket.CC.1994.Bluray-1080p.AC3 1.0.x264.CiNEFiLE.mkv
+  expected: true
