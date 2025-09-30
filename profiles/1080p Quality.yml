@@ -14,80 +14,90 @@ minCustomFormatScore: 20000
 upgradeUntilScore: 400000
 minScoreIncrement: 1
 custom_formats:
+custom_formats:
+  score: 200000
+  score: 200000
 - name: 1080p Bluray
-  score: 200000
+  score: 105000
 - name: 1080p WEB-DL
-  score: 200000
-- name: 1080p Quality Tier 1
-  score: 84000
+  score: 105000
+  score: 104000
+- name: IMAX
+  score: 104000
+- name: IMAX Enhanced
+  score: 104000
+  score: 103000
+  score: 102000
 - name: Anime BD Tier 01 (Top SeaDex Muxers)
+  score: 100000
+- name: Anime BD Tier 02 (SeaDex Muxers)
+  score: 95000
+- name: Anime BD Tier 03 (SeaDex Muxers)
+  score: 90000
+- name: Anime BD Tier 04 (SeaDex Muxers)
+  score: 85000
+- name: 1080p Quality Tier 1
   score: 84000
 - name: 1080p Quality Tier 2
   score: 83000
-- name: Anime BD Tier 02 (SeaDex Muxers)
-  score: 83000
 - name: 1080p Quality Tier 3
-  score: 82000
-- name: Anime BD Tier 03 (SeaDex Muxers)
   score: 82000
 - name: 1080p Quality Tier 4
   score: 81000
-- name: Anime BD Tier 04 (SeaDex Muxers)
-  score: 81000
-- name: 1080p Balanced Tier 1
-  score: 80000
 - name: 1080p Quality Tier 5
   score: 80000
 - name: Anime BD Tier 05 (Remuxes)
   score: 80000
-- name: 1080p WEBRip
-  score: 79000
 - name: Anime BD Tier 06 (FanSubs)
-  score: 79000
-- name: Anime BD Tier 07 (P2P-Scene)
-  score: 78000
-- name: Anime BD Tier 08 (Mini Encodes)
-  score: 77000
-- name: 720p Quality Tier 1
-  score: 76800
-- name: 720p Quality Tier 2
-  score: 76700
-- name: 720p Quality Tier 3
-  score: 76600
-- name: 720p Quality Tier 4
-  score: 76500
-- name: 720p Quality Tier 5
-  score: 76000
-- name: 720p Balanced Tier 1
   score: 75000
-- name: 720p Bluray
-  score: 75000
-- name: 720p WEB-DL
-  score: 75000
-- name: Anime Web Tier 01 (Muxers)
+- name: 1080p Balanced Tier 1
   score: 70000
-- name: Anime Web Tier 02 (Top FanSubs)
-  score: 69000
-- name: Anime Web Tier 03 (Official Subs)
-  score: 68000
-- name: Anime Web Tier 04 (Official Subs)
-  score: 67000
-- name: Anime Web Tier 05 (FanSubs)
-  score: 66000
-- name: Anime Web Tier 06 (FanSubs)
+- name: Anime BD Tier 07 (P2P-Scene)
+  score: 70000
+- name: Anime BD Tier 08 (Mini Encodes)
   score: 65000
-- name: 720p WEBRip
+- name: Anime Web Tier 01 (Muxers)
+  score: 60000
+- name: 1080p Bluray HEVC Tier 1
+  score: 59000
+- name: Anime Web Tier 02 (Top FanSubs)
+  score: 59000
+- name: 1080p WEB-DL HEVC Tier 1
+  score: 58500
+- name: Anime Web Tier 03 (Official Subs)
+  score: 58000
+- name: Anime Web Tier 04 (Official Subs)
+  score: 57000
+- name: Anime Web Tier 05 (FanSubs)
+  score: 56000
+- name: Anime Web Tier 06 (FanSubs)
+  score: 55000
+- name: 1080p WEBRip
+  score: 50000
+- name: 720p Quality Tier 1
+  score: 44000
+- name: 720p Quality Tier 2
+  score: 43000
+- name: 720p Quality Tier 3
+  score: 42000
+- name: 720p Quality Tier 4
+  score: 41000
+- name: 720p Quality Tier 5
   score: 40000
 - name: 480p WEB-DL
   score: 20000
-- name: DVD
+- name: 720p Balanced Tier 1
   score: 20000
-- name: DVD Remux
+- name: 720p Bluray
+  score: 20000
+- name: 720p WEB-DL
+  score: 20000
+- name: 720p WEBRip
   score: 20000
 - name: SD Quality Tier 1
-  score: 11000
+  score: 20000
 - name: SD Quality Tier 2
-  score: 10000
+  score: 20000
 - name: WEB-DL Tier 1
   score: 100
 - name: WEB-DL Tier 2
@@ -104,6 +114,14 @@ custom_formats:
   score: 7
 - name: Repack1
   score: 6
+- name: Dolby Vision
+  score: 0
+- name: HDR
+  score: 0
+- name: HDR10
+  score: 0
+- name: HDR10+
+  score: 0
 - name: Anime LQ Groups
   score: -999999
 - name: Anime Raws
@@ -116,31 +134,74 @@ custom_formats:
   score: -999999
 - name: Banned Groups (Title)
   score: -999999
+- name: Upscaled
+  score: -999999
 - name: VP9
   score: -999999
 - name: VVC
   score: -999999
 custom_formats_radarr:
-- name: Better Theatricals
-  score: 1000
+- name: 1080p Efficient+ Movie Bluray Tier 1
+  score: 65000
+- name: 1080p Efficient+ Movie Bluray Tier 5
+  score: 65000
+- name: 1080p Efficient+ Movie Bluray Tier 2
+  score: 64000
+- name: 1080p Efficient+ Movie Bluray Tier 4
+  score: 64000
+- name: 1080p Efficient+ Movie Bluray Tier 3
+  score: 63000
+- name: 1080p Efficient+ Movie WEB Tier 1
+  score: 62000
+- name: 1080p Efficient+ Movie WEB Tier 2
+  score: 61500
+- name: 1080p Efficient+ Movie WEB Tier 3
+  score: 61000
+- name: 1080p Efficient+ Movie WEB Tier 4
+  score: 60500
 - name: Special Edition
   score: 1000
+- name: Better Theatricals
+  score: 0
+- name: Theatrical
+  score: 0
 - name: 3D
   score: -999999
 - name: Extras
   score: -999999
 - name: Sing Along
   score: -999999
-- name: Upscale
   score: -999999
 custom_formats_sonarr:
+- name: 1080p Efficient+ TV Bluray Tier 1
+  score: 56000
+- name: 1080p Efficient+ TV Bluray Tier 2
+  score: 55000
+- name: 1080p Efficient+ TV Bluray Tier 3
+  score: 54000
+- name: 1080p Efficient+ TV Bluray Tier 4
+  score: 53000
+- name: 1080p Efficient+ TV Bluray Tier 5
+  score: 52000
+- name: 1080p Efficient+ TV Bluray Tier 6
+  score: 51000
+- name: 1080p Efficient+ TV Bluray Tier 7
+  score: 50000
+- name: 1080p Efficient+ TV WEB Tier 1
+  score: 49000
+- name: 1080p Efficient+ TV WEB Tier 2
+  score: 48000
+- name: 1080p Efficient+ TV WEB Tier 3
+  score: 47000
+- name: 1080p Efficient+ TV WEB Tier 4
+  score: 46000
+- name: 1080p Efficient+ TV WEB Tier 5
+  score: 45000
+- name: 1080p Efficient+ TV WEB Tier 6
+  score: 44000
 - name: Anime Dual Audio
   score: 1000
-- name: Season Pack
-  score: 10
 - name: TV Extras
-  score: -999999
-- name: Upscaled
   score: -999999
 qualities:
 - id: -1
