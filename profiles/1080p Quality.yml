@@ -14,20 +14,14 @@ minCustomFormatScore: 20000
 upgradeUntilScore: 400000
 minScoreIncrement: 1
 custom_formats:
-custom_formats:
-  score: 200000
-  score: 200000
 - name: 1080p Bluray
   score: 105000
 - name: 1080p WEB-DL
   score: 105000
-  score: 104000
 - name: IMAX
   score: 104000
 - name: IMAX Enhanced
   score: 104000
-  score: 103000
-  score: 102000
 - name: Anime BD Tier 01 (Top SeaDex Muxers)
   score: 100000
 - name: Anime BD Tier 02 (SeaDex Muxers)
