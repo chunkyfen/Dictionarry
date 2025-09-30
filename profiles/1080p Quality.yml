@@ -10,8 +10,8 @@ tags:
 - x264
 - h264
 upgradesAllowed: true
-minCustomFormatScore: 20000
-upgradeUntilScore: 400000
+minCustomFormatScore: 2000
+upgradeUntilScore: 40000
 minScoreIncrement: 1
 custom_formats:
 - name: 1080p Bluray
