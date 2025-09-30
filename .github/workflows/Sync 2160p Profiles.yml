@@ -1,11 +1,9 @@
 name: Sync 2160p Profiles
 on:
-  workflow_dispatch:
-on:
   push:
     paths:
       - "profiles/2160p Quality.yml"
-
+  workflow_dispatch:
 jobs:
   sync-profiles:
     runs-on: ubuntu-latest
