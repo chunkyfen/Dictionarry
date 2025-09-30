@@ -1,0 +1,29 @@
+name: Sync 2160p Profiles
+
+on:
+  push:
+    paths:
+      - "profiles/2160p Quality.yml"
+
+jobs:
+  sync-profiles:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Sync override profile
+        run: |
+          # Copy default profile into override
+          cp "profiles/2160p Quality.yml" "profiles/2160p Quality Language Override.yml"
+
+          # Force language back to 'any'
+          # Replace any line starting with 'language:' with 'language: any'
+          sed -i 's/^language:.*/language: any/' "profiles/2160p Quality Language Override.yml"
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add "profiles/2160p Quality Language Override.yml"
+          git commit -m "Sync override profile with default (preserve language: any)" || echo "No changes"
+          git push
