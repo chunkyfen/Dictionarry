@@ -5,13 +5,13 @@ qualityDefinitions:
       min: 0
       preferred: 1990
     Bluray-1080p:
-      max: 137
-      min: 30
+      max: 171
+      min: 57
       preferred: 115
     Bluray-2160p:
-      max: 350
-      min: 137
-      preferred: 243
+      max: 284
+      min: 114
+      preferred: 199
     Bluray-480p:
       max: 2000
       min: 0
@@ -41,13 +41,13 @@ qualityDefinitions:
       min: 0
       preferred: 1990
     HDTV-1080p:
-      max: 137
-      min: 30
+      max: 171
+      min: 57
       preferred: 115
     HDTV-2160p:
-      max: 350
-      min: 137
-      preferred: 237
+      max: 284
+      min: 114
+      preferred: 199
     HDTV-720p:
       max: 2000
       min: 0
@@ -61,13 +61,13 @@ qualityDefinitions:
       min: 0
       preferred: 1990
     Remux-1080p:
-      max: 137
-      min: 30
+      max: 171
+      min: 57
       preferred: 115
     Remux-2160p:
-      max: 350
-      min: 137
-      preferred: 243
+      max: 284
+      min: 114
+      preferred: 199
     SDTV:
       max: 2000
       min: 0
@@ -85,13 +85,13 @@ qualityDefinitions:
       min: 0
       preferred: 1990
     WEBDL-1080p:
-      max: 137
-      min: 30
+      max: 171
+      min: 57
       preferred: 115
     WEBDL-2160p:
-      max: 350
-      min: 137
-      preferred: 243
+      max: 284
+      min: 114
+      preferred: 199
     WEBDL-480p:
       max: 2000
       min: 0
@@ -101,13 +101,13 @@ qualityDefinitions:
       min: 0
       preferred: 1990
     WEBRip-1080p:
-      max: 137
-      min: 30
+      max: 171
+      min: 57
       preferred: 115
     WEBRip-2160p:
-      max: 350
-      min: 137
-      preferred: 243
+      max: 284
+      min: 114
+      preferred: 199
     WEBRip-480p:
       max: 2000
       min: 0
@@ -122,21 +122,21 @@ qualityDefinitions:
       preferred: 1990
   sonarr:
     Bluray-1080p:
-      max: 125
-      min: 30
-      preferred: 92
+      max: 102
+      min: 20
+      preferred: 51
     Bluray-1080p Remux:
-      max: 125
-      min: 30
-      preferred: 92
+      max: 102
+      min: 20
+      preferred: 51
     Bluray-2160p:
-      max: 253
+      max: 171
       min: 51
-      preferred: 243
+      preferred: 68
     Bluray-2160p Remux:
-      max: 253
+      max: 171
       min: 51
-      preferred: 243
+      preferred: 68
     Bluray-480p:
       max: 1000
       min: 0
@@ -154,13 +154,13 @@ qualityDefinitions:
       min: 0
       preferred: 990
     HDTV-1080p:
-      max: 125
-      min: 30
-      preferred: 41
+      min: 20
+      preferred: 51
+      max: 102
     HDTV-2160p:
-      max: 253
+      max: 171
       min: 51
-      preferred: 243
+      preferred: 68
     HDTV-720p:
       max: 1000
       min: 0
@@ -178,13 +178,13 @@ qualityDefinitions:
       min: 0
       preferred: 990
     WEBDL-1080p:
-      max: 125
-      min: 30
-      preferred: 92
+      max: 102
+      min: 20
+      preferred: 51
     WEBDL-2160p:
-      max: 253
+      max: 171
       min: 51
-      preferred: 243
+      preferred: 68
     WEBDL-480p:
       max: 1000
       min: 0
@@ -194,13 +194,13 @@ qualityDefinitions:
       min: 0
       preferred: 990
     WEBRip-1080p:
-      max: 125
-      min: 30
-      preferred: 92
+      max: 102
+      min: 20
+      preferred: 51
     WEBRip-2160p:
-      max: 253
+      max: 171
       min: 51
-      preferred: 243
+      preferred: 68
     WEBRip-480p:
       max: 1000
       min: 0

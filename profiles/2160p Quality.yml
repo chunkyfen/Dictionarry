@@ -45,6 +45,8 @@ custom_formats:
   score: 5000
 - name: IMAX Enhanced
   score: 5000
+- name: WEB-DL Tier 1
+  score: 5000
 - name: 1080p Quality Tier 2
   score: 4900
 - name: 2160p Quality Tier 2
@@ -53,19 +55,27 @@ custom_formats:
   score: 4900
 - name: Anime BD Tier 02 (SeaDex Muxers)
   score: 4900
+- name: WEB-DL Tier 2
+  score: 4900
 - name: 1080p Quality Tier 3
   score: 4800
 - name: 2160p Quality Tier 3
   score: 4800
 - name: Anime BD Tier 03 (SeaDex Muxers)
   score: 4800
+- name: WEB-DL Tier 3
+  score: 4800
 - name: 1080p Quality Tier 4
   score: 4700
 - name: Anime BD Tier 04 (SeaDex Muxers)
   score: 4700
+- name: WEB-DL Tier 4
+  score: 4700
 - name: 1080p Quality Tier 5
   score: 4600
 - name: Anime BD Tier 05 (Remuxes)
+  score: 4600
+- name: WEB-DL Tier 5
   score: 4600
 - name: 1080p Balanced Tier 1
   score: 4500
@@ -109,16 +119,6 @@ custom_formats:
   score: 200
 - name: SD Quality Tier 2
   score: 200
-- name: WEB-DL Tier 1
-  score: 100
-- name: WEB-DL Tier 2
-  score: 80
-- name: WEB-DL Tier 3
-  score: 60
-- name: WEB-DL Tier 4
-  score: 40
-- name: WEB-DL Tier 5
-  score: 20
 - name: Repack3
   score: 8
 - name: Repack2
