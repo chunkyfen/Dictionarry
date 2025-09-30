@@ -1,4 +1,4 @@
-name: 2160p Quality Language Override
+name: 2160p Quality
 description: '2160p Quality utilizes the [**Encode Efficiency Index**](https://dictionarry.dev/wiki/eei)
   metric at a 55% target ratio to prioritize **transparent** x265 4k encodes
 
@@ -109,12 +109,6 @@ custom_formats:
   score: 20000
 - name: SD Quality Tier 2
   score: 20000
-- name: Dolby Vision
-  score: 3000
-- name: HDR
-  score: 1000
-- name: HDR10
-  score: 1000
 - name: WEB-DL Tier 1
   score: 100
 - name: WEB-DL Tier 2
@@ -131,6 +125,14 @@ custom_formats:
   score: 7
 - name: Repack1
   score: 6
+- name: Dolby Vision
+  score: 0
+- name: HDR
+  score: 0
+- name: HDR10
+  score: 0
+- name: HDR10+
+  score: 0
 - name: Anime LQ Groups
   score: -999999
 - name: Anime Raws
