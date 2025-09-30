@@ -165,7 +165,6 @@ custom_formats_radarr:
   score: -999999
 - name: Sing Along
   score: -999999
-  score: -999999
 custom_formats_sonarr:
 - name: 1080p Efficient+ TV Bluray Tier 1
   score: 56000
@@ -198,8 +197,10 @@ custom_formats_sonarr:
 - name: TV Extras
   score: -999999
 qualities:
+- id: 8
+  name: Remux-1080p
 - id: -1
-  name: Transparent Capable
+  name: 1080p
   description: All capable of being indistinguishable from source. WEB-DL included
     to not allow unknown encode to trump known WEB-DL.
   qualities:
@@ -207,8 +208,6 @@ qualities:
     name: Bluray-1080p
   - id: 9
     name: WEBDL-1080p
-  - id: 8
-    name: Remux-1080p
 - id: 11
   name: WEBRip-1080p
 - id: -2
@@ -235,7 +234,7 @@ qualities:
   name: WEBRip-480p
 upgrade_until:
   id: -1
-  name: Transparent Capable
+  name: 1080p
   description: All capable of being indistinguishable from source. WEB-DL included
     to not allow unknown encode to trump known WEB-DL.
 language: must_original
