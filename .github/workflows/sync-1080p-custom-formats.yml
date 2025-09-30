@@ -10,7 +10,7 @@ jobs:
   sync-1080p:
     runs-on: ubuntu-latest
     permissions:
-      contents: write   # allow pushing changes back
+      contents: write
     steps:
       - uses: actions/checkout@v3
         with:
@@ -24,16 +24,21 @@ jobs:
         run: |
           # Extract custom_formats from 2160p, excluding any with "2160p" in the name
           yq '.custom_formats | map(select(.name | test("2160p") | not))' \
-            "profiles/2160p Quality.yml" > tmp_formats.yml || true 
+            "profiles/2160p Quality.yml" > tmp_formats.yml
 
       - name: Replace custom_formats in 1080p
         run: |
-          if ! diff -q tmp_formats.yml <(yq '.custom_formats' "profiles/1080p Quality.yml"); then
+          # Normalize both sides for comparison
+          yq '.' tmp_formats.yml > tmp_new.yml
+          yq '.custom_formats' "profiles/1080p Quality.yml" > tmp_old.yml
+
+          if ! cmp -s tmp_new.yml tmp_old.yml; then
+            echo "Updating 1080p custom_formats..."
             yq -i '.custom_formats = load("tmp_formats.yml")' "profiles/1080p Quality.yml"
           else
             echo "No changes to custom_formats, skipping."
           fi
-          
+
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
