@@ -17,22 +17,36 @@ jobs:
           ref: main
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Install yq
-        run: sudo apt-get install -y yq
-
-      - name: Sync custom_formats from 2160p → 1080p
+      - name: Install mikefarah yq v4
         run: |
-          # Extract and filter custom_formats from 2160p
+          YQ_VERSION="v4.44.1"
+          sudo wget -qO /usr/local/bin/yq "https://github.com/mikefarah/yq/releases/download/${YQ_VERSION}/yq_linux_amd64"
+          sudo chmod +x /usr/local/bin/yq
+          yq --version
+
+      - name: Extract and filter custom_formats from 2160p
+        run: |
           yq '.custom_formats | map(select(.name | test("2160p") | not))' \
             "profiles/2160p Quality.yml" > tmp_formats.yml
+          echo "Filtered custom_formats from 2160p:"
+          cat tmp_formats.yml
 
-          # Always replace the custom_formats section in 1080p
+      - name: Show current 1080p custom_formats
+        run: |
+          echo "Current 1080p custom_formats:"
+          yq '.custom_formats' "profiles/1080p Quality.yml"
+
+      - name: Replace custom_formats in 1080p
+        run: |
+          # Always replace the section; git will commit only if it actually changed
           yq -i '.custom_formats = load("tmp_formats.yml")' "profiles/1080p Quality.yml"
+          echo "Updated 1080p custom_formats:"
+          yq '.custom_formats' "profiles/1080p Quality.yml"
 
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add "profiles/1080p Quality.yml"
-          git diff --cached --quiet || git commit -m "Sync 1080p custom_formats from 2160p (exclude 2160p entries)"
+          git diff --cached --quiet || git commit -m "Sync 1080p custom_formats from 2160p (exclude entries containing 2160p)"
           git push origin HEAD:main
