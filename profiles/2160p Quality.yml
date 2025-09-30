@@ -222,6 +222,8 @@ qualities:
     name: WEBDL-2160p
 - id: 6
   name: WEBRip-2160p
+- id: 7
+  name: HDTV-2160p
 upgrade_until:
   id: -1
   name: 2160p Transparent
