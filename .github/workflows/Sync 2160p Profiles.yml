@@ -1,28 +1,40 @@
 name: Sync 2160p Profiles
+
 on:
   push:
     paths:
       - "profiles/2160p Quality.yml"
   workflow_dispatch:
+
 jobs:
   sync-profiles:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v3
+        with:
+          ref: main
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Sync override profile
         run: |
-          # Copy default profile into override
-          cp "profiles/2160p Quality.yml" "profiles/2160p Quality Language Override.yml"
+          # Preserve the first line from the override file
+          head -n 1 "profiles/2160p Quality Language Override.yml" > new_override.yml
+
+          # Append everything except the first line from the default profile
+          tail -n +2 "profiles/2160p Quality.yml" >> new_override.yml
+
+          # Replace the override file with the merged version
+          mv new_override.yml "profiles/2160p Quality Language Override.yml"
 
           # Force language back to 'any'
-          # Replace any line starting with 'language:' with 'language: any'
           sed -i 's/^language:.*/language: any/' "profiles/2160p Quality Language Override.yml"
 
       - name: Commit changes
         run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add "profiles/2160p Quality Language Override.yml"
-          git commit -m "Sync override profile with default (preserve language: any)" || echo "No changes"
-          git push
+          git diff --cached --quiet || git commit -m "Sync override profile with default (preserve name + language)"
+          git push origin HEAD:main
