@@ -233,8 +233,7 @@ qualities:
 - id: 20
   name: WEBRip-480p
 upgrade_until:
-  id: -1
-  name: 1080p
-  description: All capable of being indistinguishable from source. WEB-DL included
-    to not allow unknown encode to trump known WEB-DL.
+  id: 8
+  name: Remux-1080p
+  description: 1080p Blu-ray disc content remuxed into a playable file format
 language: must_original
