@@ -1,5 +1,14 @@
 name: 2160p Quality Language Override
-description: ''
+description: '2160p Quality utilizes the [**Encode Efficiency Index**](https://dictionarry.dev/wiki/eei)
+  metric at a 55% target ratio to prioritize **transparent** x265 4k encodes
+
+
+  - 2160p Blurays
+
+  - Fallbacks in Place for Proper Quality Progression
+
+  - 2160p Bluray > 2160p WEB-DL > 1080p Bluray > 1080p WEB-DL > 720p Bluray > 720p
+  WEB-DL > 480p WEB-DL > DVD'
 tags:
 - 2160p
 - Quality Focused
@@ -30,8 +39,6 @@ custom_formats:
   score: 5000
 - name: 720p WEB-DL
   score: 5000
-- name: Anime BD Tier 01 (Top SeaDex Muxers)
-  score: 5000
 - name: IMAX
   score: 5000
 - name: IMAX Enhanced
@@ -44,52 +51,26 @@ custom_formats:
   score: 4900
 - name: 720p WEBRip
   score: 4900
-- name: Anime BD Tier 02 (SeaDex Muxers)
-  score: 4900
 - name: WEB-DL Tier 2
   score: 4900
 - name: 1080p Quality Tier 3
   score: 4800
 - name: 2160p Quality Tier 3
   score: 4800
-- name: Anime BD Tier 03 (SeaDex Muxers)
-  score: 4800
 - name: WEB-DL Tier 3
   score: 4800
 - name: 1080p Quality Tier 4
-  score: 4700
-- name: Anime BD Tier 04 (SeaDex Muxers)
   score: 4700
 - name: WEB-DL Tier 4
   score: 4700
 - name: 1080p Quality Tier 5
   score: 4600
-- name: Anime BD Tier 05 (Remuxes)
-  score: 4600
 - name: WEB-DL Tier 5
   score: 4600
 - name: 1080p Balanced Tier 1
   score: 4500
-- name: Anime BD Tier 06 (FanSubs)
-  score: 4500
-- name: Anime Web Tier 06 (FanSubs)
-  score: 4500
-- name: Anime BD Tier 07 (P2P-Scene)
-  score: 4400
-- name: Anime BD Tier 08 (Mini Encodes)
-  score: 4300
-- name: Anime Web Tier 01 (Muxers)
-  score: 4200
-- name: Anime Web Tier 02 (Top FanSubs)
-  score: 4100
 - name: 1080p Bluray HEVC Tier 1
   score: 3950
-- name: Anime Web Tier 03 (Official Subs)
-  score: 3900
-- name: Anime Web Tier 04 (Official Subs)
-  score: 3800
-- name: Anime Web Tier 05 (FanSubs)
-  score: 3600
 - name: 1080p WEB-DL HEVC Tier 1
   score: 3500
 - name: 720p Quality Tier 1
@@ -198,8 +179,6 @@ custom_formats_sonarr:
   score: 3300
 - name: 1080p Efficient+ TV WEB Tier 6
   score: 3200
-- name: Anime Dual Audio
-  score: 10
 - name: TV Extras
   score: -999999
 qualities:
@@ -213,6 +192,8 @@ qualities:
     name: WEBDL-2160p
 - id: 6
   name: WEBRip-2160p
+- id: 7
+  name: HDTV-2160p
 upgrade_until:
   id: -1
   name: 2160p Transparent
