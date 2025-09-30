@@ -20,24 +20,14 @@ jobs:
       - name: Install yq
         run: sudo apt-get install -y yq
 
-      - name: Extract and filter custom_formats
+      - name: Sync custom_formats from 2160p → 1080p
         run: |
-          # Extract custom_formats from 2160p, excluding any with "2160p" in the name
+          # Extract and filter custom_formats from 2160p
           yq '.custom_formats | map(select(.name | test("2160p") | not))' \
             "profiles/2160p Quality.yml" > tmp_formats.yml
 
-      - name: Replace custom_formats in 1080p
-        run: |
-          # Normalize both sides for comparison
-          yq '.' tmp_formats.yml > tmp_new.yml
-          yq '.custom_formats' "profiles/1080p Quality.yml" > tmp_old.yml
-
-          if ! cmp -s tmp_new.yml tmp_old.yml; then
-            echo "Updating 1080p custom_formats..."
-            yq -i '.custom_formats = load("tmp_formats.yml")' "profiles/1080p Quality.yml"
-          else
-            echo "No changes to custom_formats, skipping."
-          fi
+          # Always replace the custom_formats section in 1080p
+          yq -i '.custom_formats = load("tmp_formats.yml")' "profiles/1080p Quality.yml"
 
       - name: Commit changes
         run: |
