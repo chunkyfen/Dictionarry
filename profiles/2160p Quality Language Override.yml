@@ -1,4 +1,4 @@
-name: 2160p Quality
+name: 2160p Quality Language Override
 description: '2160p Quality utilizes the [**Encode Efficiency Index**](https://dictionarry.dev/wiki/eei)
   metric at a 55% target ratio to prioritize **transparent** x265 4k encodes
 
