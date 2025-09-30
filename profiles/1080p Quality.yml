@@ -133,29 +133,25 @@ custom_formats:
     score: -999999
 custom_formats_radarr:
   - name: 1080p Efficient+ Movie Bluray Tier 1
-    score: 65000
-  - name: 1080p Efficient+ Movie Bluray Tier 5
-    score: 65000
+    score: 4400
   - name: 1080p Efficient+ Movie Bluray Tier 2
-    score: 64000
-  - name: 1080p Efficient+ Movie Bluray Tier 4
-    score: 64000
+    score: 4300
   - name: 1080p Efficient+ Movie Bluray Tier 3
-    score: 63000
+    score: 4200
+  - name: 1080p Efficient+ Movie Bluray Tier 4
+    score: 4100
+  - name: 1080p Efficient+ Movie Bluray Tier 5
+    score: 4000
   - name: 1080p Efficient+ Movie WEB Tier 1
-    score: 62000
+    score: 3900
   - name: 1080p Efficient+ Movie WEB Tier 2
-    score: 61500
+    score: 3800
   - name: 1080p Efficient+ Movie WEB Tier 3
-    score: 61000
+    score: 3700
   - name: 1080p Efficient+ Movie WEB Tier 4
-    score: 60500
+    score: 3600
   - name: Special Edition
-    score: 1000
-  - name: Better Theatricals
-    score: 0
-  - name: Theatrical
-    score: 0
+    score: 100
   - name: 3D
     score: -999999
   - name: Extras
@@ -164,33 +160,33 @@ custom_formats_radarr:
     score: -999999
 custom_formats_sonarr:
   - name: 1080p Efficient+ TV Bluray Tier 1
-    score: 56000
+    score: 4400
   - name: 1080p Efficient+ TV Bluray Tier 2
-    score: 55000
+    score: 4300
   - name: 1080p Efficient+ TV Bluray Tier 3
-    score: 54000
+    score: 4200
   - name: 1080p Efficient+ TV Bluray Tier 4
-    score: 53000
+    score: 4100
   - name: 1080p Efficient+ TV Bluray Tier 5
-    score: 52000
+    score: 4000
   - name: 1080p Efficient+ TV Bluray Tier 6
-    score: 51000
+    score: 3900
   - name: 1080p Efficient+ TV Bluray Tier 7
-    score: 50000
+    score: 3800
   - name: 1080p Efficient+ TV WEB Tier 1
-    score: 49000
+    score: 3700
   - name: 1080p Efficient+ TV WEB Tier 2
-    score: 48000
+    score: 3600
   - name: 1080p Efficient+ TV WEB Tier 3
-    score: 47000
+    score: 3500
   - name: 1080p Efficient+ TV WEB Tier 4
-    score: 46000
+    score: 3400
   - name: 1080p Efficient+ TV WEB Tier 5
-    score: 45000
+    score: 3300
   - name: 1080p Efficient+ TV WEB Tier 6
-    score: 44000
+    score: 3200
   - name: Anime Dual Audio
-    score: 1000
+    score: 10
   - name: TV Extras
     score: -999999
 qualities:
