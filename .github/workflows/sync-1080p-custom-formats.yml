@@ -1,0 +1,45 @@
+name: Sync 1080p Custom Formats
+
+on:
+  push:
+    paths:
+      - "profiles/2160p Quality.yml"
+  workflow_dispatch:
+
+jobs:
+  sync-1080p:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: main
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Extract custom_formats block from 2160p
+        run: |
+          # Grab everything between custom_formats: and qualities:
+          awk '/^custom_formats:/{flag=1;print;next}/^qualities:/{flag=0}flag' "profiles/2160p Quality.yml" \
+            | grep -v "2160p" > new_formats.yml
+
+      - name: Replace block in 1080p
+        run: |
+          # Split 1080p file into three parts:
+          # 1. Up to and including "custom_formats:"
+          # 2. The new block (filtered)
+          # 3. From "qualities:" onward
+          awk '
+            /^custom_formats:/ {print; exit}
+            {print}
+          ' "profiles/1080p Quality.yml" > part1.yml
+
+          awk '/^qualities:/{flag=1}flag' "profiles/1080p Quality.yml" > part3.yml
+
+          cat part1.yml new_formats.yml part3.yml > "profiles/1080p Quality.yml"
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "profiles/1080p Quality.yml"
+          git diff --cached --quiet || git commit -m "Sync 1080p custom_formats from 2160p (exclude 2160p entries)"
+          git push origin HEAD:main
