@@ -9,32 +9,27 @@ on:
 jobs:
   sync-1080p:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write   # allow pushing changes back
     steps:
       - uses: actions/checkout@v3
         with:
           ref: main
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Extract custom_formats block from 2160p
+      - name: Install yq
+        run: sudo apt-get install -y yq
+
+      - name: Extract and filter custom_formats
         run: |
-          # Grab everything between custom_formats: and qualities:
-          awk '/^custom_formats:/{flag=1;print;next}/^qualities:/{flag=0}flag' "profiles/2160p Quality.yml" \
-            | grep -v "2160p" > new_formats.yml
+          # Extract custom_formats from 2160p, excluding any with "2160p" in the name
+          yq '.custom_formats | map(select(.name | test("2160p") | not))' \
+            "profiles/2160p Quality.yml" > tmp_formats.yml
 
-      - name: Replace block in 1080p
+      - name: Replace custom_formats in 1080p
         run: |
-          # Split 1080p file into three parts:
-          # 1. Up to and including "custom_formats:"
-          # 2. The new block (filtered)
-          # 3. From "qualities:" onward
-          awk '
-            /^custom_formats:/ {print; exit}
-            {print}
-          ' "profiles/1080p Quality.yml" > part1.yml
-
-          awk '/^qualities:/{flag=1}flag' "profiles/1080p Quality.yml" > part3.yml
-
-          cat part1.yml new_formats.yml part3.yml > "profiles/1080p Quality.yml"
+          # Replace the custom_formats section in 1080p with the filtered list
+          yq -i '.custom_formats = load("tmp_formats.yml")' "profiles/1080p Quality.yml"
 
       - name: Commit changes
         run: |
