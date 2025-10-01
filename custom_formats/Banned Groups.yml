@@ -209,11 +209,6 @@ conditions:
   pattern: VisionXpert
   required: false
   type: release_group
-- name: WiKi
-  negate: false
-  pattern: WiKi
-  required: false
-  type: release_group
 - name: x0r
   negate: false
   pattern: x0r
@@ -240,8 +235,8 @@ conditions:
   required: false
   type: release_group
 - name: NorTekst
-  type: release_group
-  required: false
   negate: false
   pattern: NorTekst
+  required: false
+  type: release_group
 tests: []

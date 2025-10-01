@@ -320,4 +320,14 @@ conditions:
   required: true
   source: bluray
   type: source
+- name: HiDt
+  negate: false
+  pattern: HiDt
+  required: false
+  type: release_group
+- name: BV
+  type: release_group
+  required: false
+  negate: false
+  pattern: BV
 tests: []

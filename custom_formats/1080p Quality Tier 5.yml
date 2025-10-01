@@ -1,3 +1,10 @@
+name: 1080p Quality Tier 5
+description: Matches release groups who fall under 1080p GPPi Tier 5
+tags:
+- GPPi
+- Release Group Tier
+- 1080p
+- Quality
 conditions:
 - name: 1080p
   negate: false
@@ -239,11 +246,14 @@ conditions:
   pattern: ZIMBO
   required: false
   type: release_group
-description: Matches release groups who fall under 1080p GPPi Tier 5
-name: 1080p Quality Tier 5
-tags:
-- GPPi
-- Release Group Tier
-- 1080p
-- Quality
+- name: TeamSyndicate
+  negate: false
+  pattern: TeamSyndicate
+  required: false
+  type: release_group
+- name: WiKi
+  type: release_group
+  required: false
+  negate: false
+  pattern: WiKi
 tests: []
