@@ -235,8 +235,13 @@ conditions:
   required: false
   type: release_group
 - name: RandomBytes
+  negate: false
+  pattern: RandomBytes
+  required: false
+  type: release_group
+- name: NorTekst
   type: release_group
   required: false
   negate: false
-  pattern: RandomBytes
+  pattern: NorTekst
 tests: []

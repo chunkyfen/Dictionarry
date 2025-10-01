@@ -1,0 +1,7 @@
+name: NorTekst
+pattern: (?<=^|[\s.-])NorTekst\b
+description: Share nordic versions of movies and sometimes without HDR
+tags:
+- Release Group
+- Banned
+tests: []
