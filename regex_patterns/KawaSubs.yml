@@ -1,0 +1,7 @@
+name: KawaSubs
+pattern: (?<=^|[\s.-])KawaSubs\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

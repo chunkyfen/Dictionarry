@@ -5,43 +5,48 @@ tags:
 - Release Group Tier
 conditions:
 - name: WEB-DL
-  type: source
-  required: false
   negate: false
+  required: false
   source: web_dl
-- name: WEBRip
   type: source
-  required: false
+- name: WEBRip
   negate: false
-  source: webrip
-- name: Asenshi
-  type: release_group
   required: false
+  source: webrip
+  type: source
+- name: Asenshi
   negate: false
   pattern: Asenshi
-- name: Chihiro
-  type: release_group
   required: false
+  type: release_group
+- name: Chihiro
   negate: false
   pattern: Chihiro
-- name: Commie
-  type: release_group
   required: false
+  type: release_group
+- name: Commie
   negate: false
   pattern: Commie
-- name: DameDesuYo
-  type: release_group
   required: false
+  type: release_group
+- name: DameDesuYo
   negate: false
   pattern: DameDesuYo
-- name: Doki
-  type: release_group
   required: false
+  type: release_group
+- name: Doki
   negate: false
   pattern: Doki
+  required: false
+  type: release_group
 - name: Tsundere
+  negate: false
+  pattern: Tsundere
+  required: false
+  type: release_group
+- name: KawaSubs
   type: release_group
   required: false
   negate: false
-  pattern: Tsundere
+  pattern: KawaSubs
 tests: []
