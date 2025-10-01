@@ -1,0 +1,7 @@
+name: RandomBytes
+pattern: (?<=^|[\s.-])RandomBytes\b
+description: Released UHD in 264 and without HDR thus banned.
+tags:
+- Release Group
+- Banned
+tests: []

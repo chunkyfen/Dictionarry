@@ -230,8 +230,13 @@ conditions:
   required: false
   type: release_group
 - name: Moozzi2
+  negate: false
+  pattern: Moozzi2
+  required: false
+  type: release_group
+- name: RandomBytes
   type: release_group
   required: false
   negate: false
-  pattern: Moozzi2
+  pattern: RandomBytes
 tests: []
