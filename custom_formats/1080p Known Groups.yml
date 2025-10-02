@@ -1,3 +1,8 @@
+name: 1080p Known Groups
+description: Known release groups
+tags:
+- Release Group Tier
+- 1080p
 conditions:
 - name: 1080p
   negate: false
@@ -420,45 +425,45 @@ conditions:
   required: false
   type: release_group
 - name: WiKi
-  type: release_group
-  required: false
   negate: false
   pattern: WiKi
-- name: BDHD
-  type: release_group
   required: false
+  type: release_group
+- name: BDHD
   negate: false
   pattern: BDHD
-- name: FoX
-  type: release_group
   required: false
+  type: release_group
+- name: FoX
   negate: false
   pattern: FoX
-- name: FRATERNiTY
-  type: release_group
   required: false
+  type: release_group
+- name: FRATERNiTY
   negate: false
   pattern: FRATERNiTY
-- name: FrIeNdS
-  type: release_group
   required: false
+  type: release_group
+- name: FrIeNdS
   negate: false
   pattern: FrIeNdS
-- name: MAX
-  type: release_group
   required: false
+  type: release_group
+- name: MAX
   negate: false
   pattern: MAX
-- name: Psaro
-  type: release_group
   required: false
+  type: release_group
+- name: Psaro
   negate: false
   pattern: Psaro
-- name: YODA
-  type: release_group
   required: false
+  type: release_group
+- name: YODA
   negate: false
   pattern: YODA
+  required: false
+  type: release_group
 - name: HDForever
   negate: false
   pattern: HDForever
@@ -475,38 +480,38 @@ conditions:
   required: false
   type: release_group
 - name: MYSTERiON
-  type: release_group
-  required: false
   negate: false
   pattern: MYSTERiON
-- name: NoNE
-  type: release_group
   required: false
+  type: release_group
+- name: NoNE
   negate: false
   pattern: NoNE
-- name: ONLY
-  type: release_group
   required: false
+  type: release_group
+- name: ONLY
   negate: false
   pattern: ONLY
-- name: ONLYMOViE
-  type: release_group
   required: false
+  type: release_group
+- name: ONLYMOViE
   negate: false
   pattern: ONLYMOViE
-- name: TkHD
-  type: release_group
   required: false
+  type: release_group
+- name: TkHD
   negate: false
   pattern: TkHD
+  required: false
+  type: release_group
 - name: UTT
+  negate: false
+  pattern: UTT
+  required: false
+  type: release_group
+- name: French Scene
   type: release_group
   required: false
   negate: false
-  pattern: UTT
-description: Known release groups
-name: 1080p Known Groups
-tags:
-- Release Group Tier
-- 1080p
+  pattern: French Scene
 tests: []

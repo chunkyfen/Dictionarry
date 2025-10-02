@@ -1,7 +1,13 @@
 name: QUEBEC63
-pattern: (?<=^|[\s.-])QUEBEC63\b
+pattern: (?<=^|[\s.-])Q(UEBE)?C63\b
 description: ''
 tags:
 - Release Group
 - French
-tests: []
+tests:
+- id: 1
+  input: QUEBEC63
+  expected: true
+- id: 2
+  input: QC63
+  expected: true

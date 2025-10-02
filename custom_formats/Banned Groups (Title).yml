@@ -1,12 +1,32 @@
+name: Banned Groups (Title)
+description: Matches Grouos that are Banned via Release Title
+tags:
+- Banned
+- Release Group
 conditions:
 - name: BEN THE MEN
   negate: false
   pattern: BEN THE MEN
   required: false
   type: release_title
-description: Matches Grouos that are Banned via Release Title
-name: Banned Groups (Title)
-tags:
-- Banned
-- Release Group
+- name: Ads-Watermarks
+  negate: false
+  pattern: Ads-Watermarks
+  required: false
+  type: release_title
+- name: Bad-False releases
+  negate: false
+  pattern: Bad-False releases
+  required: false
+  type: release_title
+- name: Other reasons
+  type: release_title
+  required: false
+  negate: false
+  pattern: Other reasons
+- name: DeTAG-ReTAG
+  type: release_title
+  required: false
+  negate: false
+  pattern: DeTAG-ReTAG
 tests: []
