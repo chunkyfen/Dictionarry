@@ -9,50 +9,49 @@ conditions:
   required: true
   source: web_dl
   type: source
-- name: c0kE
+- name: EA
   negate: false
-  pattern: c0kE
+  pattern: EA
   required: false
   type: release_group
-- name: CtrlHD
+- name: HiDt
   negate: false
-  pattern: CtrlHD
+  pattern: HiDt
   required: false
   type: release_group
-- name: Geek
+- name: HiSD
   negate: false
-  pattern: Geek
+  pattern: HiSD
   required: false
   type: release_group
-- name: HiFi
+- name: iFT
   negate: false
-  pattern: HiFi
+  pattern: iFT
   required: false
   type: release_group
-- name: TayTo
+- name: NTb
   negate: false
-  pattern: TayTo
+  pattern: NTb
   required: false
   type: release_group
-- name: VietHD
+- name: QOQ
   negate: false
-  pattern: VietHD
+  pattern: QOQ
   required: false
   type: release_group
-- name: ZoroSenpai
+- name: SA89
   negate: false
-  pattern: ZoroSenpai
+  pattern: SA89
   required: false
   type: release_group
-- name: ZQ
+- name: sbR
   negate: false
-  pattern: ZQ
+  pattern: sbR
   required: false
   type: release_group
-description: Matches release groups who fall under 1080p GPPi Tier 2
+description: Matches release groups who fall under 1080p Tier 2
 name: 1080p Quality Tier 2
 tags:
-- GPPi
 - Release Group Tier
 - 1080p
 - Quality
