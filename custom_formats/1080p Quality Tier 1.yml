@@ -1,14 +1,15 @@
+name: 1080p Quality Tier 1
+description: Matches release groups who fall under 1080p Tier 1
+tags:
+- Release Group Tier
+- 1080p
+- Quality
 conditions:
 - name: 1080p
   negate: false
   required: true
   resolution: 1080p
   type: resolution
-- name: Not WEB-DL
-  negate: true
-  required: true
-  source: web_dl
-  type: source
 - name: BBQ
   negate: false
   pattern: BBQ
@@ -114,10 +115,4 @@ conditions:
   pattern: ZoroSenpai
   required: false
   type: release_group
-description: Matches release groups who fall under 1080p Tier 1
-name: 1080p Quality Tier 1
-tags:
-- Release Group Tier
-- 1080p
-- Quality
 tests: []

@@ -1,0 +1,6 @@
+name: ATELiER
+pattern: (?<=^|[\s.-])ATELiER\b
+description: ''
+tags:
+- Release Group
+tests: []

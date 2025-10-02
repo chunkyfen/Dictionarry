@@ -1,0 +1,6 @@
+name: HiSD
+pattern: (?<=^|[\s.-])HiSD\b
+description: ''
+tags:
+- Release Group
+tests: []

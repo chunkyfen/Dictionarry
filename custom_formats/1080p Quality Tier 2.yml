@@ -1,3 +1,9 @@
+name: 1080p Quality Tier 2
+description: Matches release groups who fall under 1080p Tier 2
+tags:
+- Release Group Tier
+- 1080p
+- Quality
 conditions:
 - name: 1080p
   negate: false
@@ -44,15 +50,9 @@ conditions:
   pattern: SA89
   required: false
   type: release_group
-- name: sbR
+- name: SbR
   negate: false
-  pattern: sbR
+  pattern: SbR
   required: false
   type: release_group
-description: Matches release groups who fall under 1080p Tier 2
-name: 1080p Quality Tier 2
-tags:
-- Release Group Tier
-- 1080p
-- Quality
 tests: []
