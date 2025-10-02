@@ -49,10 +49,6 @@ custom_formats:
     score: 4600
   - name: 1080p Balanced Tier 1
     score: 4500
-  - name: 1080p Bluray HEVC Tier 1
-    score: 3950
-  - name: 1080p WEB-DL HEVC Tier 1
-    score: 3500
   - name: 720p Quality Tier 1
     score: 3000
   - name: 720p Quality Tier 2
@@ -77,14 +73,6 @@ custom_formats:
     score: 7
   - name: Repack1
     score: 6
-  - name: Dolby Vision
-    score: 0
-  - name: HDR
-    score: 0
-  - name: HDR10
-    score: 0
-  - name: HDR10+
-    score: 0
   - name: Anime LQ Groups
     score: -999999
   - name: Anime Raws
