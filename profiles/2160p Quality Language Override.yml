@@ -41,6 +41,8 @@ custom_formats:
   score: 5000
 - name: 720p WEB-DL
   score: 5000
+- name: French Tier 1
+  score: 5000
 - name: IMAX
   score: 5000
 - name: IMAX Enhanced
@@ -52,6 +54,8 @@ custom_formats:
 - name: 2160p Quality Tier 2
   score: 4900
 - name: 720p WEBRip
+  score: 4900
+- name: French Tier 2
   score: 4900
 - name: WEB-DL Tier 2
   score: 4900
