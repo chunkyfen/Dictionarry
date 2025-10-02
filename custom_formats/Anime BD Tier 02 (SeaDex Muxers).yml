@@ -1,19 +1,23 @@
 name: Anime BD Tier 02 (SeaDex Muxers)
-description: Matches release groups who fall under Anime BD Tier 02 (SeaDex Muxers)
+description: 'Groups that do the best releases as per SeaDex. They are more consistent
+  and trump others.
+
+
+  '
 tags:
 - Release Group Tier
 - Anime
 conditions:
 - name: Bluray
-  type: source
-  required: false
   negate: false
+  required: false
   source: bluray
-- name: DVD
   type: source
-  required: false
+- name: DVD
   negate: false
+  required: false
   source: dvd
+  type: source
 - name: '0x539'
   negate: false
   pattern: Headpatter

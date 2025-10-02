@@ -1,19 +1,22 @@
 name: Anime BD Tier 08 (Mini Encodes)
-description: Matches release groups who fall under Anime BD Tier 08 (Mini Encodes)
+description: 'Know groups that do mini encodes.
+
+
+  '
 tags:
 - Release Group Tier
 - Anime
 conditions:
 - name: Bluray
-  type: source
-  required: false
   negate: false
+  required: false
   source: bluray
-- name: DVD
   type: source
-  required: false
+- name: DVD
   negate: false
+  required: false
   source: dvd
+  type: source
 - name: AkihitoSubs
   negate: false
   pattern: AkihitoSubs

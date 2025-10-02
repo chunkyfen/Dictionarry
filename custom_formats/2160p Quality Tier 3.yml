@@ -326,8 +326,18 @@ conditions:
   required: false
   type: release_group
 - name: BV
+  negate: false
+  pattern: BV
+  required: false
+  type: release_group
+- name: WiKi
+  negate: false
+  pattern: WiKi
+  required: false
+  type: release_group
+- name: NTb
   type: release_group
   required: false
   negate: false
-  pattern: BV
+  pattern: NTb
 tests: []

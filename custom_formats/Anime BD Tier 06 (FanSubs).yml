@@ -1,19 +1,22 @@
 name: Anime BD Tier 06 (FanSubs)
-description: Matches release groups who fall under Anime BD Tier 06 (FanSubs)
+description: 'FanSub groups that are consistent.
+
+
+  '
 tags:
 - Release Group Tier
 - Anime
 conditions:
 - name: Bluray
-  type: source
-  required: false
   negate: false
+  required: false
   source: bluray
-- name: DVD
   type: source
-  required: false
+- name: DVD
   negate: false
+  required: false
   source: dvd
+  type: source
 - name: Afro
   negate: false
   pattern: Afro

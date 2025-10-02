@@ -1,19 +1,22 @@
 name: Anime BD Tier 05 (Remuxes)
-description: Matches release groups who fall under Anime BD Tier 05 (Remuxes)
+description: 'Groups that are consistent and do Remuxes.
+
+
+  '
 tags:
 - Release Group Tier
 - Anime
 conditions:
 - name: Bluray
-  type: source
-  required: false
   negate: false
+  required: false
   source: bluray
-- name: DVD
   type: source
-  required: false
+- name: DVD
   negate: false
+  required: false
   source: dvd
+  type: source
 - name: BluDragon
   negate: false
   pattern: BluDragon

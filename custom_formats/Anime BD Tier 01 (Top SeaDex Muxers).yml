@@ -1,5 +1,6 @@
 name: Anime BD Tier 01 (Top SeaDex Muxers)
-description: Matches release groups who fall under Anime BD Tier 01 (Top SeaDex Muxers)
+description: Groups that do the best releases as per SeaDex. They are more consistent
+  and trump others.
 tags:
 - Release Group Tier
 - Anime
@@ -65,13 +66,13 @@ conditions:
   required: false
   type: release_group
 - name: Bluray
-  type: source
-  required: false
   negate: false
+  required: false
   source: bluray
-- name: DVD
   type: source
-  required: false
+- name: DVD
   negate: false
+  required: false
   source: dvd
+  type: source
 tests: []
