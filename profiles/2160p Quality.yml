@@ -41,6 +41,8 @@ custom_formats:
   score: 5000
 - name: 720p WEB-DL
   score: 5000
+- name: Better Theatricals
+  score: 5000
 - name: French Tier 1
   score: 5000
 - name: IMAX
