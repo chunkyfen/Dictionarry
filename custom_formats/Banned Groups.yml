@@ -239,4 +239,9 @@ conditions:
   pattern: NorTekst
   required: false
   type: release_group
+- name: VAATHI
+  type: release_group
+  required: false
+  negate: false
+  pattern: VAATHI
 tests: []

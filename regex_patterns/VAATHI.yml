@@ -1,0 +1,7 @@
+name: VAATHI
+pattern: (?<=^|[\s.-])VAATHI\b
+description: ''
+tags:
+- Release Group
+- Banned
+tests: []
