@@ -109,6 +109,11 @@ conditions:
   pattern: ZQ
   required: false
   type: release_group
+- name: ZoroSenpai
+  negate: false
+  pattern: ZoroSenpai
+  required: false
+  type: release_group
 description: Matches release groups who fall under 1080p Tier 1
 name: 1080p Quality Tier 1
 tags:
