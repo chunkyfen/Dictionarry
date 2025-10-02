@@ -3,21 +3,6 @@ description: Known release groups
 tags:
 - Release Group Tier
 conditions:
-- name: BHDStudio
-  negate: false
-  pattern: BHDStudio
-  required: false
-  type: release_group
-- name: hallowed
-  negate: false
-  pattern: hallowed
-  required: false
-  type: release_group
-- name: HONE
-  negate: false
-  pattern: HONE
-  required: true
-  type: release_group
 - name: QxR
   negate: false
   pattern: QxR
@@ -56,11 +41,6 @@ conditions:
 - name: Vialle
   negate: false
   pattern: Vialle
-  required: false
-  type: release_group
-- name: dkore
-  negate: false
-  pattern: dkore
   required: false
   type: release_group
 - name: GRiMM
@@ -193,11 +173,6 @@ conditions:
   pattern: LolHD
   required: false
   type: release_group
-- name: NCmt
-  negate: false
-  pattern: NCmt
-  required: false
-  type: release_group
 - name: NTb
   negate: false
   pattern: NTb
@@ -211,11 +186,6 @@ conditions:
 - name: BV
   negate: false
   pattern: BV
-  required: false
-  type: release_group
-- name: Chotab
-  negate: false
-  pattern: Chotab
   required: false
   type: release_group
 - name: CJ
@@ -241,16 +211,6 @@ conditions:
 - name: E1
   negate: false
   pattern: E1
-  required: false
-  type: release_group
-- name: EDPH
-  negate: false
-  pattern: EDPH
-  required: false
-  type: release_group
-- name: ESiR
-  negate: false
-  pattern: ESiR
   required: false
   type: release_group
 - name: EXCiSION
@@ -353,11 +313,6 @@ conditions:
   pattern: Positive
   required: false
   type: release_group
-- name: PTer
-  negate: false
-  pattern: PTer
-  required: false
-  type: release_group
 - name: rightSIZE
   negate: false
   pattern: rightSIZE
@@ -391,11 +346,6 @@ conditions:
 - name: TBB
   negate: false
   pattern: TBB
-  required: false
-  type: release_group
-- name: TDD
-  negate: false
-  pattern: TDD
   required: false
   type: release_group
 - name: VLAD
