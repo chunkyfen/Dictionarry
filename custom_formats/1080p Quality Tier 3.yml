@@ -9,47 +9,52 @@ conditions:
   required: true
   source: web_dl
   type: source
-- name: CRiSC
+- name: ATELiER
   negate: false
-  pattern: CRiSC
+  pattern: ATELiER
   required: false
   type: release_group
-- name: decibeL
+- name: BHDStudio
   negate: false
-  pattern: decibeL
+  pattern: BHDStudio
   required: false
   type: release_group
-- name: FoRM
+- name: hallowed
   negate: false
-  pattern: FoRM
+  pattern: hallowed
   required: false
   type: release_group
-- name: HiDt
+- name: HiFi
   negate: false
-  pattern: HiDt
+  pattern: HiFi
   required: false
   type: release_group
-- name: HiP
+- name: HONE
   negate: false
-  pattern: HiP
+  pattern: HONE
   required: false
   type: release_group
-- name: iFT
+- name: LoRD
   negate: false
-  pattern: iFT
+  pattern: LoRD
   required: false
   type: release_group
-- name: SA89
+- name: playHD
   negate: false
-  pattern: SA89
+  pattern: playHD
   required: false
   type: release_group
-- name: WMING
+- name: SPHD
   negate: false
-  pattern: WMING
+  pattern: SPHD
   required: false
   type: release_group
-description: Matches release groups who fall under 1080p GPPi Tier 2
+- name: W4NK3R
+  negate: false
+  pattern: W4NK3R
+  required: false
+  type: release_group
+description: Matches release groups who fall under 1080p Tier 3
 name: 1080p Quality Tier 3
 tags:
 - GPPi
