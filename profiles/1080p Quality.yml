@@ -15,6 +15,8 @@ custom_formats:
     score: 10000
   - name: 1080p WEB-DL
     score: 10000
+  - name: 1080p Remux
+    score: 9000
   - name: 1080p WEBRip
     score: 9000
   - name: 1080p Quality Tier 1
@@ -22,6 +24,8 @@ custom_formats:
   - name: 720p Bluray
     score: 5000
   - name: 720p WEB-DL
+    score: 5000
+  - name: French Tier 1
     score: 5000
   - name: IMAX
     score: 5000
@@ -33,12 +37,16 @@ custom_formats:
     score: 4900
   - name: 720p WEBRip
     score: 4900
+  - name: French Tier 2
+    score: 4900
   - name: WEB-DL Tier 2
     score: 4900
   - name: 1080p Quality Tier 3
     score: 4800
   - name: WEB-DL Tier 3
     score: 4800
+  - name: 1080p Known Groups
+    score: 3100
   - name: 720p Quality Tier 1
     score: 3000
   - name: 720p Quality Tier 2

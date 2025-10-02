@@ -1,8 +1,3 @@
-name: 1080p Known Groups
-description: Known release groups
-tags:
-- Release Group Tier
-- 1080p
 conditions:
 - name: 1080p
   negate: false
@@ -510,8 +505,13 @@ conditions:
   required: false
   type: release_group
 - name: French Scene
-  type: release_group
-  required: false
   negate: false
   pattern: French Scene
+  required: false
+  type: release_group
+description: Known release groups
+name: 1080p Known Groups
+tags:
+- Release Group Tier
+- 1080p
 tests: []
