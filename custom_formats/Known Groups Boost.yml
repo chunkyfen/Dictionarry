@@ -173,11 +173,6 @@ conditions:
   pattern: LolHD
   required: false
   type: release_group
-- name: NTb
-  negate: false
-  pattern: NTb
-  required: false
-  type: release_group
 - name: AJP69
   negate: false
   pattern: AJP69
@@ -326,11 +321,6 @@ conditions:
 - name: SaNcTi
   negate: false
   pattern: SaNcTi
-  required: false
-  type: release_group
-- name: SbR
-  negate: false
-  pattern: SbR
   required: false
   type: release_group
 - name: SiMPLE
