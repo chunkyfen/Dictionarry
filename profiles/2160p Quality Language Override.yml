@@ -65,7 +65,7 @@ custom_formats:
   score: 4800
 - name: WEB-DL Tier 3
   score: 4800
-- name: 1080p Known Groups
+- name: Known Groups Boost
   score: 3100
 - name: 720p Quality Tier 1
   score: 3000

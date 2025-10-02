@@ -1,9 +1,8 @@
+name: Known Groups Boost
+description: Known release groups
+tags:
+- Release Group Tier
 conditions:
-- name: 1080p
-  negate: false
-  required: true
-  resolution: 1080p
-  type: resolution
 - name: BHDStudio
   negate: false
   pattern: BHDStudio
@@ -509,9 +508,4 @@ conditions:
   pattern: French Scene
   required: false
   type: release_group
-description: Known release groups
-name: 1080p Known Groups
-tags:
-- Release Group Tier
-- 1080p
 tests: []
