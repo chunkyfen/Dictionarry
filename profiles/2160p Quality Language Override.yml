@@ -59,16 +59,6 @@ custom_formats:
   score: 4800
 - name: WEB-DL Tier 3
   score: 4800
-- name: 1080p Quality Tier 4
-  score: 4700
-- name: WEB-DL Tier 4
-  score: 4700
-- name: 1080p Quality Tier 5
-  score: 4600
-- name: WEB-DL Tier 5
-  score: 4600
-- name: 1080p Balanced Tier 1
-  score: 4500
 - name: 720p Quality Tier 1
   score: 3000
 - name: 720p Quality Tier 2
@@ -93,10 +83,6 @@ custom_formats:
   score: 7
 - name: Repack1
   score: 6
-- name: Anime LQ Groups
-  score: -999999
-- name: Anime Raws
-  score: -999999
 - name: AV1
   score: -999999
 - name: B&W
@@ -112,24 +98,6 @@ custom_formats:
 - name: VVC
   score: -999999
 custom_formats_radarr:
-- name: 1080p Efficient+ Movie Bluray Tier 1
-  score: 4400
-- name: 1080p Efficient+ Movie Bluray Tier 2
-  score: 4300
-- name: 1080p Efficient+ Movie Bluray Tier 3
-  score: 4200
-- name: 1080p Efficient+ Movie Bluray Tier 4
-  score: 4100
-- name: 1080p Efficient+ Movie Bluray Tier 5
-  score: 4000
-- name: 1080p Efficient+ Movie WEB Tier 1
-  score: 3900
-- name: 1080p Efficient+ Movie WEB Tier 2
-  score: 3800
-- name: 1080p Efficient+ Movie WEB Tier 3
-  score: 3700
-- name: 1080p Efficient+ Movie WEB Tier 4
-  score: 3600
 - name: Special Edition
   score: 100
 - name: 3D
@@ -141,32 +109,6 @@ custom_formats_radarr:
 - name: x264 (2160p)
   score: -999999
 custom_formats_sonarr:
-- name: 1080p Efficient+ TV Bluray Tier 1
-  score: 4400
-- name: 1080p Efficient+ TV Bluray Tier 2
-  score: 4300
-- name: 1080p Efficient+ TV Bluray Tier 3
-  score: 4200
-- name: 1080p Efficient+ TV Bluray Tier 4
-  score: 4100
-- name: 1080p Efficient+ TV Bluray Tier 5
-  score: 4000
-- name: 1080p Efficient+ TV Bluray Tier 6
-  score: 3900
-- name: 1080p Efficient+ TV Bluray Tier 7
-  score: 3800
-- name: 1080p Efficient+ TV WEB Tier 1
-  score: 3700
-- name: 1080p Efficient+ TV WEB Tier 2
-  score: 3600
-- name: 1080p Efficient+ TV WEB Tier 3
-  score: 3500
-- name: 1080p Efficient+ TV WEB Tier 4
-  score: 3400
-- name: 1080p Efficient+ TV WEB Tier 5
-  score: 3300
-- name: 1080p Efficient+ TV WEB Tier 6
-  score: 3200
 - name: TV Extras
   score: -999999
 qualities:
