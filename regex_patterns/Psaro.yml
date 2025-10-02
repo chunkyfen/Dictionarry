@@ -1,0 +1,7 @@
+name: Psaro
+pattern: (?<=^|[\s.-])Psaro\b
+description: ''
+tags:
+- Release Group
+- French
+tests: []

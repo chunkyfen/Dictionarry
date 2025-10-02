@@ -1,0 +1,7 @@
+name: NoNE
+pattern: (?<=^|[\s.-])NoNE\b
+description: ''
+tags:
+- Release Group
+- French
+tests: []

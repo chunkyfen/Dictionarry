@@ -1,0 +1,7 @@
+name: UTT
+pattern: (?<=^|[\s.-])UTT\b
+description: ''
+tags:
+- Release Group
+- French
+tests: []

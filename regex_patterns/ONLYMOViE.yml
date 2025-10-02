@@ -1,0 +1,7 @@
+name: ONLYMOViE
+pattern: (?<=^|[\s.-])ONLYMOViE\b
+description: ''
+tags:
+- Release Group
+- French
+tests: []

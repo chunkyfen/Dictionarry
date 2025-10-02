@@ -1,0 +1,7 @@
+name: Choco
+pattern: (?<=^|[\s.-])Choco\b
+description: ''
+tags:
+- Release Group
+- French
+tests: []

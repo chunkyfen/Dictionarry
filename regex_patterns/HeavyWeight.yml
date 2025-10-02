@@ -1,0 +1,7 @@
+name: HeavyWeight
+pattern: (?<=^|[\s.-])HeavyWeight\b
+description: ''
+tags:
+- Release Group
+- French
+tests: []

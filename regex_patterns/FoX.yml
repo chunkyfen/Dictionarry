@@ -1,0 +1,7 @@
+name: FoX
+pattern: (?<=^|[\s.-])FoX\b
+description: ''
+tags:
+- Release Group
+- French
+tests: []

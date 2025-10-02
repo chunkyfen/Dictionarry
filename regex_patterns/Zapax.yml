@@ -1,0 +1,7 @@
+name: Zapax
+pattern: (?<=^|[\s.-])Zapax\b
+description: ''
+tags:
+- Release Group
+- French
+tests: []

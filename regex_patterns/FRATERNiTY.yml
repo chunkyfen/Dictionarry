@@ -1,0 +1,7 @@
+name: FRATERNiTY
+pattern: (?<=^|[\s.-])FRATERNiTY\b
+description: ''
+tags:
+- Release Group
+- French
+tests: []

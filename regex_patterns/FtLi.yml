@@ -1,0 +1,7 @@
+name: FtLi
+pattern: (?<=^|[\s.-])FtLi\b
+description: ''
+tags:
+- Release Group
+- French
+tests: []

@@ -1,0 +1,42 @@
+name: French Tier 1
+description: ''
+tags:
+- Release Group Tier
+- French
+conditions:
+- name: BDHD
+  type: release_group
+  required: false
+  negate: false
+  pattern: BDHD
+- name: FoX
+  type: release_group
+  required: false
+  negate: false
+  pattern: FoX
+- name: FRATERNiTY
+  type: release_group
+  required: false
+  negate: false
+  pattern: FRATERNiTY
+- name: FrIeNdS
+  type: release_group
+  required: false
+  negate: false
+  pattern: FrIeNdS
+- name: MAX
+  type: release_group
+  required: false
+  negate: false
+  pattern: MAX
+- name: Psaro
+  type: release_group
+  required: false
+  negate: false
+  pattern: Psaro
+- name: YODA
+  type: release_group
+  required: false
+  negate: false
+  pattern: YODA
+tests: []

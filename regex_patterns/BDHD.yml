@@ -1,0 +1,7 @@
+name: BDHD
+pattern: (?<=^|[\s.-])BDHD\b
+description: ''
+tags:
+- Release Group
+- French
+tests: []

@@ -1,0 +1,7 @@
+name: QUEBEC63
+pattern: (?<=^|[\s.-])QUEBEC63\b
+description: ''
+tags:
+- Release Group
+- French
+tests: []

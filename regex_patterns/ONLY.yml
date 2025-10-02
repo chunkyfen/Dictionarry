@@ -1,0 +1,7 @@
+name: ONLY
+pattern: (?<=^|[\s.-])ONLY\b
+description: ''
+tags:
+- Release Group
+- French
+tests: []

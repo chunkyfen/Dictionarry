@@ -1,0 +1,7 @@
+name: HDForever
+pattern: (?<=^|[\s.-])HDForever\b
+description: ''
+tags:
+- Release Group
+- French
+tests: []

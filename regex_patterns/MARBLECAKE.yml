@@ -1,0 +1,7 @@
+name: MARBLECAKE
+pattern: (?<=^|[\s.-])MARBLECAKE\b
+description: ''
+tags:
+- Release Group
+- French
+tests: []

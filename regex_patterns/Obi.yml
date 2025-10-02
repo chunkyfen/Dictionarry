@@ -1,0 +1,7 @@
+name: Obi
+pattern: (?<=^|[\s.-])Obi\b
+description: ''
+tags:
+- Release Group
+- French
+tests: []

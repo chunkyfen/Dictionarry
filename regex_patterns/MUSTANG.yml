@@ -1,0 +1,7 @@
+name: MUSTANG
+pattern: (?<=^|[\s.-])MUSTANG\b
+description: ''
+tags:
+- Release Group
+- French
+tests: []

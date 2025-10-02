@@ -1,0 +1,7 @@
+name: MYSTERiON
+pattern: (?<=^|[\s.-])MYSTERiON\b
+description: ''
+tags:
+- Release Group
+- French
+tests: []

@@ -1,0 +1,7 @@
+name: Tezcat74
+pattern: (?<=^|[\s.-])Tezcat74\b
+description: ''
+tags:
+- Release Group
+- French
+tests: []

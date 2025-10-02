@@ -1,0 +1,7 @@
+name: Goldenyann
+pattern: (?<=^|[\s.-])Goldenyann\b
+description: ''
+tags:
+- Release Group
+- French
+tests: []

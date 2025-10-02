@@ -1,0 +1,52 @@
+name: French Tier 2
+description: ''
+tags:
+- Release Group Tier
+- French
+conditions:
+- name: HDForever
+  negate: false
+  pattern: HDForever
+  required: false
+  type: release_group
+- name: HeavyWeight
+  negate: false
+  pattern: HeavyWeight
+  required: false
+  type: release_group
+- name: MARBLECAKE
+  negate: false
+  pattern: MARBLECAKE
+  required: false
+  type: release_group
+- name: MYSTERiON
+  type: release_group
+  required: false
+  negate: false
+  pattern: MYSTERiON
+- name: NoNE
+  type: release_group
+  required: false
+  negate: false
+  pattern: NoNE
+- name: ONLY
+  type: release_group
+  required: false
+  negate: false
+  pattern: ONLY
+- name: ONLYMOViE
+  type: release_group
+  required: false
+  negate: false
+  pattern: ONLYMOViE
+- name: TkHD
+  type: release_group
+  required: false
+  negate: false
+  pattern: TkHD
+- name: UTT
+  type: release_group
+  required: false
+  negate: false
+  pattern: UTT
+tests: []

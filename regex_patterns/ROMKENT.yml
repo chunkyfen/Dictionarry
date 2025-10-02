@@ -1,0 +1,7 @@
+name: ROMKENT
+pattern: (?<=^|[\s.-])ROMKENT\b
+description: ''
+tags:
+- Release Group
+- French
+tests: []

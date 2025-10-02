@@ -1,0 +1,7 @@
+name: BlackAngel
+pattern: (?<=^|[\s.-])BlackAngel\b
+description: ''
+tags:
+- Release Group
+- French
+tests: []

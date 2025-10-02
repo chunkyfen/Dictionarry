@@ -1,0 +1,7 @@
+name: YODA
+pattern: (?<=^|[\s.-])YODA\b
+description: ''
+tags:
+- Release Group
+- French
+tests: []

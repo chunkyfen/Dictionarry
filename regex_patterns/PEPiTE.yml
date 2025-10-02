@@ -1,0 +1,7 @@
+name: PEPiTE
+pattern: (?<=^|[\s.-])PEPiTE\b
+description: ''
+tags:
+- Release Group
+- French
+tests: []

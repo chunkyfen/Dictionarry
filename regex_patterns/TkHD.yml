@@ -1,0 +1,6 @@
+name: TkHD
+pattern: (?<=^|[\s.-])TkHD\b
+description: ''
+tags:
+- Release Group
+tests: []
