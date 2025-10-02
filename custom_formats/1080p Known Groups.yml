@@ -609,6 +609,41 @@ conditions:
   pattern: ROMKENT
   required: false
   type: release_group
+- name: BDHD
+  negate: false
+  pattern: BDHD
+  required: false
+  type: release_group
+- name: FoX
+  negate: false
+  pattern: FoX
+  required: false
+  type: release_group
+- name: FRATERNiTY
+  negate: false
+  pattern: FRATERNiTY
+  required: false
+  type: release_group
+- name: FrIeNdS
+  negate: false
+  pattern: FrIeNdS
+  required: false
+  type: release_group
+- name: MAX
+  negate: false
+  pattern: MAX
+  required: false
+  type: release_group
+- name: Psaro
+  negate: false
+  pattern: Psaro
+  required: false
+  type: release_group
+- name: YODA
+  negate: false
+  pattern: YODA
+  required: false
+  type: release_group
 description: Known release groups
 name: 1080p Known Groups
 tags:
