@@ -240,8 +240,13 @@ conditions:
   required: false
   type: release_group
 - name: VAATHI
+  negate: false
+  pattern: VAATHI
+  required: false
+  type: release_group
+- name: APEX
   type: release_group
   required: false
   negate: false
-  pattern: VAATHI
+  pattern: APEX
 tests: []

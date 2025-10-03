@@ -10,7 +10,7 @@ qualityDefinitions:
       preferred: 115
     Bluray-2160p:
       max: 284
-      min: 159
+      min: 120
       preferred: 199
     Bluray-480p:
       max: 2000
@@ -46,7 +46,7 @@ qualityDefinitions:
       preferred: 115
     HDTV-2160p:
       max: 284
-      min: 159
+      min: 120
       preferred: 199
     HDTV-720p:
       max: 2000
@@ -66,7 +66,7 @@ qualityDefinitions:
       preferred: 115
     Remux-2160p:
       max: 284
-      min: 159
+      min: 120
       preferred: 199
     SDTV:
       max: 2000
@@ -90,7 +90,7 @@ qualityDefinitions:
       preferred: 115
     WEBDL-2160p:
       max: 284
-      min: 154
+      min: 120
       preferred: 199
     WEBDL-480p:
       max: 2000
@@ -106,7 +106,7 @@ qualityDefinitions:
       preferred: 115
     WEBRip-2160p:
       max: 284
-      min: 159
+      min: 120
       preferred: 199
     WEBRip-480p:
       max: 2000
