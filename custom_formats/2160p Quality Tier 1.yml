@@ -5,6 +5,26 @@ tags:
 - 2160p
 - Quality
 conditions:
+- name: CtrlHD
+  negate: false
+  pattern: CtrlHD
+  required: false
+  type: release_group
+- name: DON
+  negate: false
+  pattern: DON
+  required: false
+  type: release_group
+- name: W4NK3R
+  negate: false
+  pattern: W4NK3R
+  required: false
+  type: release_group
+- name: MainFrame
+  negate: false
+  pattern: MainFrame
+  required: false
+  type: release_group
 - name: 2160p
   negate: false
   required: true
