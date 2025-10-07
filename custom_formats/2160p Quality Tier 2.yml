@@ -5,6 +5,11 @@ tags:
 - 2160p
 - Quality
 conditions:
+- name: HQMUX
+  negate: false
+  pattern: HQMUX
+  required: false
+  type: release_group
 - name: 2160p
   negate: false
   required: true
