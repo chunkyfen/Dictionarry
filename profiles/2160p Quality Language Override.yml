@@ -49,8 +49,6 @@ custom_formats:
   score: 5000
 - name: IMAX Enhanced
   score: 5000
-- name: WEB-DL Tier 1
-  score: 5000
 - name: 1080p Quality Tier 2
   score: 4900
 - name: 2160p Quality Tier 2
@@ -59,13 +57,9 @@ custom_formats:
   score: 4900
 - name: French Tier 2
   score: 4900
-- name: WEB-DL Tier 2
-  score: 4900
 - name: 1080p Quality Tier 3
   score: 4800
 - name: 2160p Quality Tier 3
-  score: 4800
-- name: WEB-DL Tier 3
   score: 4800
 - name: Known Groups Boost
   score: 3100
