@@ -41,8 +41,8 @@ custom_formats:
     score: 4900
   - name: 1080p Quality Tier 3
     score: 4800
-  - name: Known Groups Boost
-    score: 3100
+  - name: French Scene
+    score: 4800
   - name: 480p WEB-DL
     score: 2500
   - name: Repack3
