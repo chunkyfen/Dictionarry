@@ -9,114 +9,39 @@ conditions:
   required: true
   source: web_dl
   type: source
-- name: ABBIE
+- name: GNOMiSSiON
   negate: false
-  pattern: ABBIE
+  pattern: GNOMiSSiON
   required: false
   type: release_group
-- name: AJP69
+- name: NINJACENTRAL
   negate: false
-  pattern: AJP69
+  pattern: NINJACENTRAL
   required: false
   type: release_group
-- name: APEX
+- name: NPMS
   negate: false
-  pattern: APEX
+  pattern: NPMS
   required: false
   type: release_group
-- name: PAXA
+- name: ROCCaT
   negate: false
-  pattern: PAXA
+  pattern: ROCCaT
   required: false
   type: release_group
-- name: PEXA
+- name: SiGMA
   negate: false
-  pattern: PEXA
+  pattern: SiGMA
   required: false
   type: release_group
-- name: XEPA
+- name: SLiGNOME
   negate: false
-  pattern: XEPA
+  pattern: SLiGNOME
   required: false
   type: release_group
-- name: BLUTONiUM
+- name: SwAgLaNdEr
   negate: false
-  pattern: BLUTONiUM
-  required: false
-  type: release_group
-- name: CMRG
-  negate: false
-  pattern: CMRG
-  required: false
-  type: release_group
-- name: CRFW
-  negate: false
-  pattern: CRFW
-  required: false
-  type: release_group
-- name: CRUD
-  negate: false
-  pattern: CRUD
-  required: false
-  type: release_group
-- name: FLUX
-  negate: false
-  pattern: FLUX
-  required: false
-  type: release_group
-- name: GNOME
-  negate: false
-  pattern: GNOME
-  required: false
-  type: release_group
-- name: HONE
-  negate: false
-  pattern: HONE
-  required: false
-  type: release_group
-- name: KiNGS
-  negate: false
-  pattern: KiNGS
-  required: false
-  type: release_group
-- name: Kitsune
-  negate: false
-  pattern: Kitsune
-  required: false
-  type: release_group
-- name: NOSiViD
-  negate: false
-  pattern: NOSiViD
-  required: false
-  type: release_group
-- name: NTb
-  negate: false
-  pattern: NTb
-  required: false
-  type: release_group
-- name: NTG
-  negate: false
-  pattern: NTG
-  required: false
-  type: release_group
-- name: SiC
-  negate: false
-  pattern: SiC
-  required: false
-  type: release_group
-- name: TEPES
-  negate: false
-  pattern: TEPES
-  required: false
-  type: release_group
-- name: TheFarm
-  negate: false
-  pattern: TheFarm
-  required: false
-  type: release_group
-- name: ZoroSenpai
-  negate: false
-  pattern: ZoroSenpai
+  pattern: SwAgLaNdEr
   required: false
   type: release_group
 tests: []
