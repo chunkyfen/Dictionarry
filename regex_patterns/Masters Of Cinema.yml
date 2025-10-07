@@ -1,0 +1,6 @@
+name: Masters Of Cinema
+pattern: \\b(Masters[ .-]?Of[ .-]?Cinema)(\\b|\\d)
+description: ''
+tags:
+- Edition
+tests: []

@@ -1,3 +1,8 @@
+name: CRIT
+description: Matches 'Criterion Channel' WEB-DLs. Negates any encodes.
+tags:
+- Streaming Service
+- WEB-DL
 conditions:
 - name: CRiT Regex
   negate: false
@@ -14,9 +19,4 @@ conditions:
   required: false
   source: webrip
   type: source
-description: Matches 'Criterion Channel' WEB-DLs. Negates any encodes.
-name: CRIT
-tags:
-- Streaming Service
-- WEB-DL
 tests: []

@@ -1,0 +1,55 @@
+name: Masters Of Cinema
+description: ''
+tags:
+- Edition
+- Release Title
+conditions:
+- name: Masters Of Cinema
+  type: release_title
+  required: false
+  negate: false
+  pattern: Masters Of Cinema
+- name: MoC
+  type: release_title
+  required: false
+  negate: false
+  pattern: MoC
+tests:
+- conditionResults:
+  - matches: false
+    name: Masters Of Cinema
+    negate: false
+    pattern: Masters Of Cinema
+    required: false
+    type: release_title
+  - matches: false
+    name: MoC
+    negate: false
+    pattern: MoC
+    required: false
+    type: release_title
+  expected: true
+  id: 1
+  input: Bring Her Back (2025) {tmdb-1151031} Masters Of Cinema [WEBDL-2160p][DV HDR10Plus][EAC3
+    Atmos 5.1][h265][10-bit]-HONE.mkv
+  lastRun: '2025-10-07T15:17:11.350018'
+  passes: true
+- conditionResults:
+  - matches: false
+    name: Masters Of Cinema
+    negate: false
+    pattern: Masters Of Cinema
+    required: false
+    type: release_title
+  - matches: false
+    name: MoC
+    negate: false
+    pattern: MoC
+    required: false
+    type: release_title
+  expected: true
+  id: 2
+  input: Bring Her Back (2025) {tmdb-1151031} [WEBDL-2160p-MOC-DV HDR10Plus][EAC3
+    Atmos 5.1][h265][10-bit]-HONE.mkv
+  lastRun: '2025-10-07T15:17:11.350018'
+  passes: true

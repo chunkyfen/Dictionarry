@@ -1,6 +1,7 @@
 name: Criterion
-pattern: \\b(Criterion)\\b
+pattern: \b(Criterion|CC)\b
 description: ''
 tags:
 - Release title
+- Bluray
 tests: []

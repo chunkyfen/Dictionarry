@@ -16,16 +16,119 @@ conditions:
 - name: Criterion
   negate: false
   pattern: Criterion
-  required: false
-  type: release_title
-- name: CC
-  negate: false
-  pattern: CC
-  required: false
-  type: release_title
-- name: Not Criterion RlsGrp
-  negate: true
-  pattern: Not Criterion RlsGrp
   required: true
   type: release_title
-tests: []
+- name: Not Criterion RG
+  negate: true
+  pattern: Not Criterion RlsGrp
+  required: false
+  type: release_group
+tests:
+- conditionResults:
+  - matches: false
+    name: Criterion
+    negate: false
+    pattern: Criterion
+    required: true
+    type: release_title
+  - matches: false
+    name: Not Criterion RG
+    negate: true
+    pattern: Not Criterion RlsGrp
+    required: false
+    type: release_group
+  expected: false
+  id: 1
+  input: C'mon C'mon (2021) {tmdb-632617} [WEBDL-2160p][HDR10][EAC3 Atmos 5.1][HEVC][10-bit]-CMRG.mkv
+  lastRun: '2025-10-07T15:08:49.481899'
+  passes: true
+- conditionResults:
+  - matches: true
+    name: Criterion
+    negate: false
+    pattern: Criterion
+    required: true
+    type: release_title
+  - matches: false
+    name: Not Criterion RG
+    negate: true
+    pattern: Not Criterion RlsGrp
+    required: false
+    type: release_group
+  expected: true
+  id: 2
+  input: Days.of.Heaven.1978.1080p.Criterion.Bluray.DTS.x264-GCJM
+  lastRun: '2025-10-07T15:08:49.481899'
+  passes: true
+- conditionResults:
+  - matches: true
+    name: Criterion
+    negate: false
+    pattern: Criterion
+    required: true
+    type: release_title
+  - matches: false
+    name: Not Criterion RG
+    negate: true
+    pattern: Not Criterion RlsGrp
+    required: false
+    type: release_group
+  expected: false
+  id: 3
+  input: Days.of.Heaven.1978.1080p.Bluray.DTS.x264-Criterion
+  lastRun: '2025-10-07T15:08:49.481899'
+  passes: false
+- conditionResults:
+  - matches: true
+    name: Criterion
+    negate: false
+    pattern: Criterion
+    required: true
+    type: release_title
+  - matches: false
+    name: Not Criterion RG
+    negate: true
+    pattern: Not Criterion RlsGrp
+    required: false
+    type: release_group
+  expected: true
+  id: 4
+  input: Days.of.Heaven.1978.1080p.CC.Bluray.DTS.x264-GCJM
+  lastRun: '2025-10-07T15:08:49.481899'
+  passes: true
+- conditionResults:
+  - matches: true
+    name: Criterion
+    negate: false
+    pattern: Criterion
+    required: true
+    type: release_title
+  - matches: false
+    name: Not Criterion RG
+    negate: true
+    pattern: Not Criterion RlsGrp
+    required: false
+    type: release_group
+  expected: true
+  id: 5
+  input: Days.of.Heaven.1978.1080p.Criterion.Bluray.DTS.x264-Criterion
+  lastRun: '2025-10-07T15:08:49.481899'
+  passes: true
+- conditionResults:
+  - matches: false
+    name: Criterion
+    negate: false
+    pattern: Criterion
+    required: true
+    type: release_title
+  - matches: false
+    name: Not Criterion RG
+    negate: true
+    pattern: Not Criterion RlsGrp
+    required: false
+    type: release_group
+  expected: false
+  id: 6
+  input: Days.of.HeavenC.1978.1080p..Bluray.CDTS.x264-GCJM
+  lastRun: '2025-10-07T15:08:49.481899'
+  passes: true
