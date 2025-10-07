@@ -15,11 +15,6 @@ conditions:
   pattern: DON
   required: false
   type: release_group
-- name: HQMUX
-  negate: false
-  pattern: HQMUX
-  required: false
-  type: release_group
 - name: SA89
   negate: false
   pattern: SA89
