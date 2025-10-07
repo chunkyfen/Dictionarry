@@ -51,6 +51,14 @@ custom_formats:
     score: 4800
   - name: 480p WEB-DL
     score: 2500
+  - name: CRIT
+    score: 1000
+  - name: Criterion Collection
+    score: 100
+  - name: MA
+    score: 100
+  - name: Masters Of Cinema
+    score: 100
   - name: Repack3
     score: 8
   - name: Repack2
