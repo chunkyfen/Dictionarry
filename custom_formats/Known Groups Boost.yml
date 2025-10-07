@@ -448,4 +448,24 @@ conditions:
   pattern: French Scene
   required: false
   type: release_group
+- name: 4KDVS
+  type: release_group
+  required: false
+  negate: false
+  pattern: 4KDVS
+- name: AAAUHD
+  type: release_group
+  required: false
+  negate: false
+  pattern: AAAUHD
+- name: Absinth
+  type: release_group
+  required: false
+  negate: false
+  pattern: Absinth
+- name: ADE
+  type: release_group
+  required: false
+  negate: false
+  pattern: ADE
 tests: []
