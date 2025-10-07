@@ -1,3 +1,12 @@
+name: Special Edition
+description: "Special editions are modified versions of movies released after the\
+  \ original theatrical version.\n\n\u2022 They exist because filmmakers want to present\
+  \ their `true vision`, `fix problems`, or because studios want to make more money\n\
+  \u2022 You'll see them with names like `Director's Cut`, `Extended Edition`, or\
+  \ creative marketing labels like `Ultimate Cut`\n\u2022 A single film can have `multiple\
+  \ special editions` as technology improves or different creative perspectives emerge"
+tags:
+- Edition
 conditions:
 - name: Special Edition
   negate: false
@@ -29,15 +38,6 @@ conditions:
   pattern: Sing Along
   required: true
   type: release_title
-description: "Special editions are modified versions of movies released after the\
-  \ original theatrical version.\n\n\u2022 They exist because filmmakers want to present\
-  \ their `true vision`, `fix problems`, or because studios want to make more money\n\
-  \u2022 You'll see them with names like `Director's Cut`, `Extended Edition`, or\
-  \ creative marketing labels like `Ultimate Cut`\n\u2022 A single film can have `multiple\
-  \ special editions` as technology improves or different creative perspectives emerge"
-name: Special Edition
-tags:
-- Edition
 tests:
 - conditionResults:
   - matches: true
