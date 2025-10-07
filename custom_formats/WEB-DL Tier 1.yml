@@ -4,51 +4,6 @@ conditions:
   required: true
   source: web_dl
   type: source
-- name: FLUX
-  negate: false
-  pattern: FLUX
-  required: false
-  type: release_group
-- name: NTb
-  negate: false
-  pattern: NTb
-  required: false
-  type: release_group
-- name: BYNDR
-  negate: false
-  pattern: BYNDR
-  required: false
-  type: release_group
-- name: CMRG
-  negate: false
-  pattern: CMRG
-  required: false
-  type: release_group
-- name: HHWEB
-  negate: false
-  pattern: HHWEB
-  required: false
-  type: release_group
-- name: HONE
-  negate: false
-  pattern: HONE
-  required: false
-  type: release_group
-- name: Kitsune
-  negate: false
-  pattern: Kitsune
-  required: false
-  type: release_group
-- name: playWEB
-  negate: false
-  pattern: playWEB
-  required: false
-  type: release_group
-- name: TEPES
-  negate: false
-  pattern: TEPES
-  required: false
-  type: release_group
 - name: ABM
   negate: false
   pattern: ABM
@@ -64,9 +19,19 @@ conditions:
   pattern: BLUTONiUM
   required: false
   type: release_group
+- name: BTN
+  negate: false
+  pattern: BTN
+  required: false
+  type: release_group
 - name: BTW
   negate: false
   pattern: BTW
+  required: false
+  type: release_group
+- name: BYNDR
+  negate: false
+  pattern: BYNDR
   required: false
   type: release_group
 - name: CasStudio
@@ -79,14 +44,49 @@ conditions:
   pattern: Cinefeel
   required: false
   type: release_group
+- name: CMRG
+  negate: false
+  pattern: CMRG
+  required: false
+  type: release_group
 - name: CRFW
   negate: false
   pattern: CRFW
   required: false
   type: release_group
+- name: CRUD
+  negate: false
+  pattern: CRUD
+  required: false
+  type: release_group
 - name: CtrlHD
   negate: false
   pattern: CtrlHD
+  required: false
+  type: release_group
+- name: dB
+  negate: false
+  pattern: dB
+  required: false
+  type: release_group
+- name: FLUX
+  negate: false
+  pattern: FLUX
+  required: false
+  type: release_group
+- name: GNOME
+  negate: false
+  pattern: GNOME
+  required: false
+  type: release_group
+- name: HHWEB
+  negate: false
+  pattern: HHWEB
+  required: false
+  type: release_group
+- name: HONE
+  negate: false
+  pattern: HONE
   required: false
   type: release_group
 - name: KHN
@@ -97,6 +97,11 @@ conditions:
 - name: KiNGS
   negate: false
   pattern: KiNGS
+  required: false
+  type: release_group
+- name: Kitsune
+  negate: false
+  pattern: Kitsune
   required: false
   type: release_group
 - name: LAZY
@@ -114,6 +119,11 @@ conditions:
   pattern: MZABI
   required: false
   type: release_group
+- name: NINJACENTRAL
+  negate: false
+  pattern: NINJACENTRAL
+  required: false
+  type: release_group
 - name: NOSiViD
   negate: false
   pattern: NOSiViD
@@ -124,9 +134,29 @@ conditions:
   pattern: NPMS
   required: false
   type: release_group
+- name: NTb
+  negate: false
+  pattern: NTb
+  required: false
+  type: release_group
 - name: NTG
   negate: false
   pattern: NTG
+  required: false
+  type: release_group
+- name: PHOENiX
+  negate: false
+  pattern: PHOENiX
+  required: false
+  type: release_group
+- name: playWEB
+  negate: false
+  pattern: playWEB
+  required: false
+  type: release_group
+- name: PTP
+  negate: false
+  pattern: PTP
   required: false
   type: release_group
 - name: QOQ
@@ -139,6 +169,16 @@ conditions:
   pattern: RAWR
   required: false
   type: release_group
+- name: ROCCaT
+  negate: false
+  pattern: ROCCaT
+  required: false
+  type: release_group
+- name: RTN
+  negate: false
+  pattern: RTN
+  required: false
+  type: release_group
 - name: SA89
   negate: false
   pattern: SA89
@@ -149,9 +189,39 @@ conditions:
   pattern: SbR
   required: false
   type: release_group
+- name: SiC
+  negate: false
+  pattern: SiC
+  required: false
+  type: release_group
+- name: SiGLA
+  negate: false
+  pattern: SiGLA
+  required: false
+  type: release_group
+- name: SiGMA
+  negate: false
+  pattern: SiGMA
+  required: false
+  type: release_group
 - name: SMURF
   negate: false
   pattern: SMURF
+  required: false
+  type: release_group
+- name: SPiRiT
+  negate: false
+  pattern: SPiRiT
+  required: false
+  type: release_group
+- name: SwAgLaNdEr
+  negate: false
+  pattern: SwAgLaNdEr
+  required: false
+  type: release_group
+- name: TEPES
+  negate: false
+  pattern: TEPES
   required: false
   type: release_group
 - name: TheFarm
@@ -169,6 +239,11 @@ conditions:
   pattern: TVSmash
   required: false
   type: release_group
+- name: ViSUM
+  negate: false
+  pattern: ViSUM
+  required: false
+  type: release_group
 - name: WELP
   negate: false
   pattern: WELP
@@ -182,81 +257,6 @@ conditions:
 - name: ZoroSenpai
   negate: false
   pattern: ZoroSenpai
-  required: false
-  type: release_group
-- name: BTN
-  negate: false
-  pattern: BTN
-  required: false
-  type: release_group
-- name: dB
-  negate: false
-  pattern: dB
-  required: false
-  type: release_group
-- name: PTP
-  negate: false
-  pattern: PTP
-  required: false
-  type: release_group
-- name: RTN
-  negate: false
-  pattern: RTN
-  required: false
-  type: release_group
-- name: SiC
-  negate: false
-  pattern: SiC
-  required: false
-  type: release_group
-- name: SPiRiT
-  negate: false
-  pattern: SPiRiT
-  required: false
-  type: release_group
-- name: ViSUM
-  negate: false
-  pattern: ViSUM
-  required: false
-  type: release_group
-- name: CRUD
-  negate: false
-  pattern: CRUD
-  required: false
-  type: release_group
-- name: GNOME
-  negate: false
-  pattern: GNOME
-  required: false
-  type: release_group
-- name: NINJACENTRAL
-  negate: false
-  pattern: NINJACENTRAL
-  required: false
-  type: release_group
-- name: PHOENiX
-  negate: false
-  pattern: PHOENiX
-  required: false
-  type: release_group
-- name: ROCCaT
-  negate: false
-  pattern: ROCCaT
-  required: false
-  type: release_group
-- name: SiGLA
-  negate: false
-  pattern: SiGLA
-  required: false
-  type: release_group
-- name: SiGMA
-  negate: false
-  pattern: SiGMA
-  required: false
-  type: release_group
-- name: SwAgLaNdEr
-  negate: false
-  pattern: SwAgLaNdEr
   required: false
   type: release_group
 description: Matches release groups who fall under WEB-DL Tier 1
