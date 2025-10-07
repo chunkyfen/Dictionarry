@@ -1,6 +1,5 @@
 name: 2160p Quality Language Override
-description: Language Override Profile for releases with wrong TMDB original language
-  listing to prevent download loops.
+description: ''
 tags:
 - 2160p
 - Quality Focused
@@ -64,7 +63,7 @@ custom_formats:
 - name: 480p WEB-DL
   score: 2500
 - name: CRIT
-  score: 1000
+  score: 100
 - name: Criterion Collection
   score: 100
 - name: MA
