@@ -1,4 +1,9 @@
 conditions:
+- name: WEB-DL
+  negate: false
+  required: true
+  source: web_dl
+  type: source
 - name: ABBIE
   negate: false
   pattern: ABBIE
