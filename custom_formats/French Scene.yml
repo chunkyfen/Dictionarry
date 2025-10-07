@@ -1,0 +1,11 @@
+name: French Scene
+description: ''
+tags:
+- Release Group Tier
+conditions:
+- name: French Scene
+  type: release_group
+  required: false
+  negate: false
+  pattern: French Scene
+tests: []

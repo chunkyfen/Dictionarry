@@ -1,6 +1,6 @@
-description: ''
 name: APEX
-pattern: (?<=^|[\s.-])APEX\b
+pattern: (?<=^|[\s.-])(APEX|PAXA|PEXA|XEPA)\b
+description: ''
 tags:
 - Release Group
 - WEB-DL
