@@ -11,11 +11,6 @@ conditions:
   required: true
   resolution: 1080p
   type: resolution
-- name: Not WEB-DL
-  negate: true
-  required: true
-  source: web_dl
-  type: source
 - name: ATELiER
   negate: false
   pattern: ATELiER
@@ -61,4 +56,14 @@ conditions:
   pattern: W4NK3R
   required: false
   type: release_group
+- name: Not Remux
+  type: release_title
+  required: true
+  negate: true
+  pattern: Remux
+- name: Bluray
+  type: source
+  required: true
+  negate: false
+  source: bluray
 tests: []
