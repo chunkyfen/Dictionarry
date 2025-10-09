@@ -1,0 +1,6 @@
+name: PEXA
+pattern: (?<=^|[\s.-])PEXA\b
+description: ''
+tags:
+- Release Group
+tests: []

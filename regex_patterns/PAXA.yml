@@ -1,0 +1,6 @@
+name: PAXA
+pattern: (?<=^|[\s.-])PAXA\b
+description: ''
+tags:
+- Release Group
+tests: []

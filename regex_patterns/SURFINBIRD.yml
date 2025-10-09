@@ -1,0 +1,7 @@
+name: SURFINBIRD
+pattern: (?<=^|[\s.-])SURFINBIRD\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

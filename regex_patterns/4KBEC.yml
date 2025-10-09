@@ -1,0 +1,6 @@
+name: 4KBEC
+pattern: (?<=^|[\s.-])4KBEC\b
+description: ''
+tags:
+- Release Group
+tests: []

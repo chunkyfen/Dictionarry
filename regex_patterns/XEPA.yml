@@ -1,0 +1,6 @@
+name: XEPA
+pattern: (?<=^|[\s.-])XEPA\b
+description: ''
+tags:
+- Release Group
+tests: []

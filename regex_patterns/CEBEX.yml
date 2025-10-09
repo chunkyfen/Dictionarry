@@ -1,0 +1,7 @@
+name: CEBEX
+pattern: (?<=^|[\s.-])CEBEX\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []
