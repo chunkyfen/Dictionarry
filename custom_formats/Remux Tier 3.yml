@@ -1,0 +1,62 @@
+name: Remux Tier 03
+description: Matches release groups who fall under Remux Tier 03
+tags:
+- Release Group Tier
+- Remux
+conditions:
+- name: ATELiER
+  negate: false
+  required: false
+  pattern: ATELiER
+  type: release_group
+- name: decibeL
+  negate: false
+  required: false
+  pattern: decibeL
+  type: release_group
+- name: EPSiLON
+  negate: false
+  required: false
+  pattern: EPSiLON
+  type: release_group
+- name: HiFi
+  negate: false
+  required: false
+  pattern: HiFi
+  type: release_group
+- name: iFT
+  negate: false
+  required: false
+  pattern: iFT
+  type: release_group
+- name: KRaLiMaRKo
+  negate: false
+  required: false
+  pattern: KRaLiMaRKo
+  type: release_group
+- name: NTb
+  negate: false
+  required: false
+  pattern: NTb
+  type: release_group
+- name: PTP
+  negate: false
+  required: false
+  pattern: PTP
+  type: release_group
+- name: SumVision
+  negate: false
+  required: false
+  pattern: SumVision
+  type: release_group
+- name: TOA
+  negate: false
+  required: false
+  pattern: TOA
+  type: release_group
+- name: TRiToN
+  negate: false
+  required: false
+  pattern: TRiToN
+  type: release_group
+tests: []
