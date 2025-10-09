@@ -1,0 +1,32 @@
+name: Remux Tier 02
+description: Matches release groups who fall under Remux Tier 02
+tags:
+- Release Group Tier
+- Remux
+conditions:
+- name: NCmt
+  negate: false
+  required: false
+  pattern: NCmt
+  type: release_group
+- name: playBD
+  negate: false
+  required: false
+  pattern: playBD
+  type: release_group
+- name: SiCFoI
+  negate: false
+  required: false
+  pattern: SiCFoI
+  type: release_group
+- name: SURFINBIRD
+  negate: false
+  required: false
+  pattern: SURFINBIRD
+  type: release_group
+- name: TEPES
+  negate: false
+  required: false
+  pattern: TEPES
+  type: release_group
+tests: []
