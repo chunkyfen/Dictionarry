@@ -14,8 +14,8 @@ conditions:
   source: bluray
   type: source
 - name: Not remux
-  type: release_title
-  required: true
   negate: true
   pattern: Remux
+  required: true
+  type: release_title
 tests: []

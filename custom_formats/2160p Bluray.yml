@@ -1,3 +1,7 @@
+name: 2160p Bluray
+description: Matches 2160p Blurays that are NOT remuxes
+tags:
+- Source
 conditions:
 - name: 2160p
   negate: false
@@ -9,8 +13,9 @@ conditions:
   required: true
   source: bluray
   type: source
-description: Matches 2160p Blurays that are NOT remuxes
-name: 2160p Bluray
-tags:
-- Source
+- name: Not Remux
+  type: release_title
+  required: true
+  negate: true
+  pattern: Remux
 tests: []
