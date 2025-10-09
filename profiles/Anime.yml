@@ -81,7 +81,7 @@ custom_formats:
   score: -999999
 - name: Banned Groups (Title)
   score: -999999
-- name: Upscaled
+- name: Upscaled Sonarr
   score: -999999
 - name: VP9
   score: -999999
