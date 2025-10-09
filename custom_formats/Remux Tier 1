@@ -1,0 +1,57 @@
+name: Remux Tier 01
+description: Matches release groups who fall under Remux Tier 01
+tags:
+- Release Group Tier
+- Remux
+conditions:
+- name: 3L
+  negate: false
+  required: false
+  pattern: 3L
+  type: release_group
+- name: BiZKiT
+  negate: false
+  required: false
+  pattern: BiZKiT
+  type: release_group
+- name: BLURANiUM
+  negate: false
+  required: false
+  pattern: BLURANiUM
+  type: release_group
+- name: BMF
+  negate: false
+  required: false
+  pattern: BMF
+  type: release_group
+- name: CiNEPHiLES
+  negate: false
+  required: false
+  pattern: CiNEPHiLES
+  type: release_group
+- name: FraMeSToR
+  negate: false
+  required: false
+  pattern: FraMeSToR
+  type: release_group
+- name: PiRAMiDHEAD
+  negate: false
+  required: false
+  pattern: PiRAMiDHEAD
+  type: release_group
+- name: PmP
+  negate: false
+  required: false
+  pattern: PmP
+  type: release_group
+- name: WiLDCAT
+  negate: false
+  required: false
+  pattern: WiLDCAT
+  type: release_group
+- name: ZQ
+  negate: false
+  required: false
+  pattern: ZQ
+  type: release_group
+tests: []
