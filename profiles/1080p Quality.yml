@@ -19,8 +19,6 @@ custom_formats:
     score: 10000
   - name: 1080p WEBRip
     score: 9000
-  - name: 1080p Tier 1
-    score: 5000
   - name: 720p Bluray
     score: 5000
   - name: 720p WEB-DL
@@ -29,12 +27,8 @@ custom_formats:
     score: 5000
   - name: IMAX Enhanced
     score: 5000
-  - name: 1080p Tier 2
-    score: 4900
   - name: 720p WEBRip
     score: 4900
-  - name: 1080p Tier 3
-    score: 4800
   - name: WEB Tier 01
     score: 4800
   - name: WEB Tier 02
@@ -68,8 +62,6 @@ custom_formats:
   - name: Banned Groups
     score: -999999
   - name: Banned Groups (Title)
-    score: -999999
-  - name: VP9
     score: -999999
   - name: VVC
     score: -999999
