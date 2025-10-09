@@ -1,28 +1,33 @@
-name: 2160p Quality Tier 1
-description: Matches release groups who fall under 2160p Quality Tier 1
+name: 2160p Tier 3
+description: Matches release groups who fall under 2160p Quality Tier 3
 tags:
 - Release Group Tier
 - 2160p
 - Quality
 conditions:
-- name: CtrlHD
+- name: BHDStudio
   negate: false
-  pattern: CtrlHD
+  pattern: BHDStudio
   required: false
   type: release_group
-- name: DON
+- name: hallowed
   negate: false
-  pattern: DON
+  pattern: hallowed
   required: false
   type: release_group
-- name: W4NK3R
+- name: HONE
   negate: false
-  pattern: W4NK3R
+  pattern: HONE
   required: false
   type: release_group
-- name: MainFrame
+- name: PTer
   negate: false
-  pattern: MainFrame
+  pattern: PTer
+  required: false
+  type: release_group
+- name: SPHD
+  negate: false
+  pattern: SPHD
   required: false
   type: release_group
 - name: 2160p

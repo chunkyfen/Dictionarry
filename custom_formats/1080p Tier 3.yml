@@ -1,3 +1,10 @@
+name: 1080p Tier 3
+description: Matches release groups who fall under 1080p Tier 3
+tags:
+- GPPi
+- Release Group Tier
+- 1080p
+- Quality
 conditions:
 - name: 1080p
   negate: false
@@ -54,11 +61,4 @@ conditions:
   pattern: W4NK3R
   required: false
   type: release_group
-description: Matches release groups who fall under 1080p Tier 3
-name: 1080p Quality Tier 3
-tags:
-- GPPi
-- Release Group Tier
-- 1080p
-- Quality
 tests: []
