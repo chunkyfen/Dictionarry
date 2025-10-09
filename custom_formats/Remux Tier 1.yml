@@ -4,6 +4,16 @@ tags:
 - Release Group Tier
 - Remux
 conditions:
+- name: Remux
+  negate: false
+  pattern: Remux
+  required: true
+  type: release_title
+- name: Not DVD
+  negate: true
+  required: true
+  source: dvd
+  type: source
 - name: 3L
   negate: false
   required: false
