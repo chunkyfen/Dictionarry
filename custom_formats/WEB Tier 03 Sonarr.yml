@@ -9,4 +9,34 @@ conditions:
   required: true
   source: web_dl
   type: source
+- name: DRACULA
+  negate: false
+  required: false
+  pattern: DRACULA
+  type: release_group
+- name: NINJACENTRAL
+  negate: false
+  required: false
+  pattern: NINJACENTRAL
+  type: release_group
+- name: SLiGNOME
+  negate: false
+  required: false
+  pattern: SLiGNOME
+  type: release_group
+- name: SwAgLaNdEr
+  negate: false
+  required: false
+  pattern: SwAgLaNdEr
+  type: release_group
+- name: T4H
+  negate: false
+  required: false
+  pattern: T4H
+  type: release_group
+- name: ViSiON
+  negate: false
+  required: false
+  pattern: ViSiON
+  type: release_group
 tests: []
