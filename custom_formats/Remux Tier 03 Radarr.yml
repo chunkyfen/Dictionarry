@@ -1,27 +1,32 @@
-name: 1080p Tier 03
-description: Matches release groups who fall under 1080p Tier 3
+name: Remux Tier 03 Radarr
+description: Matches release groups who fall under Remux Tier 03
 tags:
 - Release Group Tier
-- 1080p
+- Remux
 conditions:
-- name: 1080p
+- name: Remux
   negate: false
+  pattern: Remux
   required: true
-  resolution: 1080p
-  type: resolution
+  type: release_title
+- name: Not DVD
+  negate: true
+  required: true
+  source: dvd
+  type: source
 - name: ATELiER
   negate: false
   pattern: ATELiER
   required: false
   type: release_group
-- name: BHDStudio
+- name: decibeL
   negate: false
-  pattern: BHDStudio
+  pattern: decibeL
   required: false
   type: release_group
-- name: hallowed
+- name: EPSiLON
   negate: false
-  pattern: hallowed
+  pattern: EPSiLON
   required: false
   type: release_group
 - name: HiFi
@@ -29,39 +34,39 @@ conditions:
   pattern: HiFi
   required: false
   type: release_group
-- name: HONE
+- name: iFT
   negate: false
-  pattern: HONE
+  pattern: iFT
   required: false
   type: release_group
-- name: LoRD
+- name: KRaLiMaRKo
   negate: false
-  pattern: LoRD
+  pattern: KRaLiMaRKo
   required: false
   type: release_group
-- name: playHD
+- name: NTb
   negate: false
-  pattern: playHD
+  pattern: NTb
   required: false
   type: release_group
-- name: SPHD
+- name: PTP
   negate: false
-  pattern: SPHD
+  pattern: PTP
   required: false
   type: release_group
-- name: W4NK3R
+- name: SumVision
   negate: false
-  pattern: W4NK3R
+  pattern: SumVision
   required: false
   type: release_group
-- name: Not Remux
-  negate: true
-  pattern: Remux
-  required: true
-  type: release_title
-- name: Bluray
+- name: TOA
   negate: false
-  required: true
-  source: bluray
-  type: source
+  pattern: TOA
+  required: false
+  type: release_group
+- name: TRiToN
+  negate: false
+  pattern: TRiToN
+  required: false
+  type: release_group
 tests: []

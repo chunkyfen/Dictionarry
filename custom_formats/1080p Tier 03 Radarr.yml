@@ -1,67 +1,67 @@
-name: Remux Tier 01
-description: Matches release groups who fall under Remux Tier 01
+name: 1080p Tier 03 Radarr
+description: Matches release groups who fall under 1080p Tier 3
 tags:
 - Release Group Tier
-- Remux
+- 1080p
 conditions:
-- name: Remux
+- name: 1080p
   negate: false
+  required: true
+  resolution: 1080p
+  type: resolution
+- name: ATELiER
+  negate: false
+  pattern: ATELiER
+  required: false
+  type: release_group
+- name: BHDStudio
+  negate: false
+  pattern: BHDStudio
+  required: false
+  type: release_group
+- name: hallowed
+  negate: false
+  pattern: hallowed
+  required: false
+  type: release_group
+- name: HiFi
+  negate: false
+  pattern: HiFi
+  required: false
+  type: release_group
+- name: HONE
+  negate: false
+  pattern: HONE
+  required: false
+  type: release_group
+- name: LoRD
+  negate: false
+  pattern: LoRD
+  required: false
+  type: release_group
+- name: playHD
+  negate: false
+  pattern: playHD
+  required: false
+  type: release_group
+- name: SPHD
+  negate: false
+  pattern: SPHD
+  required: false
+  type: release_group
+- name: W4NK3R
+  negate: false
+  pattern: W4NK3R
+  required: false
+  type: release_group
+- name: Not Remux
+  negate: true
   pattern: Remux
   required: true
   type: release_title
-- name: Not DVD
-  negate: true
+- name: Bluray
+  negate: false
   required: true
-  source: dvd
+  source: bluray
   type: source
-- name: 3L
-  negate: false
-  required: false
-  pattern: 3L
-  type: release_group
-- name: BiZKiT
-  negate: false
-  required: false
-  pattern: BiZKiT
-  type: release_group
-- name: BLURANiUM
-  negate: false
-  required: false
-  pattern: BLURANiUM
-  type: release_group
-- name: BMF
-  negate: false
-  required: false
-  pattern: BMF
-  type: release_group
-- name: CiNEPHiLES
-  negate: false
-  required: false
-  pattern: CiNEPHiLES
-  type: release_group
-- name: FraMeSToR
-  negate: false
-  required: false
-  pattern: FraMeSToR
-  type: release_group
-- name: PiRAMiDHEAD
-  negate: false
-  required: false
-  pattern: PiRAMiDHEAD
-  type: release_group
-- name: PmP
-  negate: false
-  required: false
-  pattern: PmP
-  type: release_group
-- name: WiLDCAT
-  negate: false
-  required: false
-  pattern: WiLDCAT
-  type: release_group
-- name: ZQ
-  negate: false
-  required: false
-  pattern: ZQ
-  type: release_group
 tests: []

@@ -1,4 +1,4 @@
-name: Remux Tier 02
+name: Remux Tier 02 Radarr
 description: Matches release groups who fall under Remux Tier 02
 tags:
 - Release Group Tier
@@ -16,27 +16,27 @@ conditions:
   type: source
 - name: NCmt
   negate: false
-  required: false
   pattern: NCmt
+  required: false
   type: release_group
 - name: playBD
   negate: false
-  required: false
   pattern: playBD
+  required: false
   type: release_group
 - name: SiCFoI
   negate: false
-  required: false
   pattern: SiCFoI
+  required: false
   type: release_group
 - name: SURFINBIRD
   negate: false
-  required: false
   pattern: SURFINBIRD
+  required: false
   type: release_group
 - name: TEPES
   negate: false
-  required: false
   pattern: TEPES
+  required: false
   type: release_group
 tests: []

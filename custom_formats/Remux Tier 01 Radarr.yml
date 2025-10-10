@@ -1,5 +1,5 @@
-name: Remux Tier 03
-description: Matches release groups who fall under Remux Tier 03
+name: Remux Tier 01 Radarr
+description: Matches release groups who fall under Remux Tier 01
 tags:
 - Release Group Tier
 - Remux
@@ -14,59 +14,54 @@ conditions:
   required: true
   source: dvd
   type: source
-- name: ATELiER
+- name: 3L
   negate: false
+  pattern: 3L
   required: false
-  pattern: ATELiER
   type: release_group
-- name: decibeL
+- name: BiZKiT
   negate: false
+  pattern: BiZKiT
   required: false
-  pattern: decibeL
   type: release_group
-- name: EPSiLON
+- name: BLURANiUM
   negate: false
+  pattern: BLURANiUM
   required: false
-  pattern: EPSiLON
   type: release_group
-- name: HiFi
+- name: BMF
   negate: false
+  pattern: BMF
   required: false
-  pattern: HiFi
   type: release_group
-- name: iFT
+- name: CiNEPHiLES
   negate: false
+  pattern: CiNEPHiLES
   required: false
-  pattern: iFT
   type: release_group
-- name: KRaLiMaRKo
+- name: FraMeSToR
   negate: false
+  pattern: FraMeSToR
   required: false
-  pattern: KRaLiMaRKo
   type: release_group
-- name: NTb
+- name: PiRAMiDHEAD
   negate: false
+  pattern: PiRAMiDHEAD
   required: false
-  pattern: NTb
   type: release_group
-- name: PTP
+- name: PmP
   negate: false
+  pattern: PmP
   required: false
-  pattern: PTP
   type: release_group
-- name: SumVision
+- name: WiLDCAT
   negate: false
+  pattern: WiLDCAT
   required: false
-  pattern: SumVision
   type: release_group
-- name: TOA
+- name: ZQ
   negate: false
+  pattern: ZQ
   required: false
-  pattern: TOA
-  type: release_group
-- name: TRiToN
-  negate: false
-  required: false
-  pattern: TRiToN
   type: release_group
 tests: []
