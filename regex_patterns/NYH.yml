@@ -1,0 +1,6 @@
+name: NYH
+pattern: (?<=^|[\s.-])NYH\b
+description: ''
+tags:
+- Release Group
+tests: []

@@ -1,0 +1,6 @@
+name: ViSiON
+pattern: (?<=^|[\s.-])ViSiON\b
+description: ''
+tags:
+- Release Group
+tests: []

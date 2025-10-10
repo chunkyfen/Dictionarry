@@ -1,0 +1,6 @@
+name: iT00NZ
+pattern: (?<=^|[\s.-])iT00NZ\b
+description: ''
+tags:
+- Release Group
+tests: []

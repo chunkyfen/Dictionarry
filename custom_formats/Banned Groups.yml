@@ -84,11 +84,6 @@ conditions:
   pattern: FGT
   required: false
   type: release_group
-- name: Flights
-  negate: false
-  pattern: Flights
-  required: false
-  type: release_group
 - name: HDS
   negate: false
   pattern: HDS
@@ -244,9 +239,4 @@ conditions:
   pattern: VAATHI
   required: false
   type: release_group
-- name: APEX
-  type: release_group
-  required: false
-  negate: false
-  pattern: APEX
 tests: []

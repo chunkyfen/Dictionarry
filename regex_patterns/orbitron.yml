@@ -1,0 +1,6 @@
+name: orbitron
+pattern: (?<=^|[\s.-])orbitron\b
+description: ''
+tags:
+- Release Group
+tests: []

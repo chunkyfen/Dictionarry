@@ -1,0 +1,6 @@
+name: DRACULA
+pattern: (?<=^|[\s.-])DRACULA\b
+description: ''
+tags:
+- Release Group
+tests: []

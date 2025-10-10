@@ -1,0 +1,6 @@
+name: KiMCHI
+pattern: (?<=^|[\s.-])KiMCHI\b
+description: ''
+tags:
+- Release Group
+tests: []

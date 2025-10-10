@@ -1,0 +1,6 @@
+name: FC
+pattern: (?<=^|[\s.-])FC\b
+description: ''
+tags:
+- Release Group
+tests: []

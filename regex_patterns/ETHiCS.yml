@@ -1,0 +1,6 @@
+name: ETHiCS
+pattern: (?<=^|[\s.-])ETHiCS\b
+description: ''
+tags:
+- Release Group
+tests: []

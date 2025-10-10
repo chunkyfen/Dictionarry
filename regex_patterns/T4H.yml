@@ -1,0 +1,6 @@
+name: T4H
+pattern: (?<=^|[\s.-])T4H\b
+description: ''
+tags:
+- Release Group
+tests: []

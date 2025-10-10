@@ -1,0 +1,6 @@
+name: PSiG
+pattern: (?<=^|[\s.-])PSiG\b
+description: ''
+tags:
+- Release Group
+tests: []

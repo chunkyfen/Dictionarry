@@ -1,0 +1,6 @@
+name: iJP
+pattern: (?<=^|[\s.-])iJP\b
+description: ''
+tags:
+- Release Group
+tests: []

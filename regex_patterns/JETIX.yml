@@ -1,0 +1,6 @@
+name: JETIX
+pattern: (?<=^|[\s.-])JETIX\b
+description: ''
+tags:
+- Release Group
+tests: []

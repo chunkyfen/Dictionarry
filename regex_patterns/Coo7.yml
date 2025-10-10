@@ -1,0 +1,6 @@
+name: Coo7
+pattern: (?<=^|[\s.-])Coo7\b
+description: ''
+tags:
+- Release Group
+tests: []

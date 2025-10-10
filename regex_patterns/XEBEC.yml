@@ -1,6 +1,6 @@
-description: ''
 name: XEBEC
-pattern: (?<=^|[\s.-])XEBEC\b
+pattern: (?<=^|[\s.-])(XEBEC|4KBEC|CEBEX)\b
+description: ''
 tags:
 - Release Group
 - WEB-DL
