@@ -1,0 +1,12 @@
+name: WEB Tier 01 Sonarr
+description: ''
+tags:
+- Release Group Tier
+- WEB-DL
+conditions:
+- name: WEB-DL
+  negate: false
+  required: true
+  source: web_dl
+  type: source
+tests: []
