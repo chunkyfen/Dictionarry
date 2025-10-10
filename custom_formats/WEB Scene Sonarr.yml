@@ -9,4 +9,14 @@ conditions:
   required: true
   source: web_dl
   type: source
+- name: DEFLATE
+  negate: false
+  pattern: DEFLATE
+  required: false
+  type: release_group
+- name: INFLATE
+  negate: false
+  pattern: INFLATE
+  required: false
+  type: release_group
 tests: []
