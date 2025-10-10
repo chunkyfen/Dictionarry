@@ -20,13 +20,23 @@ conditions:
   required: false
   type: release_title
 - name: Other reasons
-  type: release_title
-  required: false
   negate: false
   pattern: Other reasons
+  required: false
+  type: release_title
 - name: DeTAG-ReTAG
+  negate: false
+  pattern: DeTAG-ReTAG
+  required: false
+  type: release_title
+- name: Feranki1980
+  negate: false
+  pattern: Feranki1980
+  required: false
+  type: release_title
+- name: TeeWee
   type: release_title
   required: false
   negate: false
-  pattern: DeTAG-ReTAG
+  pattern: TeeWee
 tests: []
