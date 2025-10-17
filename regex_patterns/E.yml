@@ -1,0 +1,6 @@
+name: E
+pattern: (?<=^|[\s.-])E\b
+description: ''
+tags:
+- Release Group
+tests: []

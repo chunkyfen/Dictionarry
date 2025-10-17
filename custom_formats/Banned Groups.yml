@@ -241,92 +241,97 @@ conditions:
   type: release_group
 - name: BRiNK
   negate: false
-  required: false
   pattern: BRiNK
+  required: false
   type: release_group
 - name: CHX
   negate: false
-  required: false
   pattern: CHX
+  required: false
   type: release_group
 - name: CTFOH
   negate: false
-  required: false
   pattern: CTFOH
+  required: false
   type: release_group
 - name: EVO
   negate: false
-  required: false
   pattern: EVO
+  required: false
   type: release_group
 - name: Feranki1980
   negate: false
-  required: false
   pattern: Feranki1980
+  required: false
   type: release_group
 - name: FMD
   negate: false
-  required: false
   pattern: FMD
+  required: false
   type: release_group
 - name: GHOSTS
   negate: false
-  required: false
   pattern: GHOSTS
+  required: false
   type: release_group
 - name: HiQVE
   negate: false
-  required: false
   pattern: HiQVE
+  required: false
   type: release_group
 - name: iNTENSO
   negate: false
-  required: false
   pattern: iNTENSO
+  required: false
   type: release_group
 - name: JFF
   negate: false
-  required: false
   pattern: JFF
+  required: false
   type: release_group
 - name: OFT
   negate: false
-  required: false
   pattern: OFT
+  required: false
   type: release_group
 - name: Pahe
   negate: false
-  required: false
   pattern: Pahe(\.(ph|in))?\b
+  required: false
   type: release_group
 - name: TBS
   negate: false
-  required: false
   pattern: TBS
+  required: false
   type: release_group
 - name: TG
   negate: false
-  required: false
   pattern: TG
+  required: false
   type: release_group
 - name: VIDEOHOLE
   negate: false
-  required: false
   pattern: VIDEOHOLE
+  required: false
   type: release_group
 - name: worldmkv
   negate: false
-  required: false
   pattern: worldmkv
+  required: false
   type: release_group
 - name: XLF
   negate: false
-  required: false
   pattern: XLF
+  required: false
   type: release_group
 - name: Zero00
   negate: false
-  required: false
   pattern: Zero00
+  required: false
   type: release_group
+- name: E
+  type: release_group
+  required: false
+  negate: false
+  pattern: E
 tests: []
