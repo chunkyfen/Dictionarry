@@ -39,12 +39,6 @@ custom_formats:
     score: 4700
   - name: WEB Tier 03 Radarr
     score: 4600
-  - name: Remux Tier 01 Radarr
-    score: 4500
-  - name: Remux Tier 02 Radarr
-    score: 4400
-  - name: Remux Tier 03 Radarr
-    score: 4300
   - name: 480p WEB-DL
     score: 2500
   - name: IMAX Enhanced
@@ -72,6 +66,12 @@ custom_formats:
   - name: VVC
     score: -999999
 custom_formats_radarr:
+  - name: Remux Tier 01 Radarr
+    score: 5000
+  - name: Remux Tier 02 Radarr
+    score: 4900
+  - name: Remux Tier 03 Radarr
+    score: 4800
   - name: Special Edition
     score: 100
   - name: 3D
@@ -83,6 +83,12 @@ custom_formats_radarr:
   - name: Upscaled Radarr
     score: -999999
 custom_formats_sonarr:
+  - name: Remux Tier 01 Radarr
+    score: 4500
+  - name: Remux Tier 02 Radarr
+    score: 4400
+  - name: Remux Tier 03 Radarr
+    score: 4300
   - name: TV Extras
     score: -999999
   - name: Upscaled Sonarr
