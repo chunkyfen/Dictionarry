@@ -117,6 +117,8 @@ qualities:
     name: WEBDL-2160p
   - id: 6
     name: WEBRip-2160p
+- id: 3
+  name: Remux-2160p
 - id: 8
   name: Remux-1080p
 - id: -2
