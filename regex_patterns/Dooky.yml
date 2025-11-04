@@ -1,0 +1,6 @@
+name: Dooky
+pattern: (?<=^|[\s.-])Dooky\b
+description: ''
+tags:
+- Release Group
+tests: []

@@ -1,0 +1,6 @@
+name: 12GaugeShotgun
+pattern: (?<=^|[\s.-])12GaugeShotgun\b
+description: ''
+tags:
+- Release Group
+tests: []

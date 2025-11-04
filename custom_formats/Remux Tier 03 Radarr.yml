@@ -14,11 +14,6 @@ conditions:
   required: true
   source: dvd
   type: source
-- name: ATELiER
-  negate: false
-  pattern: ATELiER
-  required: false
-  type: release_group
 - name: decibeL
   negate: false
   pattern: decibeL
@@ -67,6 +62,11 @@ conditions:
 - name: TRiToN
   negate: false
   pattern: TRiToN
+  required: false
+  type: release_group
+- name: 12GaugeShotgun
+  negate: false
+  pattern: 12GaugeShotgun
   required: false
   type: release_group
 tests: []

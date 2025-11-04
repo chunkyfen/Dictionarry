@@ -39,4 +39,9 @@ conditions:
   pattern: TEPES
   required: false
   type: release_group
+- name: ATELiER
+  type: release_group
+  required: false
+  negate: false
+  pattern: ATELiER
 tests: []

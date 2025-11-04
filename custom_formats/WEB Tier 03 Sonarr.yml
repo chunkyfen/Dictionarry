@@ -11,32 +11,37 @@ conditions:
   type: source
 - name: DRACULA
   negate: false
-  required: false
   pattern: DRACULA
+  required: false
   type: release_group
 - name: NINJACENTRAL
   negate: false
-  required: false
   pattern: NINJACENTRAL
+  required: false
   type: release_group
 - name: SLiGNOME
   negate: false
-  required: false
   pattern: SLiGNOME
+  required: false
   type: release_group
 - name: SwAgLaNdEr
   negate: false
-  required: false
   pattern: SwAgLaNdEr
+  required: false
   type: release_group
 - name: T4H
   negate: false
-  required: false
   pattern: T4H
+  required: false
   type: release_group
 - name: ViSiON
   negate: false
-  required: false
   pattern: ViSiON
+  required: false
   type: release_group
+- name: Dooky
+  type: release_group
+  required: false
+  negate: false
+  pattern: Dooky
 tests: []

@@ -9,11 +9,6 @@ conditions:
   required: true
   resolution: 1080p
   type: resolution
-- name: ATELiER
-  negate: false
-  pattern: ATELiER
-  required: false
-  type: release_group
 - name: BHDStudio
   negate: false
   pattern: BHDStudio

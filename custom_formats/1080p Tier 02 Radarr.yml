@@ -59,4 +59,9 @@ conditions:
   required: true
   source: bluray
   type: source
+- name: ATELiER
+  type: release_group
+  required: false
+  negate: false
+  pattern: ATELiER
 tests: []
