@@ -115,12 +115,8 @@ qualities:
     name: Bluray-2160p
   - id: 5
     name: WEBDL-2160p
-  - id: 6
-    name: WEBRip-2160p
 - id: 3
   name: Remux-2160p
-- id: 8
-  name: Remux-1080p
 - id: -2
   name: 1080p
   description: ''
@@ -129,10 +125,8 @@ qualities:
     name: WEBDL-1080p
   - id: 10
     name: Bluray-1080p
-  - id: 11
-    name: WEBRip-1080p
-  - id: 7
-    name: HDTV-2160p
+  - id: 8
+    name: Remux-1080p
 - id: -3
   name: 720p
   description: ''
