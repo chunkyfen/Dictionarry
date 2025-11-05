@@ -27,6 +27,8 @@ custom_formats:
     score: 5000
   - name: IMAX
     score: 5000
+  - name: Remux Tier 01 Radarr
+    score: 4950
   - name: 1080p Tier 02 Radarr
     score: 4900
   - name: 720p WEBRip
@@ -66,8 +68,6 @@ custom_formats:
   - name: VVC
     score: -999999
 custom_formats_radarr:
-  - name: Remux Tier 01 Radarr
-    score: 5000
   - name: Remux Tier 02 Radarr
     score: 4900
   - name: Remux Tier 03 Radarr
@@ -83,8 +83,6 @@ custom_formats_radarr:
   - name: Upscaled Radarr
     score: -999999
 custom_formats_sonarr:
-  - name: Remux Tier 01 Radarr
-    score: 4500
   - name: Remux Tier 02 Radarr
     score: 4400
   - name: Remux Tier 03 Radarr
