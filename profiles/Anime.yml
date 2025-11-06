@@ -53,16 +53,10 @@ custom_formats:
   score: 4100
 - name: Anime Web Tier 03 (Official Subs)
   score: 3900
-- name: WEB Tier 01 Radarr
-  score: 3850
 - name: Anime Web Tier 04 (Official Subs)
   score: 3800
-- name: WEB Tier 02 Radarr
-  score: 3750
 - name: Anime Web Tier 05 (FanSubs)
   score: 3700
-- name: WEB Tier 03 Radarr
-  score: 3650
 - name: Anime Web Tier 06 (FanSubs)
   score: 3600
 - name: 480p WEB-DL
@@ -100,6 +94,12 @@ custom_formats_radarr:
   score: 7000
 - name: Remux Tier 03 Radarr
   score: 4550
+- name: WEB Tier 01 Radarr
+  score: 3850
+- name: WEB Tier 02 Radarr
+  score: 3750
+- name: WEB Tier 03 Radarr
+  score: 3650
 - name: Special Edition
   score: 100
 - name: 3D
@@ -115,6 +115,12 @@ custom_formats_sonarr:
   score: 20000
 - name: 1080p Remux
   score: 10000
+- name: WEB Tier 01 Sonarr
+  score: 3850
+- name: WEB Tier 02 Sonarr
+  score: 3750
+- name: WEB Tier 03 Sonarr
+  score: 3650
 - name: TV Extras
   score: -999999
 - name: Upscaled Sonarr
