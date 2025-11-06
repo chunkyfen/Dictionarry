@@ -1,0 +1,62 @@
+name: Remux Tier 02 Sonarr
+description: Matches release groups who fall under Remux Tier 02
+tags:
+- Release Group Tier
+- Remux
+conditions:
+- name: Remux
+  negate: false
+  pattern: Remux
+  required: true
+  type: release_title
+- name: Not DVD
+  negate: true
+  required: true
+  source: dvd
+  type: source
+- name: 12GaugeShotgun
+  type: release_group
+  required: false
+  negate: false
+  pattern: 12GaugeShotgun
+- name: decibeL
+  type: release_group
+  required: false
+  negate: false
+  pattern: decibeL
+- name: EPSiLON
+  type: release_group
+  required: false
+  negate: false
+  pattern: EPSiLON
+- name: HiFi
+  type: release_group
+  required: false
+  negate: false
+  pattern: HiFi
+- name: KRaLiMaRKo
+  type: release_group
+  required: false
+  negate: false
+  pattern: KRaLiMaRKo
+- name: playBD
+  type: release_group
+  required: false
+  negate: false
+  pattern: playBD
+- name: PTer
+  type: release_group
+  required: false
+  negate: false
+  pattern: PTer
+- name: SiCFoI
+  type: release_group
+  required: false
+  negate: false
+  pattern: SiCFoI
+- name: TRiToN
+  type: release_group
+  required: false
+  negate: false
+  pattern: TRiToN
+tests: []
