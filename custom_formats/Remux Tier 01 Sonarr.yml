@@ -14,16 +14,6 @@ conditions:
   required: true
   source: dvd
   type: source
-- name: 3L
-  negate: false
-  pattern: 3L
-  required: false
-  type: release_group
-- name: BiZKiT
-  negate: false
-  pattern: BiZKiT
-  required: false
-  type: release_group
 - name: BLURANiUM
   negate: false
   pattern: BLURANiUM
@@ -34,34 +24,14 @@ conditions:
   pattern: BMF
   required: false
   type: release_group
-- name: CiNEPHiLES
-  negate: false
-  pattern: CiNEPHiLES
-  required: false
-  type: release_group
 - name: FraMeSToR
   negate: false
   pattern: FraMeSToR
   required: false
   type: release_group
-- name: PiRAMiDHEAD
-  negate: false
-  pattern: PiRAMiDHEAD
-  required: false
-  type: release_group
 - name: PmP
   negate: false
   pattern: PmP
-  required: false
-  type: release_group
-- name: WiLDCAT
-  negate: false
-  pattern: WiLDCAT
-  required: false
-  type: release_group
-- name: ZQ
-  negate: false
-  pattern: ZQ
   required: false
   type: release_group
 tests: []
