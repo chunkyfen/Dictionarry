@@ -7,16 +7,22 @@ minCustomFormatScore: 2000
 upgradeUntilScore: 40000
 minScoreIncrement: 1
 custom_formats:
-- name: 2160p Bluray
-  score: 20000
 - name: 2160p WEB-DL
   score: 20000
-- name: 1080p Bluray
-  score: 10000
+- name: 2160p Bluray
+  score: 19000
+- name: 2160p Remux
+  score: 18000
+- name: 2160p WEBRip
+  score: 17000
 - name: 1080p WEB-DL
   score: 10000
-- name: 1080p WEBRip
+- name: 1080p Bluray
   score: 9000
+- name: 1080p Remux
+  score: 8000
+- name: 1080p WEBRip
+  score: 7000
 - name: 720p Bluray
   score: 5000
 - name: 720p WEB-DL
@@ -84,10 +90,6 @@ custom_formats:
 - name: VVC
   score: -999999
 custom_formats_radarr:
-- name: 2160p Remux
-  score: 17000
-- name: 1080p Remux
-  score: 7000
 - name: Remux Tier 01 Radarr
   score: 4650
 - name: Remux Tier 02 Radarr
@@ -111,10 +113,6 @@ custom_formats_radarr:
 - name: Upscaled Radarr
   score: -999999
 custom_formats_sonarr:
-- name: 2160p Remux
-  score: 20000
-- name: 1080p Remux
-  score: 10000
 - name: Remux Tier 01 Sonarr
   score: 4650
 - name: Remux Tier 02 Sonarr
@@ -130,24 +128,32 @@ custom_formats_sonarr:
 - name: Upscaled Sonarr
   score: -999999
 qualities:
-- id: 5
-  name: WEBDL-2160p
-- id: 4
-  name: Bluray-2160p
-- id: 3
-  name: Remux-2160p
-- id: 6
-  name: WEBRip-2160p
-- id: 7
-  name: HDTV-2160p
-- id: 9
-  name: WEBDL-1080p
-- id: 10
-  name: Bluray-1080p
-- id: 8
-  name: Remux-1080p
-- id: 11
-  name: WEBRip-1080p
+- id: -5
+  name: 2160p
+  description: ''
+  qualities:
+  - id: 5
+    name: WEBDL-2160p
+  - id: 4
+    name: Bluray-2160p
+  - id: 3
+    name: Remux-2160p
+  - id: 6
+    name: WEBRip-2160p
+  - id: 7
+    name: HDTV-2160p
+- id: -6
+  name: 1080p
+  description: ''
+  qualities:
+  - id: 9
+    name: WEBDL-1080p
+  - id: 10
+    name: Bluray-1080p
+  - id: 8
+    name: Remux-1080p
+  - id: 11
+    name: WEBRip-1080p
 - id: -3
   name: 720p
   description: ''
@@ -179,7 +185,6 @@ qualities:
   - id: 24
     name: SDTV
 upgrade_until:
-  id: 5
-  name: WEBDL-2160p
-  description: 4K web download, untouched as released by the streaming service
+  id: -5
+  name: 2160p
 language: must_original

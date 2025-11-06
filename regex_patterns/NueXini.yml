@@ -1,0 +1,7 @@
+name: NueXini
+pattern: (?<=^|[\s.-])NueXini\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

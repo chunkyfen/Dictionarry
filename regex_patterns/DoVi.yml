@@ -1,0 +1,7 @@
+name: DoVi
+pattern: (?<=^|[\s.-])DoVi\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

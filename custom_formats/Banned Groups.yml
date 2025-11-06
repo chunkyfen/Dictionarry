@@ -330,8 +330,18 @@ conditions:
   required: false
   type: release_group
 - name: E
+  negate: false
+  pattern: E
+  required: false
+  type: release_group
+- name: NueXini
+  negate: false
+  pattern: NueXini
+  required: false
+  type: release_group
+- name: DoVi
   type: release_group
   required: false
   negate: false
-  pattern: E
+  pattern: DoVi
 tests: []
