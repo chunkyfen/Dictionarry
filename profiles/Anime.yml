@@ -35,11 +35,7 @@ custom_formats:
   score: 4800
 - name: Anime BD Tier 04 (SeaDex Muxers)
   score: 4700
-- name: Remux Tier 01 Radarr
-  score: 4650
 - name: Anime BD Tier 05 (Remuxes)
-  score: 4600
-- name: Remux Tier 02 Radarr
   score: 4600
 - name: Anime BD Tier 06 (FanSubs)
   score: 4500
@@ -92,6 +88,10 @@ custom_formats_radarr:
   score: 17000
 - name: 1080p Remux
   score: 7000
+- name: Remux Tier 01 Radarr
+  score: 4650
+- name: Remux Tier 02 Radarr
+  score: 4600
 - name: Remux Tier 03 Radarr
   score: 4550
 - name: WEB Tier 01 Radarr
@@ -115,6 +115,10 @@ custom_formats_sonarr:
   score: 20000
 - name: 1080p Remux
   score: 10000
+- name: Remux Tier 01 Sonarr
+  score: 4650
+- name: Remux Tier 02 Sonarr
+  score: 4600
 - name: WEB Tier 01 Sonarr
   score: 3850
 - name: WEB Tier 02 Sonarr

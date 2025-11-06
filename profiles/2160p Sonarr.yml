@@ -71,6 +71,10 @@ qualities:
     name: WEBRip-1080p
   - id: 7
     name: HDTV-2160p
+  - id: 4
+    name: Bluray-2160p
+  - id: 10
+    name: Bluray-1080p
 - id: -3
   name: 720p
   description: ''
