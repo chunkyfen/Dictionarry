@@ -88,6 +88,18 @@ custom_formats:
 - name: VVC
   score: -999999
 custom_formats_radarr:
+- name: Remux Tier 01 Radarr
+  score: 4650
+- name: Remux Tier 02 Radarr
+  score: 4600
+- name: Remux Tier 03 Radarr
+  score: 4550
+- name: WEB Tier 01 Radarr
+  score: 3850
+- name: WEB Tier 02 Radarr
+  score: 3750
+- name: WEB Tier 03 Radarr
+  score: 3650
 - name: Special Edition
   score: 100
 - name: 3D
