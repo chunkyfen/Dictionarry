@@ -9,13 +9,9 @@ minScoreIncrement: 1
 custom_formats:
 - name: 2160p Bluray
   score: 20000
-- name: 2160p Remux
-  score: 20000
 - name: 2160p WEB-DL
   score: 20000
 - name: 1080p Bluray
-  score: 10000
-- name: 1080p Remux
   score: 10000
 - name: 1080p WEB-DL
   score: 10000
@@ -98,6 +94,10 @@ custom_formats:
 - name: VVC
   score: -999999
 custom_formats_radarr:
+- name: 2160p Remux
+  score: 17000
+- name: 1080p Remux
+  score: 7000
 - name: Remux Tier 03 Radarr
   score: 4550
 - name: Special Edition
@@ -111,6 +111,10 @@ custom_formats_radarr:
 - name: Upscaled Radarr
   score: -999999
 custom_formats_sonarr:
+- name: 2160p Remux
+  score: 20000
+- name: 1080p Remux
+  score: 10000
 - name: TV Extras
   score: -999999
 - name: Upscaled Sonarr
@@ -140,8 +144,8 @@ qualities:
     name: Bluray-1080p
   - id: 11
     name: WEBRip-1080p
-- id: 8
-  name: Remux-1080p
+  - id: 8
+    name: Remux-1080p
 - id: -3
   name: 720p
   description: ''
