@@ -18,6 +18,8 @@ custom_formats:
   score: 20000
 - name: 2160p WEB-DL
   score: 20000
+- name: 2160p WEBRip
+  score: 19000
 - name: 1080p Bluray
   score: 10000
 - name: 1080p Remux
