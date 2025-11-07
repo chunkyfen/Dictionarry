@@ -340,8 +340,13 @@ conditions:
   required: false
   type: release_group
 - name: DoVi
+  negate: false
+  pattern: DoVi
+  required: false
+  type: release_group
+- name: WRS
   type: release_group
   required: false
   negate: false
-  pattern: DoVi
+  pattern: WRS
 tests: []

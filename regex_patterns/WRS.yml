@@ -1,0 +1,6 @@
+name: WRS
+pattern: (?<=^|[\s.-])WRS\b
+description: ''
+tags:
+- Release Group
+tests: []
