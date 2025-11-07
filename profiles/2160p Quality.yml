@@ -54,11 +54,11 @@ custom_formats_radarr:
 - name: IMAX Enhanced
   score: 1000
 - name: CRIT
-  score: 100
+  score: 500
 - name: Criterion Collection
-  score: 100
+  score: 500
 - name: Masters Of Cinema
-  score: 100
+  score: 500
 - name: Special Edition
   score: 100
 - name: Repack3
