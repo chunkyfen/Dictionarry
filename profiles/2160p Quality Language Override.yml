@@ -37,20 +37,20 @@ custom_formats_radarr:
   score: 4900
 - name: WEB Tier 01 Radarr
   score: 4800
-- name: WEB Tier 02 Radarr
+- name: 1080p Tier 03 Radarr
+  score: 4700
+- name: 2160p Tier 03 Radarr
   score: 4700
 - name: Remux Tier 01 Radarr
   score: 4600
-- name: Remux Tier 02 Radarr
-  score: 4500
-- name: Remux Tier 03 Radarr
-  score: 4400
+- name: WEB Tier 02 Radarr
+  score: 4600
 - name: WEB Tier 03 Radarr
+  score: 4500
+- name: Remux Tier 02 Radarr
+  score: 4400
+- name: Remux Tier 03 Radarr
   score: 4300
-- name: 1080p Tier 03 Radarr
-  score: 4200
-- name: 2160p Tier 03 Radarr
-  score: 4200
 - name: IMAX Enhanced
   score: 1000
 - name: CRIT
