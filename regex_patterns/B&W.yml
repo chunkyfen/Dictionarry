@@ -1,5 +1,15 @@
 name: B&W
-pattern: (?:\(\d{4}\)[\s.\-]*(?:b\&?w|black[\s.\-\/&]*(?:and|\&|\/|\-)?[\s.\-\/]*white)\b|(?<=\s)(?:b\&?w|black[\s.\-\/&]*(?:and|\&|\/|\-)?[\s.\-\/]*white)[\s.\-]*\d{4}[\s.\-]*(?:\d{4}p|UHD|Blu-ray|DVDRip)|\b(?:b\&?w|black[\s.\-\/&]*(?:and|\&|\/|\-)?[\s.\-\/]*white)[\s.\-]*version\b)
+pattern: '(?ix)
+
+  ^(?!Black[\s.\-]+and[\s.\-]+White)        # Exclude titles starting with "Black
+  and White"
+
+  .*\b(?:BW|b&w|black[\s.\-\/]*(?:and|&|\/|\-)?[\s.\-\/]*white)\b  # BW indicator
+
+  (?=.*\b\d{4}\b)                           # Must contain a year
+
+  (?=.*\b(?:2160p|1080p|UHD|Blu-ray|DVDRip|Remux|HDR|HEVC|TrueHD|Atmos)\b)  # Must
+  contain format keyword'
 description: ''
 tags:
 - Enhancement
@@ -39,3 +49,6 @@ tests:
   input: Sword Art Online (2012) - S01E08 - 008 - The Sword Dance of Black and White
     [Bluray-1080p][10bit][x265][FLAC 2.0][JA]-VCB-Studio.mkv
   expected: false
+- id: 14
+  input: Nightmare.Alley.2021.BW.Directors.Cut.2160p.UHD.Blu-ray.Remux.DV.HDR.HEVC.DTS-HD.MA.5.1-CiNEPHiLES
+  expected: true

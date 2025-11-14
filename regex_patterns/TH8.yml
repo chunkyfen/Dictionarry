@@ -1,0 +1,6 @@
+name: TH8
+pattern: (?<=^|[\s.-])TH8\b
+description: ''
+tags:
+- Release Group
+tests: []

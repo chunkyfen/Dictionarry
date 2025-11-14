@@ -345,8 +345,18 @@ conditions:
   required: false
   type: release_group
 - name: WRS
+  negate: false
+  pattern: WRS
+  required: false
+  type: release_group
+- name: TH8
+  negate: false
+  pattern: TH8
+  required: false
+  type: release_group
+- name: DDR
   type: release_group
   required: false
   negate: false
-  pattern: WRS
+  pattern: DDR
 tests: []
