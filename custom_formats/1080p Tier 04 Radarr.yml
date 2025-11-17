@@ -19,169 +19,9 @@ conditions:
   required: true
   source: bluray
   type: source
-- name: DON
-  negate: false
-  pattern: DON
-  required: false
-  type: release_group
-- name: D-Z0N3
-  negate: false
-  pattern: D-Z0N3
-  required: false
-  type: release_group
-- name: EbP
-  negate: false
-  pattern: EbP
-  required: false
-  type: release_group
-- name: TeamSyndicate
-  type: release_group
-  required: false
-  negate: false
-  pattern: TeamSyndicate
-- name: ZoroSenpai
-  type: release_group
-  required: false
-  negate: false
-  pattern: ZoroSenpai
-- name: c0kE
-  negate: false
-  pattern: c0kE
-  required: false
-  type: release_group
-- name: coffee
-  type: release_group
-  required: false
-  negate: false
-  pattern: coffee
-- name: CtrlHD
-  negate: false
-  pattern: CtrlHD
-  required: false
-  type: release_group
-- name: Geek
-  negate: false
-  pattern: Geek
-  required: false
-  type: release_group
-- name: HiFi
-  negate: false
-  pattern: HiFi
-  required: false
-  type: release_group
-- name: REBORN
-  negate: false
-  pattern: REBORN
-  required: false
-  type: release_group
-- name: SA89
-  negate: false
-  pattern: SA89
-  required: false
-  type: release_group
-- name: SoLaR
-  negate: false
-  pattern: SoLaR
-  required: false
-  type: release_group
-- name: TayTo
-  negate: false
-  pattern: TayTo
-  required: false
-  type: release_group
-- name: VietHD
-  negate: false
-  pattern: VietHD
-  required: false
-  type: release_group
-- name: ZQ
-  negate: false
-  pattern: ZQ
-  required: false
-  type: release_group
-- name: CRiSC
-  negate: false
-  pattern: CRiSC
-  required: false
-  type: release_group
-- name: decibeL
-  negate: false
-  pattern: decibeL
-  required: false
-  type: release_group
-- name: FoRM
-  negate: false
-  pattern: FoRM
-  required: false
-  type: release_group
-- name: HiDt
-  negate: false
-  pattern: HiDt
-  required: false
-  type: release_group
-- name: HiP
-  negate: false
-  pattern: HiP
-  required: false
-  type: release_group
-- name: iFT
-  negate: false
-  pattern: iFT
-  required: false
-  type: release_group
-- name: WMING
-  negate: false
-  pattern: WMING
-  required: false
-  type: release_group
-- name: BMF
-  negate: false
-  pattern: BMF
-  required: false
-  type: release_group
-- name: de[42]
-  negate: false
-  pattern: de[42]
-  required: false
-  type: release_group
-- name: HDMaNiAcS
-  negate: false
-  pattern: HDMaNiAcS
-  required: false
-  type: release_group
-- name: IDE
-  negate: false
-  pattern: IDE
-  required: false
-  type: release_group
-- name: LolHD
-  negate: false
-  pattern: LolHD
-  required: false
-  type: release_group
-- name: NCmt
-  negate: false
-  pattern: NCmt
-  required: false
-  type: release_group
-- name: Skazhutin
-  type: release_group
-  required: false
-  negate: false
-  pattern: Skazhutin
-- name: NTb
-  negate: false
-  pattern: NTb
-  required: false
-  type: release_group
 - name: AJP69
   negate: false
   pattern: AJP69
-  required: false
-  type: release_group
-- name: ATELiER
-  negate: false
-  pattern: ATELiER
   required: false
   type: release_group
 - name: BSTD
@@ -194,11 +34,6 @@ conditions:
   pattern: BV
   required: false
   type: release_group
-- name: Chotab
-  negate: false
-  pattern: Chotab
-  required: false
-  type: release_group
 - name: CJ
   negate: false
   pattern: CJ
@@ -209,29 +44,14 @@ conditions:
   pattern: CRX
   required: false
   type: release_group
-- name: Dariush
-  negate: false
-  pattern: Dariush
-  required: false
-  type: release_group
 - name: E1
   negate: false
   pattern: E1
   required: false
   type: release_group
-- name: EA
-  negate: false
-  pattern: EA
-  required: false
-  type: release_group
 - name: E.N.D
   negate: false
   pattern: E.N.D
-  required: false
-  type: release_group
-- name: EDPH
-  negate: false
-  pattern: EDPH
   required: false
   type: release_group
 - name: ESiR
@@ -242,6 +62,16 @@ conditions:
 - name: EXCiSION
   negate: false
   pattern: EXCiSION
+  required: false
+  type: release_group
+- name: EuReKA
+  negate: false
+  pattern: EuReKA
+  required: false
+  type: release_group
+- name: FoRM
+  negate: false
+  pattern: FoRM
   required: false
   type: release_group
 - name: FraMeSToR
@@ -259,14 +89,39 @@ conditions:
   pattern: GS88
   required: false
   type: release_group
-- name: hdalx
+- name: HANDJOB
   negate: false
-  pattern: hdalx
+  pattern: HANDJOB
+  required: false
+  type: release_group
+- name: HDC
+  negate: false
+  pattern: HDC
+  required: false
+  type: release_group
+- name: HDMaNiAcS
+  negate: false
+  pattern: HDMaNiAcS
+  required: false
+  type: release_group
+- name: HiP
+  negate: false
+  pattern: HiP
   required: false
   type: release_group
 - name: HQMUX
   negate: false
   pattern: HQMUX
+  required: false
+  type: release_group
+- name: IDE
+  negate: false
+  pattern: IDE
+  required: false
+  type: release_group
+- name: Ivandro
+  negate: false
+  pattern: Ivandro
   required: false
   type: release_group
 - name: KASHMiR
@@ -279,14 +134,24 @@ conditions:
   pattern: Kitsune
   required: false
   type: release_group
+- name: KnG
+  negate: false
+  pattern: KnG
+  required: false
+  type: release_group
+- name: LEGi0N
+  negate: false
+  pattern: LEGi0N
+  required: false
+  type: release_group
 - name: LiNG
   negate: false
   pattern: LiNG
   required: false
   type: release_group
-- name: LoRD
+- name: Lulz
   negate: false
-  pattern: LoRD
+  pattern: Lulz
   required: false
   type: release_group
 - name: luvBB
@@ -294,9 +159,24 @@ conditions:
   pattern: luvBB
   required: false
   type: release_group
+- name: MaG
+  negate: false
+  pattern: MaG
+  required: false
+  type: release_group
+- name: MTeam
+  negate: false
+  pattern: MTeam
+  required: false
+  type: release_group
 - name: NiBuRu
   negate: false
   pattern: NiBuRu
+  required: false
+  type: release_group
+- name: NiP
+  negate: false
+  pattern: NiP
   required: false
   type: release_group
 - name: nmd
@@ -314,14 +194,14 @@ conditions:
   pattern: ORiGEN
   required: false
   type: release_group
+- name: P0W4HD
+  negate: false
+  pattern: P0W4HD
+  required: false
+  type: release_group
 - name: Penumbra
   negate: false
   pattern: Penumbra
-  required: false
-  type: release_group
-- name: playHD
-  negate: false
-  pattern: playHD
   required: false
   type: release_group
 - name: Positive
@@ -329,9 +209,14 @@ conditions:
   pattern: Positive
   required: false
   type: release_group
-- name: PTer
+- name: PTP
   negate: false
-  pattern: PTer
+  pattern: PTP
+  required: false
+  type: release_group
+- name: REBORN
+  negate: false
+  pattern: REBORN
   required: false
   type: release_group
 - name: RiCO
@@ -339,9 +224,9 @@ conditions:
   pattern: RiCO
   required: false
   type: release_group
-- name: rightSIZE
+- name: ROCiNANTE
   negate: false
-  pattern: rightSIZE
+  pattern: ROCiNANTE
   required: false
   type: release_group
 - name: RO
@@ -359,14 +244,24 @@ conditions:
   pattern: SaNcTi
   required: false
   type: release_group
-- name: SbR
-  negate: false
-  pattern: SbR
-  required: false
-  type: release_group
 - name: SiMPLE
   negate: false
   pattern: SiMPLE
+  required: false
+  type: release_group
+- name: Skazhutin
+  type: release_group
+  required: false
+  negate: false
+  pattern: Skazhutin
+- name: Slappy
+  negate: false
+  pattern: Slappy
+  required: false
+  type: release_group
+- name: SoLaR
+  negate: false
+  pattern: SoLaR
   required: false
   type: release_group
 - name: SOP
@@ -374,24 +269,19 @@ conditions:
   pattern: SOP
   required: false
   type: release_group
-- name: SPHD
-  negate: false
-  pattern: SPHD
-  required: false
-  type: release_group
 - name: TBB
   negate: false
   pattern: TBB
   required: false
   type: release_group
-- name: TDD
-  negate: false
-  pattern: TDD
-  required: false
+- name: TeamSyndicate
   type: release_group
-- name: TnP
+  required: false
   negate: false
-  pattern: TnP
+  pattern: TeamSyndicate
+- name: ThD
+  negate: false
+  pattern: ThD
   required: false
   type: release_group
 - name: VLAD
@@ -399,14 +289,24 @@ conditions:
   pattern: VLAD
   required: false
   type: release_group
-- name: W4NK3R
+- name: WiKi
   negate: false
-  pattern: W4NK3R
+  pattern: WiKi
   required: false
   type: release_group
 - name: WiLF
   negate: false
   pattern: WiLF
+  required: false
+  type: release_group
+- name: WiLDCAT
+  negate: false
+  pattern: WiLDCAT
+  required: false
+  type: release_group
+- name: WMING
+  negate: false
+  pattern: WMING
   required: false
   type: release_group
 - name: xander
@@ -419,94 +319,3 @@ conditions:
   pattern: ZIMBO
   required: false
   type: release_group
-- name: EuReKA
-  negate: false
-  pattern: EuReKA
-  required: false
-  type: release_group
-- name: HANDJOB
-  negate: false
-  pattern: HANDJOB
-  required: false
-  type: release_group
-- name: HDC
-  negate: false
-  pattern: HDC
-  required: false
-  type: release_group
-- name: iON
-  negate: false
-  pattern: iON
-  required: false
-  type: release_group
-- name: Ivandro
-  negate: false
-  pattern: Ivandro
-  required: false
-  type: release_group
-- name: KnG
-  negate: false
-  pattern: KnG
-  required: false
-  type: release_group
-- name: LEGi0N
-  negate: false
-  pattern: LEGi0N
-  required: false
-  type: release_group
-- name: Lulz
-  negate: false
-  pattern: Lulz
-  required: false
-  type: release_group
-- name: MaG
-  negate: false
-  pattern: MaG
-  required: false
-  type: release_group
-- name: MTeam
-  negate: false
-  pattern: MTeam
-  required: false
-  type: release_group
-- name: NiP
-  negate: false
-  pattern: NiP
-  required: false
-  type: release_group
-- name: P0W4HD
-  negate: false
-  pattern: P0W4HD
-  required: false
-  type: release_group
-- name: PTP
-  negate: false
-  pattern: PTP
-  required: false
-  type: release_group
-- name: ROCiNANTE
-  negate: false
-  pattern: ROCiNANTE
-  required: false
-  type: release_group
-- name: Slappy
-  negate: false
-  pattern: Slappy
-  required: false
-  type: release_group
-- name: ThD
-  negate: false
-  pattern: ThD
-  required: false
-  type: release_group
-- name: WiKi
-  negate: false
-  pattern: WiKi
-  required: false
-  type: release_group
-- name: WiLDCAT
-  negate: false
-  pattern: WiLDCAT
-  required: false
-  type: release_group
-tests: []
