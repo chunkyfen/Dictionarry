@@ -1,0 +1,10 @@
+name: 2160p SDR
+description: ''
+tags: []
+conditions:
+- name: 2160p
+  negate: false
+  required: true
+  resolution: 2160p
+  type: resolution
+tests: []
