@@ -7,4 +7,117 @@ conditions:
   required: true
   resolution: 2160p
   type: resolution
-tests: []
+- name: SDR
+  negate: false
+  pattern: SDR
+  required: false
+  type: release_title
+tests:
+- conditionResults:
+  - matches: true
+    name: SDR
+    negate: false
+    pattern: SDR
+    required: false
+    type: release_title
+  - matches: false
+    name: HDR10
+    negate: true
+    pattern: HDR10
+    required: false
+    type: release_title
+  - matches: false
+    name: HDR
+    negate: true
+    pattern: HDR
+    required: false
+    type: release_title
+  - matches: false
+    name: Dolby Vision
+    negate: true
+    pattern: Dolby Vision
+    required: false
+    type: release_title
+  - matches: false
+    name: Basic HDR formats
+    negate: true
+    pattern: Basic HDR Formats
+    required: false
+    type: release_title
+  expected: true
+  id: 1
+  input: Boyhood.2014.2160p.BluRay.x264.8bit.SDR.DTS-HD.MA.5.1-SWTYBLZ
+  lastRun: '2025-11-17T14:36:32.588491'
+  passes: true
+- conditionResults:
+  - matches: false
+    name: SDR
+    negate: false
+    pattern: SDR
+    required: false
+    type: release_title
+  - matches: true
+    name: HDR10
+    negate: true
+    pattern: HDR10
+    required: false
+    type: release_title
+  - matches: false
+    name: HDR
+    negate: true
+    pattern: HDR
+    required: false
+    type: release_title
+  - matches: true
+    name: Dolby Vision
+    negate: true
+    pattern: Dolby Vision
+    required: false
+    type: release_title
+  - matches: true
+    name: Basic HDR formats
+    negate: true
+    pattern: Basic HDR Formats
+    required: false
+    type: release_title
+  expected: false
+  id: 2
+  input: Boyhood (2014) {tmdb-85350} [Remux-2160p][DV HDR10][DTS-HD MA 5.1][HEVC][10-bit]-playBD.mkv
+  lastRun: '2025-11-17T14:36:32.588491'
+  passes: true
+- conditionResults:
+  - matches: false
+    name: SDR
+    negate: false
+    pattern: SDR
+    required: false
+    type: release_title
+  - matches: false
+    name: HDR10
+    negate: true
+    pattern: HDR10
+    required: false
+    type: release_title
+  - matches: false
+    name: HDR
+    negate: true
+    pattern: HDR
+    required: false
+    type: release_title
+  - matches: false
+    name: Dolby Vision
+    negate: true
+    pattern: Dolby Vision
+    required: false
+    type: release_title
+  - matches: false
+    name: Basic HDR formats
+    negate: true
+    pattern: Basic HDR Formats
+    required: false
+    type: release_title
+  expected: false
+  id: 3
+  input: Bad.Times.at.the.EL.Royale.2018.2160p.UHD.BluRay.X265-IAMABLE
+  lastRun: '2025-11-17T14:36:32.588491'
+  passes: false
