@@ -55,6 +55,8 @@ custom_formats_radarr:
   score: 4400
 - name: Special Edition
   score: 500
+- name: Dolby Vision
+  score: 100
 - name: Repack3
   score: 8
 - name: Repack2
