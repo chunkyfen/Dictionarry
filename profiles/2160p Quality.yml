@@ -41,9 +41,9 @@ custom_formats_radarr:
   score: 4700
 - name: 2160p Tier 04 Radarr
   score: 4700
-- name: Special Edition
-  score: 500
 - name: Dolby Vision
+  score: 100
+- name: Special Edition
   score: 100
 - name: Repack3
   score: 8
