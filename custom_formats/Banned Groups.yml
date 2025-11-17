@@ -355,8 +355,13 @@ conditions:
   required: false
   type: release_group
 - name: DDR
+  negate: false
+  pattern: DDR
+  required: false
+  type: release_group
+- name: 88keyz
   type: release_group
   required: false
   negate: false
-  pattern: DDR
+  pattern: 88keyz
 tests: []

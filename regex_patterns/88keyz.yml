@@ -1,0 +1,6 @@
+name: 88keyz
+pattern: (?<=^|[\s.-])88keyz\b
+description: ''
+tags:
+- Release Group
+tests: []
