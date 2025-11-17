@@ -53,12 +53,6 @@ custom_formats_radarr:
   score: 4400
 - name: WEB Tier 03 Radarr
   score: 4400
-- name: CRIT
-  score: 500
-- name: Criterion Collection
-  score: 500
-- name: Masters Of Cinema
-  score: 500
 - name: Special Edition
   score: 500
 - name: Repack3
