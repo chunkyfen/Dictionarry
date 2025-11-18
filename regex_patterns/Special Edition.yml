@@ -1,5 +1,9 @@
 name: Special Edition
-pattern: (?<!^|{)\b(extended|uncut|final|DC|directors|special|unrated|uncensored|version|edition)(\b|\d)
+pattern: "(?ix)\\b((?:directors?|director['\u2019]s)\\.?\\s?cut|final\\.?\\s?cut|rogue\\\
+  .?\\s?cut|international\\sversion|special[\\.\\s]?edition|collectors?[\\.\\s]?edition|extended(?=(?:[.\\\
+  s-]*(?:edition|s\\d|(1080|2160|720|blu|web|hdr|remux|x264|x265|uhd|dd|aac|h\\.264|h\\\
+  .265|dvdrip))))|(?!(?:^|\\W)(?:uncut|uncensored|unrated)[\\.:]?\\d{4})(?:uncut|uncensored|unrated)(?=.*(1080|2160|720|blu|web|hdr|remux|x264|x265|uhd|dd|aac|h\\\
+  .264|h\\.265|dvdrip))(?!.*\\buncensored\\b.*\\buncut\\b))\\b\n"
 description: 'Matches any type of non theatrical edition. '
 tags:
 - Edition
@@ -81,3 +85,6 @@ tests:
 - id: 25
   input: Alien.1979.Theatrical.Cut.2160p.MA.WEB-DL.DTS-HD.MA.5.1.H.265-FLUX
   expected: false
+- id: 26
+  input: Mimic.1997.Director's.Cut.GBR.BluRay.Remux.1080p.AVC.DTS-HD.MA.7.1-BMF
+  expected: true
