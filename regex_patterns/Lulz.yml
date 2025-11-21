@@ -1,0 +1,6 @@
+name: Lulz
+pattern: (?<=^|[\s.-])Lulz\b
+description: ''
+tags:
+- Release Group
+tests: []

@@ -1,0 +1,6 @@
+name: MaG
+pattern: (?<=^|[\s.-])MaG\b
+description: ''
+tags:
+- Release Group
+tests: []

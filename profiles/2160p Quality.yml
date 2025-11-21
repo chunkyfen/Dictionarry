@@ -37,7 +37,17 @@ custom_formats_radarr:
   score: 4800
 - name: WEB Tier 03 Radarr
   score: 4800
+- name: CRIT
+  score: 50
+- name: Criterion Collection
+  score: 50
 - name: Dolby Vision
+  score: 50
+- name: IMAX
+  score: 50
+- name: IMAX Enhanced
+  score: 50
+- name: Masters Of Cinema
   score: 50
 - name: Special Edition
   score: 50

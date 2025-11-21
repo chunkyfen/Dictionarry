@@ -1,0 +1,6 @@
+name: Skazhutin
+pattern: (?<=^|[\s.-])Skazhutin\b
+description: ''
+tags:
+- Release Group
+tests: []

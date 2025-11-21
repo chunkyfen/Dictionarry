@@ -1,0 +1,6 @@
+name: Slappy
+pattern: (?<=^|[\s.-])Slappy\b
+description: ''
+tags:
+- Release Group
+tests: []

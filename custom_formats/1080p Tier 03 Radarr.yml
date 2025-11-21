@@ -280,10 +280,10 @@ conditions:
   required: false
   type: release_group
 - name: Skazhutin
-  type: release_group
-  required: false
   negate: false
   pattern: Skazhutin
+  required: false
+  type: release_group
 - name: Slappy
   negate: false
   pattern: Slappy
@@ -305,10 +305,10 @@ conditions:
   required: false
   type: release_group
 - name: TeamSyndicate
-  type: release_group
-  required: false
   negate: false
   pattern: TeamSyndicate
+  required: false
+  type: release_group
 - name: ThD
   negate: false
   pattern: ThD
