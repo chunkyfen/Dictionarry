@@ -37,14 +37,10 @@ custom_formats_radarr:
   score: 4800
 - name: WEB Tier 03 Radarr
   score: 4800
-- name: 1080p Tier 04 Radarr
-  score: 4700
-- name: 2160p Tier 04 Radarr
-  score: 4700
 - name: Dolby Vision
-  score: 100
+  score: 50
 - name: Special Edition
-  score: 100
+  score: 50
 - name: Repack3
   score: 8
 - name: Repack2
