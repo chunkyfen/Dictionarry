@@ -45,10 +45,10 @@ conditions:
   required: false
   type: release_group
 - name: Dooky
-  type: release_group
-  required: false
   negate: false
   pattern: Dooky
+  required: false
+  type: release_group
 - name: HHWEB
   negate: false
   pattern: HHWEB
