@@ -69,19 +69,4 @@ conditions:
   pattern: 12GaugeShotgun
   required: false
   type: release_group
-- name: LM
-  negate: false
-  pattern: LM
-  required: false
-  type: release_group
-- name: PP
-  negate: false
-  pattern: PP
-  required: false
-  type: release_group
-- name: ZoroSenpai
-  negate: false
-  pattern: ZoroSenpai
-  required: false
-  type: release_group
 tests: []
