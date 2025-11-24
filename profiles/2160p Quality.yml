@@ -17,26 +17,26 @@ custom_formats_radarr:
   score: 5000
 - name: 2160p Tier 01 Radarr
   score: 5000
-- name: Remux Tier 01 Radarr
-  score: 5000
-- name: Remux Tier 02 Radarr
-  score: 5000
-- name: WEB Tier 01 Radarr
-  score: 5000
 - name: 1080p Tier 02 Radarr
   score: 4900
 - name: 2160p Tier 02 Radarr
-  score: 4900
-- name: WEB Tier 02 Radarr
   score: 4900
 - name: 1080p Tier 03 Radarr
   score: 4800
 - name: 2160p Tier 03 Radarr
   score: 4800
-- name: Remux Tier 03 Radarr
-  score: 4800
+- name: WEB Tier 01 Radarr
+  score: 4000
+- name: WEB Tier 02 Radarr
+  score: 3900
 - name: WEB Tier 03 Radarr
-  score: 4800
+  score: 3800
+- name: Remux Tier 01 Radarr
+  score: 3000
+- name: Remux Tier 02 Radarr
+  score: 2900
+- name: Remux Tier 03 Radarr
+  score: 2800
 - name: CRIT
   score: 50
 - name: Criterion Collection
@@ -57,6 +57,12 @@ custom_formats_radarr:
   score: 7
 - name: Repack1
   score: 6
+- name: 1080p Remux
+  score: 0
+- name: 1080p WEB-DL
+  score: 0
+- name: 2160p WEB-DL
+  score: 0
 - name: 2160p SDR
   score: -999999
 - name: 3D
@@ -79,20 +85,28 @@ custom_formats_radarr:
   score: -999999
 custom_formats_sonarr: []
 qualities:
-- id: 4
-  name: Bluray-2160p
-- id: 5
-  name: WEBDL-2160p
-- id: 3
-  name: Remux-2160p
-- id: 10
-  name: Bluray-1080p
-- id: 9
-  name: WEBDL-1080p
-- id: 8
-  name: Remux-1080p
+- id: -6
+  name: 1080p
+  description: ''
+  qualities:
+  - id: 10
+    name: Bluray-1080p
+  - id: 9
+    name: WEBDL-1080p
+  - id: 8
+    name: Remux-1080p
+- id: -5
+  name: 2160p
+  description: ''
+  qualities:
+  - id: 4
+    name: Bluray-2160p
+  - id: 5
+    name: WEBDL-2160p
+  - id: 3
+    name: Remux-2160p
 - id: -3
-  name: 720p
+  name: HD Others
   description: ''
   qualities:
   - id: 14
@@ -105,6 +119,12 @@ qualities:
     name: HDTV-720p
   - id: 12
     name: HDTV-1080p
+  - id: 11
+    name: WEBRip-1080p
+  - id: 7
+    name: HDTV-2160p
+  - id: 6
+    name: WEBRip-2160p
 - id: -4
   name: SD Fallback
   description: ''
@@ -124,7 +144,6 @@ qualities:
   - id: 30
     name: Unknown
 upgrade_until:
-  id: 4
-  name: Bluray-2160p
-  description: 4K Ultra HD Blu-ray video encoded with lossy compression
+  id: -5
+  name: 2160p
 language: must_original
