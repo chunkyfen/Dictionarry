@@ -18,6 +18,14 @@ custom_formats_sonarr:
   score: 4800
 - name: WEB Scene Sonarr
   score: 4700
+- name: 1080p Tier 01 Sonarr
+  score: 4600
+- name: 1080p Tier 02 Sonarr
+  score: 4500
+- name: Remux Tier 01 Sonarr
+  score: 4400
+- name: Remux Tier 02 Sonarr
+  score: 4300
 - name: Season Pack
   score: 50
 - name: Repack3
@@ -26,10 +34,6 @@ custom_formats_sonarr:
   score: 7
 - name: Repack1
   score: 6
-- name: Remux Tier 01 Sonarr
-  score: 0
-- name: Remux Tier 02 Sonarr
-  score: 0
 - name: AV1
   score: -999999
 - name: B&W
