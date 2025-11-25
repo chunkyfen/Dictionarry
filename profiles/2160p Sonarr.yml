@@ -22,10 +22,12 @@ custom_formats_sonarr:
   score: 4600
 - name: 1080p Tier 02 Sonarr
   score: 4500
-- name: Remux Tier 01 Sonarr
+- name: 720p Quality Tier 1, 2 & 3
   score: 4400
-- name: Remux Tier 02 Sonarr
+- name: Remux Tier 01 Sonarr
   score: 4300
+- name: Remux Tier 02 Sonarr
+  score: 4200
 - name: SD Quality Tier 1&2
   score: 4100
 - name: Season Pack
