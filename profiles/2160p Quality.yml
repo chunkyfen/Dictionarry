@@ -13,60 +13,74 @@ upgradeUntilScore: 40000
 minScoreIncrement: 1
 custom_formats: []
 custom_formats_radarr:
+- name: 1080p Bluray
+  score: 500
 - name: 1080p Tier 01 Radarr
-  score: 5000
+  score: 500
+- name: 2160p Bluray
+  score: 500
 - name: 2160p Tier 01 Radarr
-  score: 5000
+  score: 500
+- name: 720p Bluray
+  score: 500
+- name: DVD
+  score: 500
 - name: 1080p Tier 02 Radarr
-  score: 4900
+  score: 490
 - name: 2160p Tier 02 Radarr
-  score: 4900
+  score: 490
 - name: 1080p Tier 03 Radarr
-  score: 4800
+  score: 480
 - name: 2160p Tier 03 Radarr
-  score: 4800
+  score: 480
 - name: WEB Tier 01 Radarr
-  score: 4700
+  score: 470
 - name: WEB Tier 02 Radarr
-  score: 4600
+  score: 460
 - name: WEB Tier 03 Radarr
-  score: 4500
+  score: 450
 - name: Remux Tier 01 Radarr
-  score: 4400
+  score: 440
 - name: Remux Tier 02 Radarr
-  score: 4300
+  score: 430
 - name: Remux Tier 03 Radarr
-  score: 4200
+  score: 420
 - name: 720p Quality Tier 1, 2 & 3
-  score: 4100
+  score: 410
+- name: 1080p WEB-DL
+  score: 400
+- name: 2160p WEB-DL
+  score: 400
+- name: 480p WEB-DL
+  score: 400
+- name: 720p WEB-DL
+  score: 400
 - name: SD Quality Tier 1&2
-  score: 4000
-- name: CRIT
-  score: 50
-- name: Criterion Collection
-  score: 50
-- name: Dolby Vision
-  score: 50
-- name: IMAX
-  score: 50
-- name: IMAX Enhanced
-  score: 50
-- name: Masters Of Cinema
-  score: 50
-- name: Special Edition
-  score: 50
+  score: 400
+- name: 1080p Remux
+  score: 300
+- name: 2160p Remux
+  score: 300
 - name: Repack3
   score: 8
 - name: Repack2
   score: 7
 - name: Repack1
   score: 6
-- name: 1080p Remux
-  score: 0
-- name: 1080p WEB-DL
-  score: 0
-- name: 2160p WEB-DL
-  score: 0
+- name: CRIT
+  score: 5
+- name: Criterion Collection
+  score: 5
+- name: Dolby Vision
+  score: 5
+- name: IMAX
+  score: 5
+- name: IMAX Enhanced
+  score: 5
+- name: Masters Of Cinema
+  score: 5
+- name: Special Edition
+  score: 5
 - name: 2160p SDR
   score: -999999
 - name: 3D

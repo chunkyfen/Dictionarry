@@ -7,33 +7,7 @@ minCustomFormatScore: 2000
 upgradeUntilScore: 40000
 minScoreIncrement: 1
 custom_formats:
-- name: 2160p WEB-DL
-  score: 20000
-- name: 2160p Bluray
-  score: 19000
-- name: 2160p Remux
-  score: 18000
-- name: 2160p WEBRip
-  score: 17000
-- name: 1080p WEB-DL
-  score: 10000
-- name: 1080p Bluray
-  score: 9000
-- name: 1080p Remux
-  score: 8000
-- name: 1080p WEBRip
-  score: 7000
-- name: 720p Bluray
-  score: 5000
-- name: 720p WEB-DL
-  score: 5000
-- name: 720p WEBRip
-  score: 5000
 - name: Anime BD Tier 01 (Top SeaDex Muxers)
-  score: 5000
-- name: IMAX
-  score: 5000
-- name: IMAX Enhanced
   score: 5000
 - name: Anime BD Tier 02 (SeaDex Muxers)
   score: 4900
@@ -61,14 +35,12 @@ custom_formats:
   score: 3700
 - name: Anime Web Tier 06 (FanSubs)
   score: 3600
-- name: 480p WEB-DL
-  score: 2000
-- name: DVD
-  score: 2000
-- name: DVD Remux
-  score: 2000
 - name: Anime Dual Audio
-  score: 1000
+  score: 50
+- name: IMAX
+  score: 50
+- name: IMAX Enhanced
+  score: 50
 - name: Repack3
   score: 8
 - name: Repack2
@@ -90,18 +62,22 @@ custom_formats:
 - name: VVC
   score: -999999
 custom_formats_radarr:
-- name: Remux Tier 01 Radarr
-  score: 4650
-- name: Remux Tier 02 Radarr
-  score: 4600
-- name: Remux Tier 03 Radarr
-  score: 4550
+- name: 1080p Bluray
+  score: 5000
+- name: 2160p Bluray
+  score: 5000
 - name: WEB Tier 01 Radarr
-  score: 3850
+  score: 3500
 - name: WEB Tier 02 Radarr
-  score: 3750
+  score: 3400
 - name: WEB Tier 03 Radarr
-  score: 3650
+  score: 3300
+- name: Remux Tier 01 Radarr
+  score: 3200
+- name: Remux Tier 02 Radarr
+  score: 3100
+- name: Remux Tier 03 Radarr
+  score: 3000
 - name: Special Edition
   score: 100
 - name: 3D
