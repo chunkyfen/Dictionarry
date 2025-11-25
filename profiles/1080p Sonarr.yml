@@ -4,40 +4,60 @@ tags:
 - 2160p
 - Sonarr
 upgradesAllowed: true
-minCustomFormatScore: 2000
-upgradeUntilScore: 40000
+minCustomFormatScore: 100
+upgradeUntilScore: 2000
 minScoreIncrement: 1
 custom_formats: []
 custom_formats_radarr: []
 custom_formats_sonarr:
+- name: 1080p WEB-DL
+  score: 500
+- name: 480p WEB-DL
+  score: 500
+- name: 720p WEB-DL
+  score: 500
 - name: WEB Tier 01 Sonarr
-  score: 5000
+  score: 500
 - name: WEB Tier 02 Sonarr
-  score: 4900
+  score: 490
 - name: WEB Tier 03 Sonarr
-  score: 4800
+  score: 480
 - name: WEB Scene Sonarr
-  score: 4700
+  score: 470
 - name: 1080p Tier 01 Sonarr
-  score: 4600
+  score: 460
 - name: 1080p Tier 02 Sonarr
-  score: 4500
+  score: 450
 - name: 720p Quality Tier 1, 2 & 3
-  score: 4400
+  score: 440
 - name: Remux Tier 01 Sonarr
-  score: 4300
+  score: 430
 - name: Remux Tier 02 Sonarr
-  score: 4200
+  score: 420
 - name: SD Quality Tier 1&2
-  score: 4100
-- name: Season Pack
-  score: 50
+  score: 410
+- name: 1080p Bluray
+  score: 400
+- name: 720p Bluray
+  score: 400
+- name: DVD
+  score: 400
+- name: 1080p Remux
+  score: 300
+- name: DVD Remux
+  score: 300
+- name: 1080p WEBRip
+  score: 200
+- name: 720p WEBRip
+  score: 200
 - name: Repack3
   score: 8
 - name: Repack2
   score: 7
 - name: Repack1
   score: 6
+- name: Season Pack
+  score: 5
 - name: AV1
   score: -999999
 - name: B&W
@@ -53,8 +73,6 @@ custom_formats_sonarr:
 - name: VVC
   score: -999999
 qualities:
-- id: 9
-  name: WEBDL-1080p
 - id: -2
   name: 1080p
   description: ''
@@ -63,8 +81,12 @@ qualities:
     name: WEBRip-1080p
   - id: 10
     name: Bluray-1080p
-- id: 8
-  name: Remux-1080p
+  - id: 8
+    name: Remux-1080p
+  - id: 9
+    name: WEBDL-1080p
+  - id: 12
+    name: HDTV-1080p
 - id: -3
   name: 720p
   description: ''
@@ -77,8 +99,6 @@ qualities:
     name: WEBRip-720p
   - id: 16
     name: HDTV-720p
-  - id: 12
-    name: HDTV-1080p
 - id: -4
   name: SD Fallback
   description: ''
@@ -98,7 +118,6 @@ qualities:
   - id: 30
     name: Unknown
 upgrade_until:
-  id: 9
-  name: WEBDL-1080p
-  description: 1080p web download, untouched as released by the streaming service
+  id: -2
+  name: 1080p
 language: must_original
