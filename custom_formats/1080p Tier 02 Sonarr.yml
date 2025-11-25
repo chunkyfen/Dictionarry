@@ -1,0 +1,32 @@
+name: 1080p Tier 02 Sonarr
+description: Matches release groups who fall under 1080p Tier 1
+tags:
+- Release Group Tier
+- 1080p
+conditions:
+- name: 1080p
+  negate: false
+  required: true
+  resolution: 1080p
+  type: resolution
+- name: SA89
+  negate: false
+  pattern: SA89
+  required: false
+  type: release_group
+- name: sbR
+  negate: false
+  pattern: sbR
+  required: false
+  type: release_group
+- name: Not Remux
+  negate: true
+  pattern: Remux
+  required: true
+  type: release_title
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+tests: []
