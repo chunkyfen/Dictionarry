@@ -10,36 +10,26 @@ minScoreIncrement: 1
 custom_formats: []
 custom_formats_radarr: []
 custom_formats_sonarr:
-- name: 2160p WEB-DL
-  score: 20000
-- name: 2160p WEBRip
-  score: 19000
-- name: 1080p WEB-DL
-  score: 10000
-- name: 1080p WEBRip
-  score: 9000
-- name: 720p Bluray
-  score: 5000
-- name: 720p WEB-DL
-  score: 5000
 - name: WEB Tier 01 Sonarr
   score: 5000
-- name: 720p WEBRip
-  score: 4900
 - name: WEB Tier 02 Sonarr
   score: 4900
 - name: WEB Tier 03 Sonarr
   score: 4800
 - name: WEB Scene Sonarr
   score: 4700
-- name: 480p WEB-DL
-  score: 2500
+- name: Season Pack
+  score: 50
 - name: Repack3
   score: 8
 - name: Repack2
   score: 7
 - name: Repack1
   score: 6
+- name: Remux Tier 01 Sonarr
+  score: 0
+- name: Remux Tier 02 Sonarr
+  score: 0
 - name: AV1
   score: -999999
 - name: B&W
