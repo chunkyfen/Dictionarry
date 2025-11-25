@@ -1,4 +1,4 @@
-name: 2160p Sonarr
+name: 1080p Sonarr
 description: ''
 tags:
 - 2160p
@@ -53,8 +53,6 @@ custom_formats_sonarr:
 - name: VVC
   score: -999999
 qualities:
-- id: 5
-  name: WEBDL-2160p
 - id: 9
   name: WEBDL-1080p
 - id: -2
@@ -63,14 +61,8 @@ qualities:
   qualities:
   - id: 11
     name: WEBRip-1080p
-  - id: 7
-    name: HDTV-2160p
   - id: 10
     name: Bluray-1080p
-  - id: 6
-    name: WEBRip-2160p
-- id: 3
-  name: Remux-2160p
 - id: 8
   name: Remux-1080p
 - id: -3
@@ -106,7 +98,7 @@ qualities:
   - id: 30
     name: Unknown
 upgrade_until:
-  id: 5
-  name: WEBDL-2160p
-  description: 4K web download, untouched as released by the streaming service
+  id: 9
+  name: WEBDL-1080p
+  description: 1080p web download, untouched as released by the streaming service
 language: must_original
