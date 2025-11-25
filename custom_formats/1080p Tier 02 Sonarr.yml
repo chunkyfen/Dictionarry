@@ -9,34 +9,14 @@ conditions:
   required: true
   resolution: 1080p
   type: resolution
-- name: Chotab
+- name: SA89
   negate: false
-  pattern: Chotab
+  pattern: SA89
   required: false
   type: release_group
-- name: CtrlHD
+- name: sbR
   negate: false
-  pattern: CtrlHD
-  required: false
-  type: release_group
-- name: DON
-  negate: false
-  pattern: DON
-  required: false
-  type: release_group
-- name: EbP
-  negate: false
-  pattern: EbP
-  required: false
-  type: release_group
-- name: NTb
-  negate: false
-  pattern: NTb
-  required: false
-  type: release_group
-- name: PTer
-  negate: false
-  pattern: PTer
+  pattern: sbR
   required: false
   type: release_group
 - name: Not Remux
