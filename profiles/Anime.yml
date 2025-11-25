@@ -3,50 +3,78 @@ description: Anime profile for Radarr and Sonarr
 tags:
 - Anime
 upgradesAllowed: true
-minCustomFormatScore: 2000
-upgradeUntilScore: 40000
+minCustomFormatScore: 100
+upgradeUntilScore: 2000
 minScoreIncrement: 1
 custom_formats:
+- name: 1080p Bluray
+  score: 500
+- name: 2160p Bluray
+  score: 500
+- name: 720p Bluray
+  score: 500
 - name: Anime BD Tier 01 (Top SeaDex Muxers)
-  score: 5000
+  score: 500
+- name: DVD
+  score: 500
 - name: Anime BD Tier 02 (SeaDex Muxers)
-  score: 4900
+  score: 490
 - name: Anime BD Tier 03 (SeaDex Muxers)
-  score: 4800
+  score: 480
 - name: Anime BD Tier 04 (SeaDex Muxers)
-  score: 4700
+  score: 470
 - name: Anime BD Tier 05 (Remuxes)
-  score: 4600
+  score: 460
 - name: Anime BD Tier 06 (FanSubs)
-  score: 4500
+  score: 450
 - name: Anime BD Tier 07 (P2P-Scene)
-  score: 4400
+  score: 440
 - name: Anime BD Tier 08 (Mini Encodes)
-  score: 4300
+  score: 430
 - name: Anime Web Tier 01 (Muxers)
-  score: 4200
+  score: 420
 - name: Anime Web Tier 02 (Top FanSubs)
-  score: 4100
+  score: 410
+- name: 1080p WEB-DL
+  score: 400
+- name: 2160p WEB-DL
+  score: 400
+- name: 480p WEB-DL
+  score: 400
+- name: 720p WEB-DL
+  score: 400
 - name: Anime Web Tier 03 (Official Subs)
-  score: 3900
+  score: 390
 - name: Anime Web Tier 04 (Official Subs)
-  score: 3800
+  score: 380
 - name: Anime Web Tier 05 (FanSubs)
-  score: 3700
+  score: 370
 - name: Anime Web Tier 06 (FanSubs)
-  score: 3600
-- name: Anime Dual Audio
-  score: 50
-- name: IMAX
-  score: 50
-- name: IMAX Enhanced
-  score: 50
+  score: 360
+- name: 1080p Remux
+  score: 300
+- name: 2160p Remux
+  score: 300
+- name: DVD Remux
+  score: 300
+- name: 1080p WEBRip
+  score: 200
+- name: 2160p WEBRip
+  score: 200
+- name: 720p WEBRip
+  score: 200
 - name: Repack3
   score: 8
 - name: Repack2
   score: 7
 - name: Repack1
   score: 6
+- name: Anime Dual Audio
+  score: 5
+- name: IMAX
+  score: 5
+- name: IMAX Enhanced
+  score: 5
 - name: Anime LQ Groups
   score: -999999
 - name: Anime Raws
@@ -62,24 +90,20 @@ custom_formats:
 - name: VVC
   score: -999999
 custom_formats_radarr:
-- name: 1080p Bluray
-  score: 5000
-- name: 2160p Bluray
-  score: 5000
 - name: WEB Tier 01 Radarr
-  score: 3500
+  score: 350
 - name: WEB Tier 02 Radarr
-  score: 3400
+  score: 340
 - name: WEB Tier 03 Radarr
-  score: 3300
+  score: 330
 - name: Remux Tier 01 Radarr
-  score: 3200
+  score: 320
 - name: Remux Tier 02 Radarr
-  score: 3100
+  score: 310
 - name: Remux Tier 03 Radarr
-  score: 3000
+  score: 300
 - name: Special Edition
-  score: 100
+  score: 10
 - name: 3D
   score: -999999
 - name: Extras
@@ -89,16 +113,16 @@ custom_formats_radarr:
 - name: Upscaled Radarr
   score: -999999
 custom_formats_sonarr:
-- name: Remux Tier 01 Sonarr
-  score: 4650
-- name: Remux Tier 02 Sonarr
-  score: 4600
 - name: WEB Tier 01 Sonarr
-  score: 3850
+  score: 350
 - name: WEB Tier 02 Sonarr
-  score: 3750
+  score: 340
 - name: WEB Tier 03 Sonarr
-  score: 3650
+  score: 330
+- name: Remux Tier 01 Sonarr
+  score: 320
+- name: Remux Tier 02 Sonarr
+  score: 310
 - name: TV Extras
   score: -999999
 - name: Upscaled Sonarr
