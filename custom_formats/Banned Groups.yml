@@ -360,8 +360,13 @@ conditions:
   required: false
   type: release_group
 - name: 88keyz
+  negate: false
+  pattern: 88keyz
+  required: false
+  type: release_group
+- name: HANDJOB
   type: release_group
   required: false
   negate: false
-  pattern: 88keyz
+  pattern: HANDJOB
 tests: []
