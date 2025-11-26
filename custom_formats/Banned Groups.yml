@@ -365,8 +365,13 @@ conditions:
   required: false
   type: release_group
 - name: HANDJOB
+  negate: false
+  pattern: HANDJOB
+  required: false
+  type: release_group
+- name: GOMES
   type: release_group
   required: false
   negate: false
-  pattern: HANDJOB
+  pattern: GOMES
 tests: []
