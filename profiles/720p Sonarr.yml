@@ -17,11 +17,11 @@ custom_formats_sonarr:
   score: 480
 - name: WEB Scene Sonarr
   score: 470
-- name: 720p Quality Tier 1, 2 & 3
-  score: 440
 - name: Remux Tier 01 Sonarr
-  score: 430
+  score: 440
 - name: Remux Tier 02 Sonarr
+  score: 430
+- name: 720p Quality Tier 1, 2 & 3
   score: 420
 - name: SD Quality Tier 1&2
   score: 410
