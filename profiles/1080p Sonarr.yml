@@ -57,16 +57,12 @@ qualities:
   name: 1080p
   description: ''
   qualities:
-  - id: 11
-    name: WEBRip-1080p
   - id: 10
     name: Bluray-1080p
-  - id: 8
-    name: Remux-1080p
   - id: 9
     name: WEBDL-1080p
-  - id: 12
-    name: HDTV-1080p
+- id: 8
+  name: Remux-1080p
 - id: -3
   name: 720p
   description: ''

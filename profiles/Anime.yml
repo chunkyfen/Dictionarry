@@ -101,33 +101,43 @@ custom_formats_sonarr:
   score: -999999
 qualities:
 - id: -5
-  name: 2160p
+  name: 2160p Quality
   description: ''
   qualities:
-  - id: 5
-    name: WEBDL-2160p
   - id: 4
     name: Bluray-2160p
-  - id: 3
-    name: Remux-2160p
+  - id: 5
+    name: WEBDL-2160p
+- id: 3
+  name: Remux-2160p
+- id: -6
+  name: 2160p Fallback
+  description: ''
+  qualities:
   - id: 6
     name: WEBRip-2160p
   - id: 7
     name: HDTV-2160p
-- id: -6
-  name: 1080p
+- id: -7
+  name: 1080p Quality
   description: ''
   qualities:
-  - id: 9
-    name: WEBDL-1080p
   - id: 10
     name: Bluray-1080p
-  - id: 8
-    name: Remux-1080p
+  - id: 9
+    name: WEBDL-1080p
+- id: 8
+  name: Remux-1080p
+- id: -8
+  name: 1080p Fallback
+  description: ''
+  qualities:
   - id: 11
     name: WEBRip-1080p
+  - id: 12
+    name: HDTV-1080p
 - id: -3
-  name: 720p
+  name: 720p Fallback
   description: ''
   qualities:
   - id: 13
@@ -138,10 +148,8 @@ qualities:
     name: WEBRip-720p
   - id: 16
     name: HDTV-720p
-  - id: 12
-    name: HDTV-1080p
 - id: -4
-  name: SD
+  name: SD Fallback
   description: ''
   qualities:
   - id: 17
@@ -158,5 +166,5 @@ qualities:
     name: SDTV
 upgrade_until:
   id: -5
-  name: 2160p
+  name: 2160p Quality
 language: must_original
