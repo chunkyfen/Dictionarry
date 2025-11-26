@@ -7,15 +7,7 @@ minCustomFormatScore: 100
 upgradeUntilScore: 2000
 minScoreIncrement: 1
 custom_formats:
-- name: 1080p Bluray
-  score: 500
-- name: 2160p Bluray
-  score: 500
-- name: 720p Bluray
-  score: 500
 - name: Anime BD Tier 01 (Top SeaDex Muxers)
-  score: 500
-- name: DVD
   score: 500
 - name: Anime BD Tier 02 (SeaDex Muxers)
   score: 490
@@ -35,14 +27,6 @@ custom_formats:
   score: 420
 - name: Anime Web Tier 02 (Top FanSubs)
   score: 410
-- name: 1080p WEB-DL
-  score: 400
-- name: 2160p WEB-DL
-  score: 400
-- name: 480p WEB-DL
-  score: 400
-- name: 720p WEB-DL
-  score: 400
 - name: Anime Web Tier 03 (Official Subs)
   score: 390
 - name: Anime Web Tier 04 (Official Subs)
@@ -51,18 +35,6 @@ custom_formats:
   score: 370
 - name: Anime Web Tier 06 (FanSubs)
   score: 360
-- name: 1080p Remux
-  score: 300
-- name: 2160p Remux
-  score: 300
-- name: DVD Remux
-  score: 300
-- name: 1080p WEBRip
-  score: 200
-- name: 2160p WEBRip
-  score: 200
-- name: 720p WEBRip
-  score: 200
 - name: Repack3
   score: 8
 - name: Repack2

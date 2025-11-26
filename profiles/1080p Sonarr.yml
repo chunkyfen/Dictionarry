@@ -10,12 +10,6 @@ minScoreIncrement: 1
 custom_formats: []
 custom_formats_radarr: []
 custom_formats_sonarr:
-- name: 1080p WEB-DL
-  score: 500
-- name: 480p WEB-DL
-  score: 500
-- name: 720p WEB-DL
-  score: 500
 - name: WEB Tier 01 Sonarr
   score: 500
 - name: WEB Tier 02 Sonarr
@@ -36,20 +30,6 @@ custom_formats_sonarr:
   score: 420
 - name: SD Quality Tier 1&2
   score: 410
-- name: 1080p Bluray
-  score: 400
-- name: 720p Bluray
-  score: 400
-- name: DVD
-  score: 400
-- name: 1080p Remux
-  score: 300
-- name: DVD Remux
-  score: 300
-- name: 1080p WEBRip
-  score: 200
-- name: 720p WEBRip
-  score: 200
 - name: Repack3
   score: 8
 - name: Repack2

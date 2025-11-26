@@ -13,17 +13,9 @@ upgradeUntilScore: 2000
 minScoreIncrement: 1
 custom_formats: []
 custom_formats_radarr:
-- name: 1080p Bluray
-  score: 500
 - name: 1080p Tier 01 Radarr
   score: 500
-- name: 2160p Bluray
-  score: 500
 - name: 2160p Tier 01 Radarr
-  score: 500
-- name: 720p Bluray
-  score: 500
-- name: DVD
   score: 500
 - name: 1080p Tier 02 Radarr
   score: 490
@@ -47,20 +39,8 @@ custom_formats_radarr:
   score: 420
 - name: 720p Quality Tier 1, 2 & 3
   score: 410
-- name: 1080p WEB-DL
-  score: 400
-- name: 2160p WEB-DL
-  score: 400
-- name: 480p WEB-DL
-  score: 400
-- name: 720p WEB-DL
-  score: 400
 - name: SD Quality Tier 1&2
   score: 400
-- name: 1080p Remux
-  score: 300
-- name: 2160p Remux
-  score: 300
 - name: Repack3
   score: 8
 - name: Repack2
