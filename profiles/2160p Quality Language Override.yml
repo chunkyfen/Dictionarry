@@ -41,25 +41,19 @@ custom_formats_radarr:
   score: 410
 - name: SD Quality Tier 1&2
   score: 400
+- name: Special Edition
+  score: 30
 - name: Repack3
   score: 8
 - name: Repack2
   score: 7
 - name: Repack1
   score: 6
-- name: CRIT
-  score: 5
-- name: Criterion Collection
-  score: 5
 - name: Dolby Vision
   score: 5
 - name: IMAX
   score: 5
 - name: IMAX Enhanced
-  score: 5
-- name: Masters Of Cinema
-  score: 5
-- name: Special Edition
   score: 5
 - name: 2160p SDR
   score: -999999
