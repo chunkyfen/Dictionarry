@@ -1,0 +1,6 @@
+name: Moog
+pattern: (?<=^|[\s.-])Moog\b
+description: ''
+tags:
+- Release Group
+tests: []

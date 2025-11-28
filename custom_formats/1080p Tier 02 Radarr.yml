@@ -60,8 +60,8 @@ conditions:
   source: bluray
   type: source
 - name: ATELiER
-  type: release_group
-  required: false
   negate: false
   pattern: ATELiER
+  required: false
+  type: release_group
 tests: []

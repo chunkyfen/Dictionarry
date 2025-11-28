@@ -129,4 +129,9 @@ conditions:
   required: true
   source: bluray
   type: source
+- name: Moog
+  type: release_group
+  required: false
+  negate: false
+  pattern: Moog
 tests: []
