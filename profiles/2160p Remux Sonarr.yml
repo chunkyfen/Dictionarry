@@ -1,4 +1,4 @@
-name: 2160p Sonarr
+name: 2160p Remux Sonarr
 description: ''
 tags:
 - 2160p
@@ -55,14 +55,14 @@ custom_formats_sonarr:
 - name: VVC
   score: -999999
 qualities:
+- id: 3
+  name: Remux-2160p
 - id: -5
   name: 2160p
   description: ''
   qualities:
   - id: 5
     name: WEBDL-2160p
-  - id: 3
-    name: Remux-2160p
   - id: 4
     name: Bluray-2160p
   - id: 6
@@ -114,6 +114,7 @@ qualities:
   - id: 30
     name: Unknown
 upgrade_until:
-  id: -5
-  name: 2160p
+  id: 3
+  name: Remux-2160p
+  description: 4K Ultra HD Blu-ray disc content remuxed into a playable file format
 language: must_original
