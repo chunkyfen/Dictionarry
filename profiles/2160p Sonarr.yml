@@ -4,7 +4,7 @@ tags:
 - 2160p
 - Sonarr
 upgradesAllowed: true
-minCustomFormatScore: 100
+minCustomFormatScore: 0
 upgradeUntilScore: 2000
 minScoreIncrement: 1
 custom_formats: []
