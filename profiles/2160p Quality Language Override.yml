@@ -8,7 +8,7 @@ tags:
 - x265
 - h265
 upgradesAllowed: true
-minCustomFormatScore: 100
+minCustomFormatScore: 0
 upgradeUntilScore: 2000
 minScoreIncrement: 1
 custom_formats: []
