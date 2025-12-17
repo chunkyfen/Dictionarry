@@ -1,0 +1,6 @@
+name: MAD
+pattern: (?<=^|[\s.-])MAD\b
+description: ''
+tags:
+- Release Group
+tests: []

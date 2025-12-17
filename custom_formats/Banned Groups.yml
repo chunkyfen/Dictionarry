@@ -370,8 +370,38 @@ conditions:
   required: false
   type: release_group
 - name: GOMES
+  negate: false
+  pattern: GOMES
+  required: false
+  type: release_group
+- name: nikt0
   type: release_group
   required: false
   negate: false
-  pattern: GOMES
+  pattern: nikt0
+- name: MELiTE
+  type: release_group
+  required: false
+  negate: false
+  pattern: MELiTE
+- name: MAD
+  type: release_group
+  required: false
+  negate: false
+  pattern: MAD
+- name: SONS
+  type: release_group
+  required: false
+  negate: false
+  pattern: SONS
+- name: OFT
+  type: release_group
+  required: false
+  negate: false
+  pattern: OFT
+- name: DrSI
+  type: release_group
+  required: false
+  negate: false
+  pattern: DrSI
 tests: []

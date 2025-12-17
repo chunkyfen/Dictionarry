@@ -1,0 +1,6 @@
+name: SONS
+pattern: (?<=^|[\s.-])SONS\b
+description: ''
+tags:
+- Release Group
+tests: []

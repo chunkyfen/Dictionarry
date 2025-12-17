@@ -1,0 +1,6 @@
+name: DrSI
+pattern: (?<=^|[\s.-])DrSI\b
+description: ''
+tags:
+- Release Group
+tests: []

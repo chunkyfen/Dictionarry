@@ -1,0 +1,6 @@
+name: OFT
+pattern: (?<=^|[\s.-])OFT\b
+description: ''
+tags:
+- Release Group
+tests: []

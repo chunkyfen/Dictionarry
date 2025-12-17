@@ -1,0 +1,6 @@
+name: MELiTE
+pattern: (?<=^|[\s.-])MELiTE\b
+description: ''
+tags:
+- Release Group
+tests: []

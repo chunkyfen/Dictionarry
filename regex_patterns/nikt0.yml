@@ -1,0 +1,6 @@
+name: nikt0
+pattern: (?<=^|[\s.-])nikt0\b
+description: ''
+tags:
+- Release Group
+tests: []
