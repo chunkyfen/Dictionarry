@@ -1,0 +1,6 @@
+name: EaZy-TBMovies
+pattern: (?<=^|[\s.-])EaZy-TBMovies\b
+description: ''
+tags:
+- Release Group
+tests: []

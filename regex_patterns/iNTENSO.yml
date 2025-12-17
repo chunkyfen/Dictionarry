@@ -1,0 +1,7 @@
+name: iNTENSO
+pattern: (?<=^|[\s.-])iNTENSO\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

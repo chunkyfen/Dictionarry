@@ -1,0 +1,6 @@
+name: worldmkv
+pattern: (?<=^|[\s.-])worldmkv\b
+description: ''
+tags:
+- Release Group
+tests: []

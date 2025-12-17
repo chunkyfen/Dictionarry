@@ -1,0 +1,7 @@
+name: JFF
+pattern: (?<=^|[\s.-])JFF\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

@@ -1,0 +1,6 @@
+name: baltazar
+pattern: (?<=^|[\s.-])baltazar\b
+description: ''
+tags:
+- Release Group
+tests: []

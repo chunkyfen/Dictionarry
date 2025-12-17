@@ -1,0 +1,6 @@
+name: HiQVE
+pattern: (?<=^|[\s.-])HiQVE\b
+description: ''
+tags:
+- Release Group
+tests: []

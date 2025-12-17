@@ -1,0 +1,7 @@
+name: AVC (Rls Group)
+pattern: (?<=^|[\s.-])AVC\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

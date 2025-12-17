@@ -1,0 +1,7 @@
+name: GHOSTS
+pattern: (?<=^|[\s.-])GHOSTS\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

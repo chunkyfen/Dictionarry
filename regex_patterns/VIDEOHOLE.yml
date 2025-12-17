@@ -1,0 +1,6 @@
+name: VIDEOHOLE
+pattern: (?<=^|[\s.-])VIDEOHOLE\b
+description: ''
+tags:
+- Release Group
+tests: []

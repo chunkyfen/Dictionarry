@@ -1,0 +1,6 @@
+name: TBS
+pattern: (?<=^|[\s.-])TBS\b
+description: ''
+tags:
+- Release Group
+tests: []

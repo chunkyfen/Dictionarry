@@ -1,0 +1,6 @@
+name: CHX
+pattern: (?<=^|[\s.-])CHX\b
+description: ''
+tags:
+- Release Group
+tests: []

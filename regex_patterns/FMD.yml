@@ -1,0 +1,6 @@
+name: FMD
+pattern: (?<=^|[\s.-])FMD\b
+description: ''
+tags:
+- Release Group
+tests: []

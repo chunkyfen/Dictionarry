@@ -1,0 +1,6 @@
+name: TG
+pattern: (?<=^|[\s.-])TG\b
+description: ''
+tags:
+- Release Group
+tests: []

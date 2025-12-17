@@ -1,0 +1,6 @@
+name: BOTHD
+pattern: (?<=^|[\s.-])BOTHD\b
+description: ''
+tags:
+- Release Group
+tests: []

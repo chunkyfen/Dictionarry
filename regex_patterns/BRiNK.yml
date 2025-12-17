@@ -1,0 +1,6 @@
+name: BRiNK
+pattern: (?<=^|[\s.-])BRiNK\b
+description: ''
+tags:
+- Release Group
+tests: []

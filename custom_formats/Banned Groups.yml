@@ -296,7 +296,7 @@ conditions:
   type: release_group
 - name: Pahe
   negate: false
-  pattern: Pahe(\.(ph|in))?\b
+  pattern: Pahe
   required: false
   type: release_group
 - name: TBS
@@ -375,33 +375,63 @@ conditions:
   required: false
   type: release_group
 - name: nikt0
-  type: release_group
-  required: false
   negate: false
   pattern: nikt0
-- name: MELiTE
-  type: release_group
   required: false
+  type: release_group
+- name: MELiTE
   negate: false
   pattern: MELiTE
-- name: MAD
-  type: release_group
   required: false
+  type: release_group
+- name: MAD
   negate: false
   pattern: MAD
-- name: SONS
-  type: release_group
   required: false
+  type: release_group
+- name: SONS
   negate: false
   pattern: SONS
-- name: OFT
-  type: release_group
   required: false
+  type: release_group
+- name: OFT
   negate: false
   pattern: OFT
+  required: false
+  type: release_group
 - name: DrSI
+  negate: false
+  pattern: DrSI
+  required: false
+  type: release_group
+- name: baltazar
+  negate: false
+  pattern: baltazar
+  required: false
+  type: release_group
+- name: EaZy-TBMovies
+  negate: false
+  pattern: EaZy-TBMovies
+  required: false
+  type: release_group
+- name: BOTHD
+  negate: false
+  pattern: BOTHD
+  required: false
+  type: release_group
+- name: WEBRip
+  negate: false
+  pattern: WEBRip
+  required: false
+  type: release_group
+- name: MovieDalen
+  negate: false
+  pattern: MovieDalen
+  required: false
+  type: release_group
+- name: AVC
   type: release_group
   required: false
   negate: false
-  pattern: DrSI
+  pattern: AVC (Rls Group)
 tests: []

@@ -1,0 +1,6 @@
+name: XLF
+pattern: (?<=^|[\s.-])XLF\b
+description: ''
+tags:
+- Release Group
+tests: []

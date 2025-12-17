@@ -1,0 +1,6 @@
+name: Zero00
+pattern: (?<=^|[\s.-])Zero00\b
+description: ''
+tags:
+- Release Group
+tests: []
