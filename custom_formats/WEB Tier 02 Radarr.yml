@@ -9,11 +9,6 @@ conditions:
   required: true
   source: web_dl
   type: source
-- name: BYNDR
-  negate: false
-  pattern: BYNDR
-  required: false
-  type: release_group
 - name: dB
   negate: false
   pattern: dB
@@ -47,11 +42,6 @@ conditions:
 - name: playWEB
   negate: false
   pattern: playWEB
-  required: false
-  type: release_group
-- name: RAWR
-  negate: false
-  pattern: RAWR
   required: false
   type: release_group
 - name: SbR

@@ -119,4 +119,14 @@ conditions:
   pattern: ZoroSenpai
   required: false
   type: release_group
+- name: BYNDR
+  negate: false
+  pattern: BYNDR
+  required: false
+  type: release_group
+- name: RAWR
+  type: release_group
+  required: false
+  negate: false
+  pattern: RAWR
 tests: []
