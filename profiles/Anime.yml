@@ -100,6 +100,20 @@ custom_formats_sonarr:
 - name: Upscaled Sonarr
   score: -999999
 qualities:
+- id: -9
+  name: 4k
+  description: ''
+  qualities:
+  - id: 5
+    name: WEBDL-2160p
+  - id: 4
+    name: Bluray-2160p
+- id: -10
+  name: 4k Remux
+  description: ''
+  qualities:
+  - id: 3
+    name: Remux-2160p
 - id: -7
   name: 1080p Quality
   description: ''
@@ -147,6 +161,6 @@ qualities:
   - id: 24
     name: SDTV
 upgrade_until:
-  id: -7
-  name: 1080p Quality
+  id: -9
+  name: 4k
 language: must_original
